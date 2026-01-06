@@ -48,16 +48,17 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Obsah</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../CAAIS/index.html">Co je to CAAIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../uzivatel/index.html">Příručka běžního uživatele</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lokalni-administrator/index.html">Příručka lokálního administátora</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Certifikáty v CAAIS IdP</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#certifikaty-podporovane-caais">Certifikáty podporované CAAIS</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#typy-certifikatu">Typy certifikátů</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#podporovane-certifikacni-autority">Podporované certifikační autority</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#narodni-certifikacni-autorita-nca">Národní certifikační autorita (NCA)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#eidentity">eIdentity</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#i-ca">I.CA</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#postsignum">PostSignum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#narodni-certifikacni-autorita-nca-https-www-narodni-ca-cz">Národní certifikační autorita (NCA)&lt;https://www.narodni-ca.cz/&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id1">eIdentity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">I.CA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">PostSignum</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#jak-certifikat-ziskam">Jak certifikát získám</a></li>
@@ -128,30 +129,26 @@ který použít lze.</p>
 <div><p>Interní certifikační autority jednotlivých úřadů nejsou z důvodu zvolené bezpečnostní politiky podporovány.</p>
 </div></blockquote>
 <p>Aktuálně CAAIS podporuje autentizační certifikáty vydané následujícími certifikačními autoritami:</p>
-<section id="narodni-certifikacni-autorita-nca">
-<h4>Národní certifikační autorita (NCA)<a class="headerlink" href="#narodni-certifikacni-autorita-nca" title="Link to this heading"></a></h4>
-<p><a class="reference external" href="https://www.narodni-ca.cz/">Sphinx</a></p>
+<section id="narodni-certifikacni-autorita-nca-https-www-narodni-ca-cz">
+<h4><a class="reference internal" href="#narodni-certifikacni-autorita-nca-https-www-narodni-ca-cz">Národní certifikační autorita (NCA)&lt;https://www.narodni-ca.cz/&gt;</a><a class="headerlink" href="#narodni-certifikacni-autorita-nca-https-www-narodni-ca-cz" title="Link to this heading"></a></h4>
 <p>Národní certifikační autorita je kvalifikovaný poskytovatel služeb vytvářejících důvěru, provozovaný Správou základních registrů (SZR). Vydávání certifikátů je upraveno nařízením EU eIDAS a zákonem č. 297/2016 Sb.</p>
 <p>NCA vydává certifikáty především pro potřeby veřejné správy. Držitelem certifikátu může být fyzická osoba působící ve veřejné instituci zapojené do projektu NCA. Certifikáty jsou vydávány ve standardu X.509 v3.</p>
 <p>Při využití certifikátů v CAAIS je nutné ověřit, že se jedná o autentizační certifikát. Kvalifikované certifikáty určené výhradně pro elektronický podpis nelze k přihlašování použít.</p>
 </section>
-<section id="eidentity">
-<h4>eIdentity<a class="headerlink" href="#eidentity" title="Link to this heading"></a></h4>
-<p><a class="reference external" href="https://www.eidentity.cz/">Sphinx</a></p>
+<section id="id1">
+<h4><a class="reference external" href="https://www.eidentity.cz/">eIdentity</a><a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
 <p>eIdentity je komerční certifikační autorita poskytující kvalifikované i nekvalifikované certifikáty pro fyzické osoby. Proces pořízení certifikátu probíhá prostřednictvím zákaznického účtu na webu poskytovatele.</p>
 <p>Žádost o certifikát se podává online a zahrnuje vyplnění osobních údajů, ověření identity a následnou návštěvu registračního místa (v závislosti na typu certifikátu). Vydaný certifikát je následně k dispozici v elektronické podobě.</p>
 <p>Pro přihlášení do CAAIS je nutné zvolit autentizační certifikát. Kvalifikovaný certifikát pro elektronický podpis slouží pouze k podepisování dokumentů a nelze jej použít k autentizaci.</p>
 </section>
-<section id="i-ca">
-<h4>I.CA<a class="headerlink" href="#i-ca" title="Link to this heading"></a></h4>
-<p><a class="reference external" href="https://www.ica.cz/">Sphinx</a></p>
+<section id="id2">
+<h4><a class="reference external" href="https://www.ica.cz/">I.CA</a><a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
 <p>I.CA je zavedená certifikační autorita poskytující certifikáty pro elektronický podpis, šifrování i autentizaci. Žádost o certifikát lze podat online prostřednictvím průvodce na webu poskytovatele.</p>
 <p>Součástí procesu je ověření identity žadatele, které může proběhnout online nebo osobně na registrační autoritě. Certifikát lze uložit do počítače, na čipovou kartu nebo jiný podporovaný nosič.</p>
 <p>CAAIS podporuje autentizační certifikáty vydané I.CA. Při výběru certifikátu je nutné ověřit, že je určen pro přihlašování (autentizaci), nikoli pouze pro elektronický podpis.</p>
 </section>
-<section id="postsignum">
-<h4>PostSignum<a class="headerlink" href="#postsignum" title="Link to this heading"></a></h4>
-<p><a class="reference external" href="https://www.postsignum.cz/">Sphinx</a></p>
+<section id="id3">
+<h4><a class="reference external" href="https://www.postsignum.cz/">PostSignum</a><a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
 <p>PostSignum je certifikační autorita provozovaná Českou poštou. Nabízí možnost získání certifikátu jak online, tak osobně na pobočkách České pošty (Czech POINT).</p>
 <p>Certifikát lze získat vzdáleně například pomocí eObčanky s aktivovaným čipem nebo prostřednictvím účtu MojeID s vysokou úrovní ověření. Alternativně je možné absolvovat proces osobně na vybraných pobočkách České pošty.</p>
 <p>Pro použití v CAAIS je nutné zvolit autentizační certifikát. Certifikáty určené výhradně pro elektronický podpis nejsou pro přihlášení do systému použitelné.</p>
