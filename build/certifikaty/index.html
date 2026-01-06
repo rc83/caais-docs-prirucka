@@ -1,0 +1,216 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="cs" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certifikáty v CAAIS IdP &mdash; Dokumentace pro Uživatelská příručka CAAIS 0.1</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=877a2e06" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=e4be8309"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/translations.js?v=22e1c300"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Rejstřík" href="../genindex.html" />
+    <link rel="search" title="Vyhledávání" href="../search.html" />
+    <link rel="next" title="Často kladené otázky" href="../faq.html" />
+    <link rel="prev" title="Příručka lokálního administátora" href="../lokalni-administrator/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Uživatelská příručka CAAIS
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Obsah</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../uzivatel/index.html">Příručka běžního uživatele</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lokalni-administrator/index.html">Příručka lokálního administátora</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Certifikáty v CAAIS IdP</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#certifikaty-podporovane-caais">Certifikáty podporované CAAIS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#typy-certifikatu">Typy certifikátů</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#podporovane-certifikacni-autority">Podporované certifikační autority</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jak-certifikat-ziskam">Jak certifikát získám</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#jak-pridam-certifikaty-do-prohlizece">Jak přidám certifikáty do prohlížeče</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linux">Linux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#macos">macOS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Často kladené otázky</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Uživatelská příručka CAAIS</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Certifikáty v CAAIS IdP</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/certifikaty/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="certifikaty-v-caais-idp">
+<h1>Certifikáty v CAAIS IdP<a class="headerlink" href="#certifikaty-v-caais-idp" title="Link to this heading"></a></h1>
+<p>Uživatelský certifikát představuje jednu z možností ověření identity při přihlašování do CAAIS. Certifikát musí být vydán podporovanou certifikační autoritou a dostupný webovému prohlížeči na zařízení, ze kterého se uživatel přihlašuje.</p>
+<blockquote>
+<div><p>Pro přihlášení do CAAIS prostřednictvím NIA nejsou uživatelské certifikáty nutné.
+Tato stránka je určena uživatelům, kteří se přihlašují pomocí autentizačního certifikátu.</p>
+</div></blockquote>
+<section id="certifikaty-podporovane-caais">
+<h2>Certifikáty podporované CAAIS<a class="headerlink" href="#certifikaty-podporovane-caais" title="Link to this heading"></a></h2>
+<p>CAAIS podporuje uživatelské autentizační certifikáty vydané certifikačními autoritami uznávanými v rámci nařízení eIDAS. Certifikát může být uložen jako soubor (např. PKCS#12) nebo na fyzickém nosiči (USB token, čipová karta).</p>
+<section id="typy-certifikatu">
+<h3>Typy certifikátů<a class="headerlink" href="#typy-certifikatu" title="Link to this heading"></a></h3>
+<dl>
+<dt>Autentizační certifikát</dt><dd><p>Slouží k ověření identity uživatele při přihlašování do informačních systémů. Tento typ certifikátu je pro přihlášení do CAAIS podporován.</p>
+</dd>
+<dt>Kvalifikovaný certifikát pro elektronický podpis</dt><dd><p>Slouží výhradně k vytváření kvalifikovaných elektronických podpisů a nelze jej použít k autentizaci do CAAIS ani jiných systémů.</p>
+<blockquote>
+<div><p>Kvalifikovaný podpisový certifikát nelze použít k přihlášení do CAAIS.
+V některých případech je však spolu s ním vydáván i samostatný autentizační certifikát,
+který použít lze.</p>
+</div></blockquote>
+</dd>
+</dl>
+</section>
+<section id="podporovane-certifikacni-autority">
+<h3>Podporované certifikační autority<a class="headerlink" href="#podporovane-certifikacni-autority" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Interní certifikační autority jednotlivých úřadů nejsou z důvodu zvolené bezpečnostní politiky podporovány.</p>
+</div></blockquote>
+<p>Aktuálně CAAIS podporuje autentizační certifikáty vydané následujícími certifikačními autoritami:</p>
+<dl class="simple">
+<dt>Národní certifikační autorita (NCA)</dt><dd><p><a class="reference external" href="https://www.narodni-ca.cz/">https://www.narodni-ca.cz/</a></p>
+</dd>
+</dl>
+<p>Národní certifikační autorita je kvalifikovaný poskytovatel služeb vytvářejících důvěru, provozovaný Správou základních registrů (SZR). Vydávání certifikátů je upraveno nařízením EU eIDAS a zákonem č. 297/2016 Sb.</p>
+<p>NCA vydává certifikáty především pro potřeby veřejné správy. Držitelem certifikátu může být fyzická osoba působící ve veřejné instituci zapojené do projektu NCA. Certifikáty jsou vydávány ve standardu X.509 v3.</p>
+<p>Při využití certifikátů v CAAIS je nutné ověřit, že se jedná o autentizační certifikát. Kvalifikované certifikáty určené výhradně pro elektronický podpis nelze k přihlašování použít.</p>
+<dl class="simple">
+<dt>eIdentity</dt><dd><p><a class="reference external" href="https://www.eidentity.cz/">https://www.eidentity.cz/</a></p>
+</dd>
+</dl>
+<p>eIdentity je komerční certifikační autorita poskytující kvalifikované i nekvalifikované certifikáty pro fyzické osoby. Proces pořízení certifikátu probíhá prostřednictvím zákaznického účtu na webu poskytovatele.</p>
+<p>Žádost o certifikát se podává online a zahrnuje vyplnění osobních údajů, ověření identity a následnou návštěvu registračního místa (v závislosti na typu certifikátu). Vydaný certifikát je následně k dispozici v elektronické podobě.</p>
+<p>Pro přihlášení do CAAIS je nutné zvolit autentizační certifikát. Kvalifikovaný certifikát pro elektronický podpis slouží pouze k podepisování dokumentů a nelze jej použít k autentizaci.</p>
+<dl class="simple">
+<dt>I.CA</dt><dd><p><a class="reference external" href="https://www.ica.cz/">https://www.ica.cz/</a></p>
+</dd>
+</dl>
+<p>I.CA je zavedená certifikační autorita poskytující certifikáty pro elektronický podpis, šifrování i autentizaci. Žádost o certifikát lze podat online prostřednictvím průvodce na webu poskytovatele.</p>
+<p>Součástí procesu je ověření identity žadatele, které může proběhnout online nebo osobně na registrační autoritě. Certifikát lze uložit do počítače, na čipovou kartu nebo jiný podporovaný nosič.</p>
+<p>CAAIS podporuje autentizační certifikáty vydané I.CA. Při výběru certifikátu je nutné ověřit, že je určen pro přihlašování (autentizaci), nikoli pouze pro elektronický podpis.</p>
+<dl class="simple">
+<dt>PostSignum</dt><dd><p><a class="reference external" href="https://www.postsignum.cz/">https://www.postsignum.cz/</a></p>
+</dd>
+</dl>
+<p>PostSignum je certifikační autorita provozovaná Českou poštou. Nabízí možnost získání certifikátu jak online, tak osobně na pobočkách České pošty (Czech POINT).</p>
+<p>Certifikát lze získat vzdáleně například pomocí eObčanky s aktivovaným čipem nebo prostřednictvím účtu MojeID s vysokou úrovní ověření. Alternativně je možné absolvovat proces osobně na vybraných pobočkách České pošty.</p>
+<p>Pro použití v CAAIS je nutné zvolit autentizační certifikát. Certifikáty určené výhradně pro elektronický podpis nejsou pro přihlášení do systému použitelné.</p>
+</section>
+<section id="jak-certifikat-ziskam">
+<h3>Jak certifikát získám<a class="headerlink" href="#jak-certifikat-ziskam" title="Link to this heading"></a></h3>
+<p>Konkrétní postup získání certifikátu se liší podle zvolené certifikační autority. Obecně však proces zahrnuje následující kroky:</p>
+<blockquote>
+<div><p>Výběr certifikační autority.</p>
+<p>Podání žádosti o autentizační certifikát.</p>
+<p>Ověření totožnosti žadatele (online nebo osobně).</p>
+<p>Získání certifikátu ve formě souboru nebo na fyzickém nosiči.</p>
+</div></blockquote>
+<p>Při žádosti vždy ověřte, že se jedná o autentizační certifikát, nikoli o certifikát určený výhradně pro elektronický podpis.</p>
+</section>
+</section>
+<section id="jak-pridam-certifikaty-do-prohlizece">
+<h2>Jak přidám certifikáty do prohlížeče<a class="headerlink" href="#jak-pridam-certifikaty-do-prohlizece" title="Link to this heading"></a></h2>
+<p>Aby mohl být certifikát použit pro přihlášení do CAAIS, musí být nejprve dostupný webovému prohlížeči. Postup se liší podle operačního systému a typu prohlížeče.</p>
+<section id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Link to this heading"></a></h3>
+<p>V operačním systému Windows využívají webové prohlížeče jednotné systémové úložiště certifikátů. Certifikát je nutné nejprve importovat do tohoto uložiště a ověřit, že je v prohlížeči dostupný.</p>
+<p>Taby pro Chromium, Firefox a Edge</p>
+</section>
+<section id="linux">
+<h3>Linux<a class="headerlink" href="#linux" title="Link to this heading"></a></h3>
+<p>V systému GNU/Linux je zpravidla nutné certifikát importovat přímo do konkrétního webového prohlížeče. Postup se může lišit v závislosti na použité distribuci a prohlížeči.</p>
+</section>
+<section id="macos">
+<h3>macOS<a class="headerlink" href="#macos" title="Link to this heading"></a></h3>
+<p>V systému macOS se certifikáty spravují prostřednictvím systémové aplikace Klíčenka. Certifikát musí být uložen v příslušném úložišti, aby jej mohl prohlížeč použít.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lokalni-administrator/index.html" class="btn btn-neutral float-left" title="Příručka lokálního administátora" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../faq.html" class="btn btn-neutral float-right" title="Často kladené otázky" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025 Digitální a informační agentura.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

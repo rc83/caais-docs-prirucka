@@ -13,7 +13,7 @@ Certifikáty podporované CAAIS
 CAAIS podporuje uživatelské autentizační certifikáty vydané certifikačními autoritami uznávanými v rámci nařízení eIDAS. Certifikát může být uložen jako soubor (např. PKCS#12) nebo na fyzickém nosiči (USB token, čipová karta).
 
 Typy certifikátů
----------------
+----------------
 
 Autentizační certifikát
     Slouží k ověření identity uživatele při přihlašování do informačních systémů. Tento typ certifikátu je pro přihlášení do CAAIS podporován.
@@ -26,14 +26,15 @@ Kvalifikovaný certifikát pro elektronický podpis
       který použít lze.
 
 Podporované certifikační autority
----------------
+---------------------------------
 
   Interní certifikační autority jednotlivých úřadů nejsou z důvodu zvolené bezpečnostní politiky podporovány.
 
 Aktuálně CAAIS podporuje autentizační certifikáty vydané následujícími certifikačními autoritami:
 
 Národní certifikační autorita (NCA)
-    https://www.narodni-ca.cz/
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Sphinx <https://www.narodni-ca.cz/>`_
 
 Národní certifikační autorita je kvalifikovaný poskytovatel služeb vytvářejících důvěru, provozovaný Správou základních registrů (SZR). Vydávání certifikátů je upraveno nařízením EU eIDAS a zákonem č. 297/2016 Sb.
 
@@ -42,7 +43,8 @@ NCA vydává certifikáty především pro potřeby veřejné správy. Držitele
 Při využití certifikátů v CAAIS je nutné ověřit, že se jedná o autentizační certifikát. Kvalifikované certifikáty určené výhradně pro elektronický podpis nelze k přihlašování použít.
 
 eIdentity
-    https://www.eidentity.cz/
+^^^^^^^^^
+`Sphinx <https://www.eidentity.cz/>`_
 
 eIdentity je komerční certifikační autorita poskytující kvalifikované i nekvalifikované certifikáty pro fyzické osoby. Proces pořízení certifikátu probíhá prostřednictvím zákaznického účtu na webu poskytovatele.
 
@@ -51,7 +53,8 @@ eIdentity je komerční certifikační autorita poskytující kvalifikované i n
 Pro přihlášení do CAAIS je nutné zvolit autentizační certifikát. Kvalifikovaný certifikát pro elektronický podpis slouží pouze k podepisování dokumentů a nelze jej použít k autentizaci.
 
 I.CA
-    https://www.ica.cz/
+^^^^
+`Sphinx <https://www.ica.cz/>`_
 
 I.CA je zavedená certifikační autorita poskytující certifikáty pro elektronický podpis, šifrování i autentizaci. Žádost o certifikát lze podat online prostřednictvím průvodce na webu poskytovatele.
 
@@ -60,7 +63,8 @@ Součástí procesu je ověření identity žadatele, které může proběhnout 
 CAAIS podporuje autentizační certifikáty vydané I.CA. Při výběru certifikátu je nutné ověřit, že je určen pro přihlašování (autentizaci), nikoli pouze pro elektronický podpis.
 
 PostSignum
-    https://www.postsignum.cz/
+^^^^^^^^^^
+`Sphinx <https://www.postsignum.cz/>`_
 
 PostSignum je certifikační autorita provozovaná Českou poštou. Nabízí možnost získání certifikátu jak online, tak osobně na pobočkách České pošty (Czech POINT).
 
@@ -69,7 +73,7 @@ Certifikát lze získat vzdáleně například pomocí eObčanky s aktivovaným 
 Pro použití v CAAIS je nutné zvolit autentizační certifikát. Certifikáty určené výhradně pro elektronický podpis nejsou pro přihlášení do systému použitelné.
 
 Jak certifikát získám
----------------
+---------------------
 
 Konkrétní postup získání certifikátu se liší podle zvolené certifikační autority. Obecně však proces zahrnuje následující kroky:
 
