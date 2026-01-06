@@ -7,7 +7,8 @@ Obecné informace k CAAIS. Single sign-on pro informační systémy veřejné sp
 Přehled celého procesu. Možná i jako jednoduchý náčrtek/graf.
 
 .. figure:: images/CAAIS_BU.jpg
-   :width: 1000px
+    :alt: CAAIS pro běžné uživatele
+    :width: 1000px
 
 Založení účtu
 =============
