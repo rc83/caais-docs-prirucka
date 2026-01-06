@@ -13,4 +13,4 @@ Jelikož systém CAAIS postupně nahradí tzv. JIP/KAAS, je velice důležité, 
 .. admonition:: Upozornění
    :class: warning
 
-Upozornění pro pracovníky Kontaktních míst veřejné správy Czech POINT – pro přístup do rozhraní Czech POINT zůstává nadále v platnosti přihlašování výhradně pomocí JIP/KAAS.
+    Upozornění pro pracovníky Kontaktních míst veřejné správy Czech POINT – pro přístup do rozhraní Czech POINT zůstává nadále v platnosti přihlašování výhradně pomocí JIP/KAAS.
