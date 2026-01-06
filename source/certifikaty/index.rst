@@ -32,7 +32,7 @@ Podporované certifikační autority
 
 Aktuálně CAAIS podporuje autentizační certifikáty vydané následujícími certifikačními autoritami:
 
-`Národní certifikační autorita (NCA)<https://www.narodni-ca.cz/>`_
+`Národní certifikační autorita (NCA) <https://www.narodni-ca.cz/>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Národní certifikační autorita je kvalifikovaný poskytovatel služeb vytvářejících důvěru, provozovaný Správou základních registrů (SZR). Vydávání certifikátů je upraveno nařízením EU eIDAS a zákonem č. 297/2016 Sb.
