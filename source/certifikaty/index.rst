@@ -33,7 +33,7 @@ Podporované certifikační autority
 Aktuálně CAAIS podporuje autentizační certifikáty vydané následujícími certifikačními autoritami:
 
 `Národní certifikační autorita (NCA) <https://www.narodni-ca.cz/>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Národní certifikační autorita je kvalifikovaný poskytovatel služeb vytvářejících důvěru, provozovaný Správou základních registrů (SZR). Vydávání certifikátů je upraveno nařízením EU eIDAS a zákonem č. 297/2016 Sb.
 
@@ -73,14 +73,10 @@ Jak certifikát získám
 
 Konkrétní postup získání certifikátu se liší podle zvolené certifikační autority. Obecně však proces zahrnuje následující kroky:
 
-  Výběr certifikační autority.
-
-  Podání žádosti o autentizační certifikát.
-
-  Ověření totožnosti žadatele (online nebo osobně).
-
-  Získání certifikátu ve formě souboru nebo na fyzickém nosiči.
-
+- Výběr certifikační autority.
+- Podání žádosti o autentizační certifikát.
+- Ověření totožnosti žadatele (online nebo osobně).
+- Získání certifikátu ve formě souboru nebo na fyzickém nosiči.
 
 Při žádosti vždy ověřte, že se jedná o autentizační certifikát, nikoli o certifikát určený výhradně pro elektronický podpis.
 

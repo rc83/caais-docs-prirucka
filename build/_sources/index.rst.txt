@@ -2,7 +2,7 @@
 Uživatelská příručka CAAIS
 ==========================
 
-**Centrální autorizační a autentizační informační systém (CAAIS)** slouží k jednotné autentizaci a autorizaci uživatelů (single sign-on) státní správy do Agendových informačních systémů (AIS) a také ke správě a řízení uživatelských rolí v těchto AIS, které komunikují se systémem CAAIS. Postupně nahradí původní JIP/KAAS. Pozice CAAIS je zakotvena v § 56a zákona č. 111/2009 Sb., o základních registrech.
+Vítejte v systému CAAIS, novém centrálním autentizačním a autorizačním informačním systému.
 
 .. toctree::
    :maxdepth: 1
@@ -13,3 +13,23 @@ Uživatelská příručka CAAIS
    lokalni-administrator/index
    certifikaty/index
    faq
+
+Do CAAIS se mohu přihlašovat pod různými typy uživatelských rolí:
+
+.. grid:: 4
+
+   .. grid-item-card:: Běžný uživatel
+
+      Funguje to?
+
+   .. grid-item-card:: Lokální administrátor
+
+      Druhá karta
+
+   .. grid-item-card:: Garant AIS
+
+      Třetí karta
+
+   .. grid-item-card:: Statutární zástupce
+
+      Čtvrtá karta
