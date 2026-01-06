@@ -10,4 +10,7 @@ Autentizační a autorizační služby jsou díky němu pozvednuty na novou úro
 
 Jelikož systém CAAIS postupně nahradí tzv. JIP/KAAS, je velice důležité, abyste se řídili pokyny lokálního administrátora a podnikli v systému CAAIS potřebné kroky pro plnou aktivaci vašeho účtu. Nemusíte se obávat. Pro snadný přechod jsme pro vás připravili uživatelskou nápovědu, a to i ve formě instruktážních videí.
 
+.. admonition:: Upozornění
+   :class: warning
+
 Upozornění pro pracovníky Kontaktních míst veřejné správy Czech POINT – pro přístup do rozhraní Czech POINT zůstává nadále v platnosti přihlašování výhradně pomocí JIP/KAAS.
