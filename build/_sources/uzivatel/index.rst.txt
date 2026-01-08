@@ -29,7 +29,7 @@ Jaké informace mu předat.
 Byl vám založen nový účet v CAAIS IdP
 =====================================
 
-Jakmile vám lokální administrátor účet založí, budete o tom informováni prostřednictvím e-mailové zprávy. V této zprávě s předmětem „Byl vám založen nový účet v CAAIS IdP“ naleznete své uživatelské jméno spolu s odkazem na přihlašovací stránky, kde je nejprve nutné (1) nastavit heslo a následně (2) registrovat autentizační certifikát. Pokud jste připojeni v uzavřené síti CMS, můžete si alternativně (1) nastavit heslo v síti CMS a následně (2) registrovat autentizační certifikát v síti CMS. Nezapomeňte, že odkazy mají omezenou platnost.
+Jakmile vám lokální administrátor účet založí, budete o tom informováni prostřednictvím e-mailové zprávy. V této zprávě s předmětem „Byl vám založen nový účet v CAAIS IdP“ naleznete své uživatelské jméno spolu s odkazem na přihlašovací stránky, kde je nejprve nutné `(1) nastavit heslo <>`_ a následně `(2) registrovat autentizační certifikát <>`_. Pokud jste připojeni v uzavřené síti CMS, můžete si alternativně (1) nastavit heslo v síti CMS a následně (2) registrovat autentizační certifikát v síti CMS. Nezapomeňte, že odkazy mají omezenou platnost.
 
 .. admonition:: Poznámka
    :class: note
@@ -117,7 +117,10 @@ Objeví se zelený proužek: „Certifikát jsme úspěšně nahráli do CAAIS. 
 
 Nyní se můžete do svého účtu v systému CAAIS přihlašovat prostřednictvím jména, hesla a certifikátu a zároveň používat účet CAAIS pro přihlašování do agendových informačních systémů vyžadující značnou mírou zabezpečení.
 
-Certifikát za vás mohl do CAAIS nahrát i lokální administrátor. V takovém případě nebudete k nahrávání certifikátu vyzváni a přecházíte rovnou k přihlášení.
+.. admonition:: Poznámka
+   :class: note
+   
+   Certifikát za vás mohl do CAAIS nahrát i lokální administrátor. V takovém případě nebudete k nahrávání certifikátu vyzváni a přecházíte rovnou k přihlášení.
 
 První přihlášení Identitou občana / NIA
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -128,42 +131,35 @@ Pro detailní návod přejděte prosím do článku „Správa vlastního účtu
 
 Nápovědu k NIA ID naleznete na stránce info.identitaobcana.cz/
 
-
-Pokud se budete přihlašovat výhradně prostřednictvím NIA, nahrání certifikátu není nutné. V takovém případě ale přijdete o možnost používat CAAIS IdP, tedy přihlášení prostřednictvím jména, hesla a certifikátu.
+.. admonition:: Poznámka
+   :class: note
+   
+   Pokud se budete přihlašovat výhradně prostřednictvím NIA, nahrání certifikátu není nutné. V takovém případě ale přijdete o možnost používat CAAIS IdP, tedy přihlášení prostřednictvím jména, hesla a certifikátu.
 
 Byl vám založen profil v CAAIS
 ==============================
 
-Pokud lokální administrátor při zakládání vašeho účtu neměl k dispozici údaje nutné pro ověření vaší totožnosti, naleznete ve své e-mailové schránce zprávu s předmětem „Byl vám založen profil v CAAIS“, ale pouze s odkazem pro ztotožnění svého profilu v CAAIS. Pokud jste připojeni v uzavřené síti CMS, můžete místo toho alternativně ztotožnit svůj profil v CAAIS v síti CMS.
+Pokud lokální administrátor při zakládání vašeho účtu neměl k dispozici údaje nutné pro ověření vaší totožnosti, naleznete ve své e-mailové schránce zprávu s předmětem „Byl vám založen profil v CAAIS“ s odkazem pro ztotožnění svého profilu v CAAIS. Pokud jste připojeni v uzavřené síti CMS, můžete místo toho alternativně ztotožnit svůj profil v CAAIS v síti CMS.
 
-Po ztotožnění profilu se budete moci v CAAIS autentizovat prostřednictvím Identity občana (NIA) nebo si budete moci (1) nastavit heslo a následně (2) registrovat autentizační certifikát.
+Po ztotožnění profilu se budete moci v CAAIS autentizovat prostřednictvím Identity občana (NIA) nebo si budete moci `(1) nastavit heslo <>`_ a následně `(2) registrovat autentizační certifikát <>`_.
 
 Aktivace účtu s nutností ověření totožnosti uživatelem
-1
+------------------------------------------------------
 
-Po kliknutí na odkaz v e-mailu vás systém přesměruje na stránku „Jak se chcete ztotožnit“, kde si zvolíte způsob, kterým chcete svou totožnost ověřit. Máte na výběr z několika možností:
+1. Po kliknutí na odkaz v e-mailu vás systém přesměruje na stránku „Jak se chcete ztotožnit“, kde si zvolíte způsob, kterým chcete svou totožnost ověřit. Máte na výběr z několika možností:
 
+- **Identita občana / NIA** - Totožnost ověříte prostřednictvím přihlášení se k Identitě občana. Systém CAAIS vás ověří na základě informací poskytnutých NIA.
 
-1. Identita občana / NIA
+- **Doklad totožnosti** - Po zvolení této možnosti vás systém vyzve, abyste vybrali druh dokladu, který chcete pro ověření totožnosti použít a uvedli jeho číslo. Pokračujte kliknutím na tlačítko ZTOTOŽNIT.
 
-Totožnost ověříte prostřednictvím přihlášení se k Identitě občana. Systém CAAIS vás ověří na základě informací poskytnutých NIA.
+- **Přihlášení prostřednictvím CAAIS** - Lze využít v případě, kdy už jeden aktivní (tzv. přihlašovací) účet v CAAIS máte a disponujete i tzv. CAAIS IdP.
 
+2. Po úspěšném ověření totožnosti pokračujte na stránku „První přihlášení”.
 
-2. Doklad totožnosti
-
-Po zvolení této možnosti vás systém vyzve, abyste vybrali druh dokladu, který chcete pro ověření totožnosti použít a uvedli jeho číslo. Pokračujte kliknutím na tlačítko ZTOTOŽNIT.
-
-
-3. Přihlášení prostřednictvím CAAIS
-
-Lze využít v případě, kdy už jeden aktivní (tzv. přihlašovací) účet v CAAIS máte a disponujete i tzv. CAAIS IdP.
-
-2
-
-Po úspěšném ověření totožnosti pokračujte na stránku „První přihlášení”.
-
-
-Jestliže se vám nedaří ověřit svou totožnost ani například prostřednictvím jiného dokladu, kontaktujte svého lokálního administrátora.
+.. admonition:: Poznámka
+   :class: note
+   
+   Jestliže se vám nedaří ověřit svou totožnost ani například prostřednictvím jiného dokladu, kontaktujte svého lokálního administrátora.
 
 Nemám účet v CAAIS IdP, ani profil v CAAIS
 ==========================================
@@ -175,7 +171,10 @@ Nejste si jistí, zda máte v CAAIS účet? Zkuste využít možnost ZAPOMENUTÉ
     :width: 500px
     :align: center
 
-Jestliže se vám nepodařilo přihlásit a domníváte se, že účet v CAAIS nemáte, doporučujeme kontaktovat pracovníka, který vám nastavuje přístupy v JIP/KAAS, případně vydává komerční a kvalifikované certifikáty. Pokud se vám lokálního administrátora žádným uvedeným způsobem nepovede najít, kontaktujte technickou podporu: portal.szrcr.cz
+.. admonition:: Poznámka
+   :class: note
+   
+   Jestliže se vám nepodařilo přihlásit a domníváte se, že účet v CAAIS nemáte, doporučujeme kontaktovat pracovníka, který vám nastavuje přístupy v JIP/KAAS, případně vydává komerční a kvalifikované certifikáty. Pokud se vám lokálního administrátora žádným uvedeným způsobem nepovede najít, kontaktujte technickou podporu: portal.szrcr.cz
 
 Samoztotožnění
 ==============
