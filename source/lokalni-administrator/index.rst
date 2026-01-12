@@ -1,3 +1,5 @@
+.. _la_prirucka:
+
 ================================
 Příručka lokálního administátora
 ================================
@@ -31,3 +33,4 @@ Přiřazení certifikátu (volitelně)
 
 Přiřazení rolí
 --------------
+

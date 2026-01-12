@@ -2,30 +2,43 @@
 Uživatelská příručka CAAIS
 ==========================
 
-Vítejte v systému CAAIS, novém centrálním autentizačním a autorizačním informačním systému.
-
 .. toctree::
    :maxdepth: 1
    :caption: Obsah
+   :hidden:
 
-   CAAIS/index
    statutarni-zastupce/index
    lokalni-administrator/index
    uzivatel/index
    certifikaty/index
+   CAAIS/index
    faq
 
-Do CAAIS se mohu přihlašovat pod různými typy uživatelských rolí:
+Vítejte v systému **Centrální autorizační a autentizační informační systém (CAAIS)**, který slouží jako jednotný nástroj pro přihlašování a správu přístupů uživatelů státní správy do agendových informačních systémů (AIS). CAAIS umožňuje jednotné přihlášení (single sign-on) a řízení uživatelských rolí a oprávnění v systémech, které jsou na něj napojeny.
+
+**CAAIS postupně nahrazuje původní systém JIP/KAAS** a jeho používání vychází z § 56a zákona č. 111/2009 Sb., o základních registrech.
+
+Onboarding uživatelů do systému CAAIS
+-------------------------------------
+
+Zavedení do systému CAAIS je jednoduché. Prvním krokem je, aby :ref:`statutární zástupce <sz_prirucka>` zajistil zřízení přístupu :ref:`lokálního administrátora <la_prirucka>`. Lokální administrátor následně zakládá :ref:`běžné uživatelské účty <bu_prirucka>` a přiděluje jim odpovídající role a oprávnění.
+
+Pro snadný přechod na CAAIS je k dispozici tato uživatelská příručka, která vás celým procesem provede.
+
+První přihlášení do CAAIS
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. grid:: 1
 
-   .. grid-item-card:: `Statutární zástupce (chci založit lokálního administrátora) <https://docs.caais.gov.cz/prirucka-wip/statutarni-zastupce/index.html>`_
+   .. grid-item-card:: :ref:`Statutární zástupce (chci založit lokálního administrátora) <sz_prirucka_zalozeni_la>`
       :text-align: center
 
-.. grid:: 2
+.. grid:: 1
 
-   .. grid-item-card:: `Lokální administrátor (chci založit běžného uživatele) <https://docs.caais.gov.cz/prirucka-wip/lokalni-administrator/index.html>`_
+   .. grid-item-card:: :ref:`Lokální administrátor (chci založit běžného uživatele) <la_prirucka>`
       :text-align: center
 
-   .. grid-item-card:: `Běžný uživatel (chci se přihlásit) <https://docs.caais.gov.cz/prirucka-wip/uzivatel/index.html>`_
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Běžný uživatel (chci se přihlásit) <bu_prirucka>`
       :text-align: center

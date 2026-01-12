@@ -1,3 +1,5 @@
+.. _bu_prirucka:
+
 ==========================
 Příručka běžního uživatele
 ==========================
@@ -13,12 +15,12 @@ Přehled celého procesu:
 Založení účtu
 =============
 
-O založení vašeho uživatelského účtu se již postaral `lokální administrátor <https://docs.caais.gov.cz/prirucka-wip/lokalni-administrator/index.html>`_. Abyste mohli CAAIS používat pro přihlašování do agendových informačních systémů, je potřeba účet ještě aktivovat. Nejedná se o nic složitého.
+O založení vašeho uživatelského účtu se již postaral :ref:`lokální administrátor <la_prirucka>`. Abyste mohli CAAIS používat pro přihlašování do agendových informačních systémů, je potřeba účet ještě aktivovat. Nejedná se o nic složitého.
 
 Kdo je lokálním administrátorem?
 --------------------------------
 
-Jak zjistím, kdo je můj `lokální administrátor <https://docs.caais.gov.cz/prirucka-wip/lokalni-administrator/index.html>`_? Po přihlášení najdete kontakt v patičce stránky ve sloupci lokální administrátoři po rozkliknutí textu KONTAKTNÍ ÚDAJE.
+Jak zjistím, kdo je můj :ref:`lokální administrátor <la_prirucka>`? Po přihlášení najdete kontakt v patičce stránky ve sloupci lokální administrátoři po rozkliknutí textu KONTAKTNÍ ÚDAJE.
 
 .. figure:: ../images/data-image-3.jpg
     :alt: Kdo je lokálním administrátorem?
