@@ -130,6 +130,8 @@ Ztotožnění na výjimku
 Přidělení/Odebrání role lokálního administrátora
 ------------------------------------------------
 
+Pro jakékoli další přidělení nebo odebrání role lokálního administrátora se přihlaste do svého profilu v CAAIS prostřednictvím některého z poskytovatelů identit (CAAIS IdP, NIA, ISDS).
+
 .. grid:: 2
 
    .. grid-item-card:: :ref:`Přidělení role lokálního administrátora <sz_prirucka_prideleni_la>`
