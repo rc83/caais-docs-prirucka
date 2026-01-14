@@ -3,12 +3,11 @@
 Nemám profil v CAAIS, ani účet v CAAIS IdP
 ==========================================
 
-Nejste si jistí, zda máte v CAAIS účet? Zkuste využít možnost ZAPOMENUTÉ UŽIVATELSKÉ JMÉNO. Do políčka vyplňte svůj pracovní e-mail. Pokud účet v CAAIS máte, přijde vám v odpovědi vaše uživatelské jméno. Na jeho základě si můžete požádat i o nové heslo.
+Nejste si jistí, zda máte v CAAIS účet? Zkuste využít možnost **ZAPOMENUTÉ UŽIVATELSKÉ JMÉNO**. Do políčka vyplňte svůj pracovní e-mail. Pokud účet v CAAIS máte, přijde vám v odpovědi vaše uživatelské jméno. Na jeho základě si můžete požádat i o nové heslo.
 
-.. figure:: ../images/data-image-4.jpg
+.. figure:: ../images/zapomenute_jmeno.png
     :alt: Zapomenuté uživatelské jméno CAAIS IdP
-    :width: 500px
-    :align: center
+    :width: 1000px
 
 .. admonition:: Upozornění
    :class: warning
