@@ -8,6 +8,8 @@ Příručka běžného uživatele
 
 Vzhledem k tomu, že CAAIS postupně nahrazuje původní systém JIP/KAAS, je potřeba, aby se uživatel řídil pokyny :ref:`lokálního administrátora <bu_prirucka_LA>` a provedl nezbytné kroky k aktivaci svého účtu. Pro usnadnění práce se systémem je k dispozici uživatelská nápověda, včetně přehledných instruktážních materiálů.
 
+.. _bu_prirucka_zalozeni_uctu:
+
 Založení účtu a první přihlášení
 ================================
 
@@ -51,17 +53,29 @@ Jak zjistím, kdo je můj :ref:`lokální administrátor <la_prirucka>`? Po při
 
 Jaké informace mu předat.
 
-Před prvním přihlášením
-=======================
+Přihlášení, odhlášení a zapomenuté údaje
+========================================
 
-NIA
----
+Do systému CAAIS se lze přihlásit prostřednictvím CAAIS IdP, nebo Identitou občana / NIA.
 
-CAAIS IdP
----------
+.. admonition:: Poznámka
+   :class: note
+   
+   Pokud se potřebujete do systému CAAIS přihlásit poprvé, postupujte podle pokynů v e-mailu, který vám byl zaslán po založení účtu. Podrobný postup je popsán výše v sekci :ref:`Založení účtu a první přihlášení <bu_prirucka_zalozeni_uctu>`.
 
-Nastavení hesla a certifikátu. Odkazy i zde.
+Při přihlášení prostřednictvím **CAAIS IdP** se uživatel přihlašuje pomocí účtu vytvořeného přímo v systému CAAIS, tedy uživatelským tedy uživatelským jménem, heslem a certifikátem. Tento způsob se používá zejména u uživatelů, kterým je účet spravován v rámci organizace.
 
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Chci se přihlásit prostřednictvím CAAIS IdP <prihlaseni_CAAIS_IdP>`
+      :text-align: center
+
+Při přihlášení prostřednictvím **Identity občana (NIA)** se uživatel ověřuje pomocí již existujícího prostředku elektronické identity, například bankovní identity nebo eObčanky. CAAIS v tomto případě pouze převezme ověřenou identitu a uživatel se nemusí přihlašovat samostatnými údaji vytvořenými v CAAIS.
+
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Chci se přihlásit přes Identitu občana / NIA <prihlaseni_NIA>`
+      :text-align: center
 
 Ověření, že vše funguje
 =======================

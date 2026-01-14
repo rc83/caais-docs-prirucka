@@ -17,7 +17,7 @@ Na přihlašovací stránce CAAIS vyberete způsob přihlášení **„NIA“**.
 
 .. grid:: 1
 
-   .. grid-item-card:: :ref:`Postup pro přihlášení prostřednictvím NIA <XXX>`
+   .. grid-item-card:: :ref:`Postup pro přihlášení prostřednictvím NIA <prihlaseni_NIA>`
       :text-align: center
 
 Přihlášení do CAAIS datovou schránkou
