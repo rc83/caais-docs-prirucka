@@ -56,6 +56,9 @@ Jaké informace mu předat.
 Přihlášení, odhlášení a zapomenuté údaje
 ========================================
 
+Přihlášení
+----------
+
 Do systému CAAIS se lze přihlásit prostřednictvím CAAIS IdP, nebo Identitou občana / NIA.
 
 .. admonition:: Poznámka
@@ -75,6 +78,30 @@ Při přihlášení prostřednictvím **Identity občana (NIA)** se uživatel ov
 .. grid:: 1
 
    .. grid-item-card:: :ref:`Chci se přihlásit přes Identitu občana / NIA <prihlaseni_NIA>`
+      :text-align: center
+
+Odhlášení
+---------
+
+Jakmile se chcete z účtu odhlásit, klikněte na ikonu „Odhlášení“ v pravém horním rohu obrazovky vedle vašeho jména. Zobrazí se okno pro potvrzení volby. Klikněte na ANO. Nyní jste ze systému CAAIS odhlášeni.
+
+.. figure:: ../images/odhlaseni.png
+    :alt: Odhlášení z CAAIS
+    :width: 1000px
+
+.. admonition:: Poznámka
+   :class: note
+   
+   Přihlašovali jste se skrze NIA? V tom případě budete vyzváni k odhlášení i v jejím rámci.
+
+Zapomenuté údaje
+----------------
+
+Pro změnu hesla, nebo získání zapomenutých údajů postupujte podle návodu v následujícím odkazu:
+
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Zapomněl jsem své přihlašovací údaje <zapomenute_udaje>`
       :text-align: center
 
 Ověření, že vše funguje
