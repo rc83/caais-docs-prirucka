@@ -104,5 +104,15 @@ Pro změnu hesla, nebo získání zapomenutých údajů postupujte podle návodu
    .. grid-item-card:: :ref:`Zapomněl jsem své přihlašovací údaje <zapomenute_udaje>`
       :text-align: center
 
+Správa vlastního účtu
+=====================
+
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Jak spravovat svůj účet <sprava_uctu>`
+      :text-align: center
+
+=====================
+
 Ověření, že vše funguje
 =======================
