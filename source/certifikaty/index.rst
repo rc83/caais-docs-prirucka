@@ -1,3 +1,5 @@
+.. _certifikaty:
+
 =======================
 Certifikáty v CAAIS IdP
 =======================
@@ -91,7 +93,6 @@ Windows
 V operačním systému Windows využívají webové prohlížeče jednotné systémové úložiště certifikátů. Certifikát je nutné nejprve importovat do tohoto uložiště a ověřit, že je v prohlížeči dostupný.
 
 Taby pro Chromium, Firefox a Edge
-
 
 Linux
 -----

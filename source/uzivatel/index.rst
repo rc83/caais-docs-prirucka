@@ -53,8 +53,8 @@ Jak zjistím, kdo je můj :ref:`lokální administrátor <la_prirucka>`? Po při
 
 Jaké informace mu předat.
 
-Přihlášení, odhlášení a zapomenuté údaje
-========================================
+Přihlášení, odhlášení a zapomenuté údaje v CAAIS
+================================================
 
 Přihlášení
 ----------
@@ -70,14 +70,14 @@ Při přihlášení prostřednictvím **CAAIS IdP** se uživatel přihlašuje po
 
 .. grid:: 1
 
-   .. grid-item-card:: :ref:`Chci se přihlásit prostřednictvím CAAIS IdP <prihlaseni_CAAIS_IdP>`
+   .. grid-item-card:: :ref:`Chci se přihlásit do systému CAAIS prostřednictvím CAAIS IdP <prihlaseni_CAAIS_IdP>`
       :text-align: center
 
 Při přihlášení prostřednictvím **Identity občana (NIA)** se uživatel ověřuje pomocí již existujícího prostředku elektronické identity, například bankovní identity nebo eObčanky. CAAIS v tomto případě pouze převezme ověřenou identitu a uživatel se nemusí přihlašovat samostatnými údaji vytvořenými v CAAIS.
 
 .. grid:: 1
 
-   .. grid-item-card:: :ref:`Chci se přihlásit přes Identitu občana / NIA <prihlaseni_NIA>`
+   .. grid-item-card:: :ref:`Chci se přihlásit do systému CAAIS přes Identitu občana / NIA <prihlaseni_NIA>`
       :text-align: center
 
 Odhlášení
@@ -106,6 +106,8 @@ Pro změnu hesla, nebo získání zapomenutých údajů postupujte podle návodu
 
 Správa vlastního účtu
 =====================
+
+Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_prirucka>`, :ref:`lokálního administrátora <la_prirucka>` i :ref:`běžného uživatele <bu_prirucka>`.
 
 .. grid:: 1
 

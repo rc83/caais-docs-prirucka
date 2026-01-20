@@ -27,7 +27,7 @@ Jakmile vám statutární zástupce založí účet, budete o tom informováni p
 
 .. grid:: 1
 
-   .. grid-item-card:: :ref:`Přišel mi email Byl vám založen nový účet v CAAIS IdP“ <email_CAAIS_IdP>`
+   .. grid-item-card:: :ref:`Přišel mi email „Byl vám založen nový účet v CAAIS IdP“ <email_CAAIS_IdP>`
       :text-align: center
 
 .. admonition:: Upozornění
@@ -42,6 +42,17 @@ Jakmile vám statutární zástupce založí účet, budete o tom informováni p
 
 - /la-create a datová zpráva – vhodné pro větší úřady
 - statutárem − vhodné pro menší úřady; statutár musí mít či si musí zřídit NIA
+
+Správa vlastního účtu
+=====================
+
+Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_prirucka>`, :ref:`lokálního administrátora <la_prirucka>` i :ref:`běžného uživatele <bu_prirucka>`.
+
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Jak spravovat svůj účet <sprava_uctu>`
+      :text-align: center
+
 
 Založení nového uživatele
 =========================

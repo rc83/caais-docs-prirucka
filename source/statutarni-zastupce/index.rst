@@ -7,7 +7,7 @@ Příručka statutárního zástupce
 *V rámci počátečního přenosu dat mezi JIP/KAAS a CAAIS již došlo k migraci jak jednotlivých subjektů, tak agendových informačních systémů. Migrace uživatelských profilů je už ovšem v kompetenci vašich lokálních administrátorů.*
 
 Činnosti statutárního zástupce
-------------------------------
+==============================
 
 Aby mohl :ref:`lokální administrátor <la_prirucka>` uživatele přenést, **musí mu nejprve statutární zástupce založit v systému účet**. Jsou to totiž právě statutární zástupci, tedy hejtmani, starostové, ředitelé různých institucí, kteří jsou o spuštění CAAIS informováni jako první a celý proces zahajují.
 
@@ -42,3 +42,20 @@ Založení lokálního administrátora
 
    .. grid-item-card:: :ref:`Chci založit lokálního administrátora po přihlášení do CAAIS <sz_prirucka_zalozeni_la_CAAIS>`
       :text-align: center
+
+Správa vlastního účtu
+=====================
+
+Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_prirucka>`, :ref:`lokálního administrátora <la_prirucka>` i :ref:`běžného uživatele <bu_prirucka>`.
+
+.. grid:: 1
+
+   .. grid-item-card:: :ref:`Jak spravovat svůj účet <sprava_uctu>`
+      :text-align: center
+
+Další používání účtu v CAAIS
+============================
+
+Bez ohledu na to, že jste statutárním zástupcem, můžete i vy používat svůj účet v CAAIS jako každý jiný uživatel, včetně možnosti prokazovat jeho prostřednictvím svou identitu vůči dalším agendovým informačním systémům.
+
+O aktivaci tzv. CAAIS IdP požádejte svého lokálního administrátora, který vám v systému tuto možnost aktivuje. V návaznosti na tuto aktivaci obdržíte e-mailem své uživatelské jméno a odkaz pro nastavení hesla. Pro další informace o používání CAAIS navštivte nápovědu určenou pro běžné uživatele.

@@ -10,7 +10,7 @@ Uživatelská příručka CAAIS
    statutarni-zastupce/index
    lokalni-administrator/index
    uzivatel/index
-   prihlaseni/sprava_uctu
+   ucet/sprava_uctu
    certifikaty/index
    CAAIS/index
    faq
