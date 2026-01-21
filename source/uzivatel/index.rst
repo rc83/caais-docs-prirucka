@@ -114,7 +114,17 @@ Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_priruc
    .. grid-item-card:: :ref:`Jak spravovat svůj účet <sprava_uctu>`
       :text-align: center
 
-=====================
+Přihlašování k Agendovým informačním systémům
+=============================================
 
-Ověření, že vše funguje
-=======================
+Na přihlašovací stránce Agendového informačního systému (AIS) vyberte možnost, která bude obvykle označena **„PŘIHLÁSIT PŘES CAAIS”**, případně obdobně. Systém vás přesměruje na přihlašovací stránku CAAIS. Zde máte na výběr dvě možnosti:
+
+.. grid:: 2
+
+.. grid:: 2
+
+   .. grid-item-card:: :ref:`Přihlášení přes CAAIS IdP <prihlaseni_AIS_CAAIS_IdP>`
+      :text-align: center
+
+   .. grid-item-card:: :ref:`Přihlášení Identitou občana / NIA <prihlaseni_AIS_NIA>`
+      :text-align: center
