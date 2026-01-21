@@ -4,26 +4,32 @@
 Založení lokálního administrátora po přihlášení do CAAIS
 ========================================================
 
-Pro manuální založení lokálního administrátora přímo v `rozhraní CAAIS <https://caais.gov.cz/login>`_ je zapotřebí se do systému přihlásit. V roli statutární zástupce se můžete přihlásit prostřednictvím Identity občana (NIA) nebo přístupových údajů k datové schránce.
+Pro manuální založení lokálního administrátora přímo v `rozhraní CAAIS <https://caais.gov.cz/login>`_ je zapotřebí se do systému přihlásit. V roli statutární zástupce se můžete přihlásit prostřednictvím :ref:`Identity občana (NIA) <sz_prirucka_zalozeni_la_CAAIS-prihlaseni_NIA>` nebo přístupových údajů k datové schránce :ref:`ISDS <sz_prirucka_zalozeni_la_CAAIS-prihlaseni_CAAIS_DS>`.
 
 .. figure:: ../images/SZ_zalozeni_LA_CAAIS-1.png
     :alt: Založení lokálního administrátora po přihlášení do CAAIS 1
     :width: 1000px
+
+.. _sz_prirucka_zalozeni_la_CAAIS-prihlaseni_NIA:
 
 Přihlášení prostřednictvím NIA (Národní identifikační autority) 
 ===============================================================
 
 Na přihlašovací stránce CAAIS vyberete způsob přihlášení **„NIA“**. Po kliknutí se dostanete do jejího rozhraní a po úspěšném přihlášení budete přesměrováni do administrativního prostředí systému CAAIS.
 
+.. include:: prihlaseni/prihlaseni_NIA.rst 
+
 .. grid:: 1
 
    .. grid-item-card:: :ref:`Postup pro přihlášení prostřednictvím NIA <prihlaseni_NIA>`
       :text-align: center
 
+.. _sz_prirucka_zalozeni_la_CAAIS-prihlaseni_CAAIS_DS:
+
 Přihlášení do CAAIS datovou schránkou
 =====================================
 
-Na přihlašovací stránce vyberte **„Přihlášení jako statutární zástupce“**. Systém vás přesměruje do rozhraní datových schránek, kde vyplníte své přihlašovací údaje. Pro tento účel lze použít libovolnou účet svázaný s vaší identitou, tedy jak k datové schránce fyzické osoby nebo subjektu, jehož jste statutárním zástupcem.
+Na přihlašovací stránce vyberte **„Přihlášení jako statutární zástupce“**. Systém vás přesměruje do rozhraní datových schránek, kde vyplníte své přihlašovací údaje. Pro tento účel lze použít libovolný účet svázaný s vaší identitou, tedy jak k datové schránce fyzické osoby nebo subjektu, jehož jste statutárním zástupcem.
 
 .. figure:: ../images/SZ_zalozeni_LA_CAAIS-2.png
     :alt: Založení lokálního administrátora po přihlášení do CAAIS 2
@@ -32,7 +38,7 @@ Na přihlašovací stránce vyberte **„Přihlášení jako statutární zástu
 .. admonition:: Upozornění
    :class: warning
    
-   **CAAIS k uživatelskému účtu přiděluje vždy jen jeden jedinečný identifikátor. Proto se k vašemu účtu naváže ten účet, prostřednictvím kterého se přihlásíte poprvé. Pokud byste se do CAAIS chtěli prostřednictvím datové schránky přihlásit ještě někdy v budoucnu, použijte prosím vždy stejný účet.**
+   **Pokud byste se do CAAIS chtěli prostřednictvím datové schránky přihlásit ještě někdy v budoucnu, použijte prosím vždy stejný účet.**
 
 Po úspěšném ověření identity vstoupíte do profilu vašeho subjektu. Jakožto statutární zástupce zde máte možnost :ref:`zakládat profily <sz_prirucka_zalozeni_la_CAAIS_profil>` novým uživatelům, editovat jejich údaje a :ref:`přidělovat či odebírat <sz_prirucka_zalozeni_la_CAAIS_prideleni_odebrani>` jim role lokálního administrátora.
 
@@ -59,7 +65,7 @@ Aby bylo možné přidělit uživateli roli :ref:`lokálního administrátora <l
 
 .. note::
    
-    Povinná políčka jsou označena hvězdičkou. Uživatelské jméno se vygeneruje automaticky na základě jména a příjmení, zvolit ovšem můžete i vlastní včetně nastavení prefixu.
+    Povinná políčka jsou označena hvězdičkou. Uživatelské jméno se vygeneruje automaticky na základě jména a příjmení, zvolit ovšem můžete i vlastní.
 
     Důležité je správně zadat e-mailovou adresu, kam zakládanému uživateli přijde e-mail informující ho o založení účtu a obsahující přihlašovací údaje.
 

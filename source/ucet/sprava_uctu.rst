@@ -34,7 +34,7 @@ Na záložce Základní údaje je uvedeno, jakým způsobem došlo k vašemu zto
 Kontakty
 --------
 
-V záložce lze v případě potřeby aktualizovat vaši e-mailovou adresu a telefonní číslo. Pokud byste chtěli přidat další telefonní číslo, klikněte na ikonku „+“.
+V záložce lze v případě potřeby aktualizovat vaši e-mailovou adresu a telefonní číslo. E-mailová adresa a mobilní telefonní číslo se přenáší do CAAIS IdP, kde slouží k zaslání kódu pro přihlášení. Pokud byste chtěli přidat další telefonní číslo, klikněte na ikonku „+“.
 
 .. _sprava_uctu_certifikaty:
 

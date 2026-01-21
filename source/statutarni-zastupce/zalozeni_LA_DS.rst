@@ -4,13 +4,21 @@
 Založení lokálního administrátora datovou zprávou
 =================================================
 
-O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_prirucka>` můžete požádat i prostřednictvím formuláře a odesláním jeho výstupu datovou schránkou. Pokud se pro takovou možnost rozhodnete, rozklikněte na hlavní stránce CAAIS odkaz `Založení lokálního administrátora datovou schránkou <https://caais.gov.cz/la-create>`_, který vás přesměruje na online formulář.
+O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_prirucka>` můžete požádat i prostřednictvím formuláře a odesláním jeho výstupu datovou schránkou. `Založení lokálního administrátora datovou schránkou <https://caais.gov.cz/la-create>`_, vás přesměruje na online formulář.
 
 .. figure:: ../images/SZ_zalozeni_LA_DS-1.png
     :alt: Založení lokálního administrátora datovou schránkou 1
     :width: 1000px
 
-1. Do formuláře vyplňte všechna pole označená hvězdičkou. Kromě **jména** a **příjmení** je nutné zvolit i **druh dokladu totožnosti** a uvést jeho **číslo**. Bez úspěšného ztotožnění není založení lokálního administrátora možné. Povinné je i vyplnění **e-mailové adresy**, na kterou uživateli přijde e-mail obsahující jeho uživatelské jméno a odkaz pro první přihlášení. Pokud zadáte i jeho **telefonní číslo**, při pozdější autentifikaci si bude moci vybrat, jestli mu bude poslán jednorázový ověřovací kód e-mailem, nebo prostřednictvím SMS.
+1. Do formuláře vyplňte všechna pole označená hvězdičkou. Kromě **jména** a **příjmení** je nutné zvolit i **druh dokladu totožnosti** a uvést jeho **číslo**.
+
+.. admonition:: Upozornění
+   :class: warning
+   
+   **Jméno a přijmení musí být vyplněno přesně tak jak je uvedeno v základním registru obyvatel (dle osobního dokladu).**
+   
+Do kolonky uživatelské jméno lze uvést uživatelské jméno, pokud není vyplněno bude vytvořeno automaticky ve tvaru JMENO_PRIJMENI.
+Bez úspěšného ztotožnění není založení lokálního administrátora možné. Povinné je i vyplnění **e-mailové adresy**, na kterou uživateli přijde e-mail obsahující jeho uživatelské jméno a odkaz pro první přihlášení. Pokud zadáte i jeho **telefonní číslo**, při pozdější autentifikaci si bude moci vybrat, jestli mu bude poslán jednorázový ověřovací kód e-mailem, nebo prostřednictvím SMS.
 
 .. figure:: ../images/SZ_zalozeni_LA_DS-2.png
     :alt: Založení lokálního administrátora datovou schránkou 2
@@ -27,10 +35,12 @@ O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_
    
    **Nezapomeňte, že všichni takto založení uživatelé budou mít v systému CAAIS roli lokálního administrátora a budou moci spravovat váš subjekt i jeho uživatele.**
 
-3. Po vyplnění všech údajů klikněte na **„Generovat XML“**. Do počítače se vám stáhne XML soubor, který odešlete z datového schránky vašeho subjektu (organizace) do datové schránky systému CAAIS **ejmm527**. Vyrozumění o zpracování žádosti vám systém odešle do datové schránky během několika minut.
+3. Po vyplnění všech údajů klikněte na **„Generovat XML“**. Do počítače se vám stáhne XML soubor, který odešlete z datové schránky vašeho subjektu (organizace) do datové schránky systému CAAIS **ejmm527** (touto datovou zprávou zasíláte pouze XML soubor, žádný další text popř. průvodní dopis není potřeba).
 
 .. figure:: ../images/SZ_zalozeni_LA_DS-4.png
     :alt: Založení lokálního administrátora datovou schránkou 4
     :width: 1000px
 
-Jakmile je žádost o založení profilu schválena, uživateli přijde e-mail obsahující jeho přihlašovací jméno a link na stránku pro první přihlášení, případně pro samoztotožnění (pokud již nějaký profil v CAAIS měl).
+4. Úřad obdrží vyrozumění o zpracování žádosti do datové schránky během několika minut.
+
+Jakmile je žádost o založení profilu schválena, uživateli (budoucímu lokálnímu administrátorovi) přijde e-mail obsahující jeho přihlašovací jméno a link na stránku pro první přihlášení, případně pro samoztotožnění (pokud již nějaký profil v CAAIS měl).
