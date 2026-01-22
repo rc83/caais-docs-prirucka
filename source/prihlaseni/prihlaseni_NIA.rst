@@ -5,9 +5,13 @@ Přihlášení Identitou občana / NIA
 
 1. Na přihlašovací stránce vyberte možnost **NIA – Přihlášení pomocí identity občana**.
 
+.. figure:: ../images/prihlaseni_NIA-1.png
+    :alt: Přihlášení NIA
+    :width: 1000px
+
 2. Zvolte způsob autentizace.
 
-.. figure:: ../images/prihlaseni_NIA.png
+.. figure:: ../images/prihlaseni_NIA-2.png
     :alt: Přihlášení NIA
     :width: 1000px
 

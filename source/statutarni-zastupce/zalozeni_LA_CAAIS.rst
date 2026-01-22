@@ -6,8 +6,8 @@ Založení lokálního administrátora po přihlášení do CAAIS
 
 Pro manuální založení lokálního administrátora přímo v `rozhraní CAAIS <https://caais.gov.cz/login>`_ je zapotřebí se do systému přihlásit. V roli statutární zástupce se můžete přihlásit prostřednictvím :ref:`Identity občana (NIA) <sz_prirucka_zalozeni_la_CAAIS-prihlaseni_NIA>` nebo přístupových údajů k datové schránce :ref:`ISDS <sz_prirucka_zalozeni_la_CAAIS-prihlaseni_CAAIS_DS>`.
 
-.. figure:: ../images/SZ_zalozeni_LA_CAAIS-1.png
-    :alt: Založení lokálního administrátora po přihlášení do CAAIS 1
+.. figure:: ../images/SZ_zalozeni_LA_CAAIS.png
+    :alt: Založení lokálního administrátora po přihlášení do CAAIS
     :width: 1000px
 
 .. _sz_prirucka_zalozeni_la_CAAIS-prihlaseni_NIA:
@@ -15,37 +15,40 @@ Pro manuální založení lokálního administrátora přímo v `rozhraní CAAIS
 Přihlášení prostřednictvím NIA (Národní identifikační autority) 
 ===============================================================
 
-Na přihlašovací stránce CAAIS vyberete způsob přihlášení **„NIA“**. Po kliknutí se dostanete do jejího rozhraní a po úspěšném přihlášení budete přesměrováni do administrativního prostředí systému CAAIS.
-
-.. include:: prihlaseni/prihlaseni_NIA.rst 
-
-.. grid:: 1
-
-   .. grid-item-card:: :ref:`Postup pro přihlášení prostřednictvím NIA <prihlaseni_NIA>`
-      :text-align: center
+.. dropdown:: Postup pro přihlášení prostřednictvím NIA
+   
+   .. include:: /prihlaseni/prihlaseni_NIA.rst
 
 .. _sz_prirucka_zalozeni_la_CAAIS-prihlaseni_CAAIS_DS:
 
 Přihlášení do CAAIS datovou schránkou
 =====================================
 
-Na přihlašovací stránce vyberte **„Přihlášení jako statutární zástupce“**. Systém vás přesměruje do rozhraní datových schránek, kde vyplníte své přihlašovací údaje. Pro tento účel lze použít libovolný účet svázaný s vaší identitou, tedy jak k datové schránce fyzické osoby nebo subjektu, jehož jste statutárním zástupcem.
+.. dropdown:: Postup pro přihlášení do CAAIS datovou schránkou
 
-.. figure:: ../images/SZ_zalozeni_LA_CAAIS-2.png
-    :alt: Založení lokálního administrátora po přihlášení do CAAIS 2
-    :width: 1000px
+   1. Na přihlašovací stránce vyberte **„Přihlášení jako statutární zástupce“**.
 
-.. admonition:: Upozornění
-   :class: warning
-   
-   **Pokud byste se do CAAIS chtěli prostřednictvím datové schránky přihlásit ještě někdy v budoucnu, použijte prosím vždy stejný účet.**
+   .. figure:: ../images/SZ_zalozeni_LA_CAAIS-1.png
+      :alt: Založení lokálního administrátora po přihlášení do CAAIS 1
+      :width: 1000px
 
-Po úspěšném ověření identity vstoupíte do profilu vašeho subjektu. Jakožto statutární zástupce zde máte možnost :ref:`zakládat profily <sz_prirucka_zalozeni_la_CAAIS_profil>` novým uživatelům, editovat jejich údaje a :ref:`přidělovat či odebírat <sz_prirucka_zalozeni_la_CAAIS_prideleni_odebrani>` jim role lokálního administrátora.
+   2. Systém vás přesměruje do rozhraní datových schránek, kde vyplníte své přihlašovací údaje. Pro tento účel lze použít libovolný účet svázaný s vaší identitou, tedy jak k datové schránce fyzické osoby nebo subjektu, jehož jste statutárním zástupcem.
+
+   .. admonition:: Upozornění
+      :class: warning
+      
+      **Pokud byste se do CAAIS chtěli prostřednictvím datové schránky přihlásit ještě někdy v budoucnu, použijte prosím vždy stejný účet.**
+
+   .. figure:: ../images/SZ_zalozeni_LA_CAAIS-2.png
+      :alt: Založení lokálního administrátora po přihlášení do CAAIS 2
+      :width: 1000px
+
+   3. Po úspěšném ověření identity vstoupíte do profilu vašeho subjektu. Jakožto statutární zástupce zde máte možnost :ref:`zakládat profily <sz_prirucka_zalozeni_la_CAAIS_profil>` novým uživatelům, editovat jejich údaje a :ref:`přidělovat či odebírat <sz_prirucka_zalozeni_la_CAAIS_prideleni_odebrani>` jim role lokálního administrátora.
 
 .. _sz_prirucka_zalozeni_la_CAAIS_profil:
 
 Založení uživatelského profilu pro lokálního administrátora
------------------------------------------------------------
+===========================================================
 
 Aby bylo možné přidělit uživateli roli :ref:`lokálního administrátora <la_prirucka>`, je potřeba mu nejdříve založit profil. Proces založení je stejný jako v případě :ref:`běžného uživatele <bu_prirucka>`, protože lokálním administrátorem se uživatel stává až přidělením příslušné role.
 

@@ -3,8 +3,11 @@
 Přenos dat z JIP/KAAS do CAAIS
 ==============================
 
-Centrální autentizační a autorizační systém (CAAIS) je navržen jako modernější a uživatelsky přívětivější nástupce současného JIP/KAAS, s nímž zůstává zpětně kompatibilní. Proto se přechodu na nový systém nemusíte obávat. Nečeká vás manuální zakládání uživatelských účtů ani nové přiřazování odpovídajících přístupových a činnostních rolí a agend. Pro hladký přesun je pro vás připravena aplikace pro přenos dat, která již je součástí aplikace CAAIS.
+Přenos dat mezi systémy JIP / KAAS a CAAIS provádí :ref:`lokální administrátor (LA) <la_prirucka>` vašeho subjektu. Tento proces zahrnuje přenesení uživatelských účtů a jejich rolí z původního systému do CAAIS.
 
-V rámci prvotního nastavení byly do CAAIS přeneseny agendové informační systémy (AIS) a subjekty (OVM, SPUÚ). K subjektům byly zároveň dotaženy jejich působnosti dle Registru práv a povinností (RPP) a jejich statutární zástupci z registru osob a RPP. Prvním krokem, který je potřeba z pohledu subjektu zajistit, představuje jmenování lokálního administrátora, jenž bude v prostředí CAAIS spravovat všechny další uživatele subjektu. Tento úkon je vyhrazen statutárnímu zástupci, tedy vedoucímu představiteli subjektu, kterým je např. hejtman, starosta, ředitel… Lokální administrátor následně může provést migraci uživatelských účtů a jejich rolí (případně i zřizovaných organizací a účtů k nim vázaným) z prostředí JIP/KAAS do CAAIS.
+**Než se pustíte do přenosu dat, doporučujeme provést v JIP/KAAS revizi uživatelů.** Zneplatněte (zablokujte) uživatele, které do CAAIS z jakéhokoli důvodu přenášet nepotřebujete (např. již ve vašem subjektu nepracují). U aktivních účtů zkontrolujte, zda mají vyplněnou tzv. oficiální e-mailovou adresu. Právě na ni uživatelům přijde notifikační e-mail, v němž budou vyzváni k ověření totožnosti, a kam jim posléze přijde i zpráva s pokyny k aktivaci účtu.
 
-Pokud si chcete práci se systémem vyzkoušet, použijte prosím školicí nebo testovací prostředí, případně můžete v produkčním prostředí využít simulované migrace.
+.. admonition:: Poznámka
+   :class: note
+   
+   Doporučujeme, abyste před spuštěním ostrého přenosu informovali uživatele, že obdrží uvítací e-mail, protože unikátní odkaz s výzvou ke ztotožnění má omezenou platnost 30 dnů.
