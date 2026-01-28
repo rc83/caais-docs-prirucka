@@ -3,48 +3,56 @@
 Byl vám založen nový účet v CAAIS IdP
 =====================================
 
-Jakmile vám lokální administrátor (nebo statutární zástupce v případě LA) účet založí, budete o tom informováni prostřednictvím e-mailové zprávy. V této zprávě s předmětem **„Byl vám založen nový účet v CAAIS IdP“** naleznete své uživatelské jméno spolu s odkazem na přihlašovací stránky, kde je nejprve nutné :ref:`(1) nastavit heslo <email_CAAIS_IdP_aktivace>` a následně :ref:`(2) registrovat autentizační certifikát <email_CAAIS_IdP_certifikat>`. Pokud jste připojeni v uzavřené síti CMS, můžete si alternativně (1) nastavit heslo v síti CMS a následně (2) registrovat autentizační certifikát v síti CMS. Nezapomeňte, že odkazy mají omezenou platnost.
+Jakmile vám lokální administrátor (nebo statutární zástupce v případě LA) účet založí, budete o tom informováni prostřednictvím e-mailové zprávy. V této zprávě s předmětem **„Byl vám založen nový účet v CAAIS IdP“** naleznete své uživatelské jméno spolu s odkazem na přihlašovací stránky, kde je nejprve nutné :ref:`(1) nastavit heslo <email_CAAIS_IdP_aktivace>` a následně :ref:`(2) registrovat autentizační certifikát <email_CAAIS_IdP_certifikat>`.
 
 .. admonition:: Poznámka
    :class: note
    
-   Zpráva přijde na adresu, která byla do systému zadána během vaší registrace. Pokud víte, že vám byl účet zřízen, ale v doručené poště e-mail nevidíte, zkontrolujte složku „nevyžádaná pošta / spam“, případně kontaktujte lokálního administrátora.
+   Pokud jste připojeni v uzavřené síti CMS, můžete si alternativně (1) nastavit heslo v síti CMS a následně (2) registrovat autentizační certifikát v síti CMS. Nezapomeňte, že odkazy mají omezenou platnost.
 
-CAAIS lze plnohodnotně využívat, i pokud se budete autentizovat pomocí Identity občana (NIA). Pak výše uvedené nastavení hesla a registraci certifikátu nemusíte provádět. Interní předpisy vašeho úřadu však přesto mohou vyžadovat, abyste si účet v CAAIS IdP zřídili.
+.. admonition:: Upozornění
+    :class: warning
+    
+    **Zpráva přijde na adresu, která byla do systému zadána během vaší registrace. Pokud víte, že vám byl účet zřízen, ale v doručené poště e-mail nevidíte, zkontrolujte složku „nevyžádaná pošta / spam“, případně kontaktujte lokálního administrátora.**
+
+CAAIS lze plnohodnotně využívat, i pokud se budete :ref:`autentizovat prostřednictvím Identity občana (NIA) <prihlaseni_NIA>`. **Pak výše uvedené nastavení hesla a registraci certifikátu nemusíte provádět.** Interní předpisy vašeho úřadu však přesto mohou vyžadovat, abyste si účet v CAAIS IdP zřídili.
 
 .. admonition:: Poznámka
    :class: note
 
-   Jestliže vám přišel pouze odkaz pro tzv. doztotožnění, znamená to, že již aktivní účet v CAAIS máte a tímto vám byl zřízen jen nový profil. Pro dokončení nastavení tohoto nového profilu proveďte prosím požadovanou akci (více se dozvíte v textu o samoztotožnění).
+   Jestliže vám přišel pouze :ref:`odkaz pro tzv. doztotožnění <email_CAAIS>`, znamená to, že již aktivní účet v CAAIS máte a tímto vám byl zřízen jen nový profil. Pro dokončení nastavení tohoto nového profilu proveďte prosím požadovanou akci.
 
 .. _email_CAAIS_IdP_aktivace:
 
 Aktivace účtu
 -------------
 
-1. Odkaz z e-mailu vás přesměruje na stránku „První přihlášení do CAAIS IdP“ a vyzve k vyplnění uživatelského jména. Jakmile jej vyplníte, klikněte na tlačítko POKRAČOVAT.
+.. dropdown:: Postup aktivace účtu v CAAIS IdP
+    :open:
+    
+    1. Odkaz z e-mailu vás přesměruje na stránku **„První přihlášení do CAAIS IdP“** a vyzve k vyplnění uživatelského jména. Jakmile jej vyplníte, klikněte na tlačítko **POKRAČOVAT**.
 
-.. figure:: ../images/BU_CAAIS-IdP_Au-1.png
-    :alt: První přihlášení do CAAIS IdP
-    :width: 1000px
+    .. figure:: ../images/BU_CAAIS-IdP_Au-1.png
+        :alt: První přihlášení do CAAIS IdP
+        :width: 1000px
 
-2. Pro ověření shody potvrďte volbu zaslání na e-mail, případně SMS (v případě, že systém zná vaše mobilní telefonní číslo) a na další stránce jednorázový kód přepište do příslušného pole.
+    2. Pro ověření shody potvrďte volbu zaslání na e-mail, případně SMS (v případě, že systém zná vaše mobilní telefonní číslo) a na další stránce jednorázový kód přepište do příslušného pole.
 
-.. figure:: ../images/BU_CAAIS-IdP_Au-2.png
-    :alt: První přihlášení do CAAIS IdP
-    :width: 1000px
+    .. figure:: ../images/BU_CAAIS-IdP_Au-2.png
+        :alt: První přihlášení do CAAIS IdP
+        :width: 1000px
 
-3. Dalším krokem je vytvoření hesla. Systém vyžaduje heslo o minimálně 10 znacích a obsahující alespoň jedno velké písmeno. Pro kontrolu heslo zopakujte a klikněte na POKRAČOVAT.
+    3. Dalším krokem je vytvoření hesla. Systém vyžaduje heslo o minimálně 10 znacích a obsahující alespoň jedno velké písmeno. Pro kontrolu heslo zopakujte a klikněte na **POKRAČOVAT**.
 
-.. figure:: ../images/BU_CAAIS-IdP_Au-3.png
-    :alt: První přihlášení do CAAIS IdP
-    :width: 1000px
+    .. figure:: ../images/BU_CAAIS-IdP_Au-3.png
+        :alt: První přihlášení do CAAIS IdP
+        :width: 1000px
 
-4. Jestliže všechny kroky proběhly správně, objeví se v horní části stránky zelený proužek potvrzující úspěšné založení účtu v CAAIS. Pokračujte volbou K PŘIHLÁŠENÍ.
+    4. Jestliže všechny kroky proběhly správně, objeví se v horní části stránky zelený proužek potvrzující úspěšné založení účtu v CAAIS. Pokračujte volbou **K PŘIHLÁŠENÍ**.
 
-.. figure:: ../images/BU_CAAIS-IdP_Au-4.png
-    :alt: První přihlášení do CAAIS IdP
-    :width: 1000px
+    .. figure:: ../images/BU_CAAIS-IdP_Au-4.png
+        :alt: První přihlášení do CAAIS IdP
+        :width: 1000px
 
 .. _email_CAAIS_IdP_certifikat:
 
@@ -55,12 +63,14 @@ Systém CAAIS umožňuje všem uživatelům přístup do administračního prost
 
 .. attention::
 
-   Pozor, následující kroky předpokládají, že máte v počítači nainstalovaný certifikát nebo disponujete účtem NIA ID.
+   **Pozor, následující kroky předpokládají, že máte v počítači nainstalovaný certifikát nebo disponujete účtem NIA ID.**
 
 Pro nahrání certifikátu je nutné se do systému CAAIS přihlásit pod svým účtem. Lze zvolit z následujících možností přihlášení:
 
-- první přihlášení prostřednictvím CAAIS IdP,
-- první přihlášení Identitou občana / NIA.
+- :ref:`první přihlášení prostřednictvím CAAIS IdP <email_CAAIS_IdP_pp_CAAIS_IdP>`,
+- :ref:`první přihlášení Identitou občana / NIA <email_CAAIS_IdP_pp_NIA>`.
+
+.. _email_CAAIS_IdP_pp_CAAIS_IdP:
 
 První přihlášení prostřednictvím CAAIS IdP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -100,6 +110,8 @@ Nyní se můžete do svého účtu v systému CAAIS přihlašovat prostřednictv
    
    Certifikát za vás mohl do CAAIS nahrát i lokální administrátor. V takovém případě nebudete k nahrávání certifikátu vyzváni a přecházíte rovnou k přihlášení.
 
+.. _email_CAAIS_IdP_pp_NIA:
+
 První přihlášení Identitou občana / NIA
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -107,7 +119,7 @@ Jestliže se do účtu přihlásíte prostřednictvím Identity občana, CAAIS v
 
 Pro detailní návod přejděte prosím do článku „Správa vlastního účtu - Certifikáty“.
 
-Nápovědu k NIA ID naleznete na stránce info.identitaobcana.cz/
+Nápovědu k NIA ID naleznete na stránce https://info.identita.gov.cz/.
 
 .. admonition:: Poznámka
    :class: note

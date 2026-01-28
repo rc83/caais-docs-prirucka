@@ -8,17 +8,29 @@ Příručka lokálního administátora
 
 Hlavní odpovědností lokálního administrátora v CAAIS je **zakládání a správa běžných uživatelů, přiřazování jejich rolí a oprávnění a průběžná údržba uživatelských účtů**. Současně lokální administrátor zajišťuje přenos uživatelských profilů z původního systému JIP/KAAS do CAAIS, a to s využitím připravených nástrojů, které umožňují zachovat stávající strukturu dat a návaznost na agendové informační systémy bez nutnosti jejich technických úprav.
 
+.. grid:: 3
+
+   .. grid-item-card:: :ref:`První přihlášení <la_prirucka_prihlaseni>`
+      :text-align: center
+
+   .. grid-item-card:: :ref:`Založení uživatele <la_prirucka_zalozeni_BU>`
+      :text-align: center
+
+   .. grid-item-card:: :ref:`Přenos z JIP / KAAS <prenos_dat>`
+      :text-align: center   
+
 Přehled celého procesu:
 
 .. figure:: ../images/CAAIS_BU.jpg
     :alt: CAAIS pro běžné uživatele
     :width: 1000px
 
+.. _la_prirucka_prihlaseni:
 
-Založení účtu a první přihlášení
-================================
+Přihlášení do CAAIS jako lokální administrátor
+==============================================
 
-Jakmile vám statutární zástupce založí účet, budete o tom informováni prostřednictvím e-mailové zprávy s předmnětem **„Byl vám založen profil v CAAIS“** (a je potřeba se doztotožnit), případně s předmětem **„Byl vám založen nový účet v CAAIS IdP“** (pro již ztotožněné uživatele). Tento email obsahuje postup, podle kterého je potřeba provést první přihlášení a aktivaci vašeho uživatelského účtu.
+Jakmile vám :ref:`statutární zástupce <sz_prirucka>` založí účet, budete o tom informováni prostřednictvím e-mailové zprávy s předmnětem **„Byl vám založen profil v CAAIS“** (a je potřeba se doztotožnit), případně s předmětem **„Byl vám založen nový účet v CAAIS IdP“** (pro již ztotožněné uživatele). Tento email obsahuje postup, podle kterého je potřeba provést první přihlášení a aktivaci vašeho uživatelského účtu.
 
 .. grid:: 1
 
@@ -40,9 +52,6 @@ Jakmile vám statutární zástupce založí účet, budete o tom informováni p
    .. grid-item-card:: :ref:`Nemám profil v CAAIS, ani účet v CAAIS IdP“ <nemam_ucet>`
       :text-align: center
 
-- /la-create a datová zpráva – vhodné pro větší úřady
-- statutárem − vhodné pro menší úřady; statutár musí mít či si musí zřídit NIA
-
 Správa vlastního účtu
 =====================
 
@@ -53,6 +62,7 @@ Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_priruc
    .. grid-item-card:: :ref:`Jak spravovat svůj účet <sprava_uctu>`
       :text-align: center
 
+.. _la_prirucka_zalozeni_BU:
 
 Založení nového uživatele
 =========================
