@@ -67,14 +67,114 @@ Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_priruc
 Založení nového uživatele
 =========================
 
-postup, uživatelské jméno nelze (zatím) měnit, vhodná konvence
+.. dropdown:: Postup pro založení nového uživatele v CAAIS
+   :open:
+   
+   1. Pro založení nového uživatele klikněte na položku **Uživatelé** v levém menu. Zobrazí se seznam všech již existujících uživatelů. Pokračujte kliknutím na **+UŽIVATEL**.
 
-Ztotožnění versus samoztotožnění
---------------------------------
+   .. figure:: ../images/LA_CAAIS-1.png
+    :alt: Postup pro založení nového uživatele v CAAIS 1
+    :width: 1000px
+   
+   2. Budete přesměrováni na formulář, kde vyplníte základní údaje o uživateli.
 
-Přiřazení certifikátu (volitelně)
----------------------------------
+   .. admonition:: Upozornění
+      :class: warning
+
+      **Povinná políčka jsou označena hvězdičkou. Uživatelské jméno se vygeneruje automaticky na základě jména a příjmení, zvolit ovšem můžete i vlastní.**
+   
+   Důležité je správně zadat e-mailovou adresu, kam zakládanému uživateli přijde e-mail informující ho o založení účtu a obsahující přihlašovací údaje (pokud budete vyplňovat i telefonní číslo, vždy zvolte možnost mobilní nikoliv pevná linka.)
+
+   .. figure:: ../images/LA_CAAIS-2.png
+    :alt: Postup pro založení nového uživatele v CAAIS 2
+    :width: 1000px
+   
+   3. Dalším krokem je kontrola ztotožnění uživatele. Ztotožnění je možné provést několika způsoby:
+
+   **A)** Druh a číslo dokladu
+   **B)** Datum narození
+   **C)** Uživatel se ztotožní sám (**DOPORUČENO**)
+
+   **A)** v sekci Kontrola totožnosti uživatele zaškrtněte volbu **„Druh a číslo dokladu”**. Z rolovací nabídky vyberte požadovaný druh dokladu a do vedlejšího pole vyplňte jeho číslo. Klikněte na tlačítko **ZTOTOŽNIT**.
+
+   **B)** ztotožnění prostřednictvím data narození zaškrtněte volbu **„Datum narození”**. Vyplňte číslice nebo navolte datum prostřednictvím vyskakovacího kalendáře. Klikněte na tlačítko **ZTOTOŽNIT**.
+
+   .. admonition:: Upozornění
+      :class: warning
+      
+      Pokud byla nalezena jedinečná osoba s uvedeným datem narození, je uživatel úspěšně ztotožněn. V opačném případě se zobrazí hláška „Podle zadaných údajů jsme nalezli více osob. Doplňte další údaje pro přesnější vyhledání v registru obyvatel.“ a systém vás vyzve k doplnění dalších osobních údajů. Po jejich úspěšné kontrole se v horní části obrazovky zobrazí zelený proužek informující o úspěšném ztotožnění a založení uživatelského profilu.
+   
+   **C)** při zakládání uživatelského profilu se můžete dostat do situace, kdy nebudete mít k dispozici potřebné osobní údaje. V tom případě využijte možnost tzv. samoztotožnění uživatele. Uživateli přijde e-mail s předmnětem :ref:`„Byl vám založen profil v CAAIS“ <email_CAAIS>` (a je potřeba se doztotožnit). 
+
+   .. admonition:: Poznámka
+      :class: note
+      
+      Na stránce naleznete defaultně vybranou volbu **„Poskytnout přihlašování pomocí údajů v CAAIS“**. Znamená to, že systém zajistí odeslání notifikace uživateli s výzvou k aktivaci účtu, případně k tzv. doztotožnění. Pokud tuto možnost nezvolíte, uživatel se nebude moci přihlašovat pomocí přihlašovacích údajů vydaných v CAAIS IdP, nicméně účet mu vznikne a bude se moci přihlašovat pomocí jiných prostředků, jmenovitě pomocí NIA.
+
+   .. figure:: ../images/LA_CAAIS-3.png
+    :alt: Postup pro založení nového uživatele v CAAIS 3
+    :width: 1000px
+
+   .. admonition:: Upozornění
+      :class: warning
+
+      Pokud se dostanete do situace, kdy nebude možné zakládaného uživatele ztotožnit běžným způsobem, můžete požádat národního administrátora o tzv. **výjimku ze ztotožnění**.
+
+      Postupujte stejným způsobem jako při zakládání uživatele. I v případě, kdy víte, že ztotožnění na základě čísla dokladu není možné, vyplňte do pole libovolné číslo. Objeví se červená hláška „Podle zadaných údajů jsme osobu v registru obyvatel nenašli“. Zároveň se zobrazí i nová možnost **„Pokračovat bez ztotožnění“**.
+
+      Označte možnost „Pokračovat bez ztotožnění“ a pokračujte kliknutím na **ZTOTOŽNIT**.
+
+      .. figure:: ../images/LA_CAAIS-4.png
+         :alt: Postup pro založení nového uživatele v CAAIS 4
+         :width: 1000px
+      
+      Budete přesměrováni na stránku **„Údaje pro výjimku ze ztotožnění“**. Zde vyplňte požadované údaje a klikněte na tlačítko **ZTOTOŽNIT**.
+
+      .. figure:: ../images/LA_CAAIS-5.png
+         :alt: Postup pro založení nového uživatele v CAAIS 5
+         :width: 1000px
+      
+      Zobrazí se zelený proužek informující o založení uživatelského profilu a odeslání požadavku národnímu administrátorovi.
+      
+      Dokud Národní administrátor žádost nevyřídí, naleznete ji v levém menu pod „Podané žádosti“. Na stejném místě ji můžete i smazat kliknutím na ikonu koše. Jakmile je žádost schválená, v seznamu uživatelů se u dané osoby zobrazí příznak „Aktivní” a zároveň je jí odeslán e-mail obsahující uživatelské jméno a link pro první přihlášení.
+
+      .. figure:: ../images/LA_CAAIS-6.png
+         :alt: Postup pro založení nového uživatele v CAAIS 6
+         :width: 1000px
+
+
+   4. Objeví se zelený proužek informující o úspěšném založení profilu a uživateli je zároveň poslán e-mail s odkazem na stránku, na níž ztotožnění dokončí. Pozor, odkaz má omezenou platnost. (platnost je 30 dní!)
+
+   .. figure:: ../images/LA_CAAIS-7.png
+    :alt: Postup pro založení nového uživatele v CAAIS 7
+    :width: 1000px
+
+   .. admonition:: Poznámka
+      :class: note
+      
+      Dokud uživatel proces ztotožnění nedokončí, bude se u jeho jména zobrazovat atribut **„Před ztotožněním“**. I uživateli s tímto atributem lze přidělit roli lokálního administrátora.
+
+.. admonition:: Poznámka
+   :class: note
+      
+   Pokud běžný uživatel, kterému má být přidělena role lokálním administrátorem už účet v CAAIS má. V tomto případě v záložce **Uživatelé** zvolím možnost filtrovat a uživatele najdu.
+
+   .. figure:: ../images/LA_CAAIS-8.png
+      :alt: Postup pro založení nového uživatele v CAAIS 8
+      :width: 1000px
+
+uživatelské jméno nelze (zatím) měnit, vhodná konvence
 
 Přiřazení rolí
 --------------
+
+Úkolem lokálního administrátora je také přiřazení rolí uživatelům, aby se mohli přihlásit do konkrétních informačních systémů. Pro tento úkol existují dva způsoby:
+
+.. dropdown:: Přiřazení role v detailu uživatele
+   
+   Po přihlášení do CAAIS lokálním administrátorem musí lokální administrátor přiřadit přístupové role ke konkrétnímu informačnímu systému dalším uživatelům (v našem případě momentálně ISSV). Po přihlášení LA do systému CAAIS v levé modré liště klikneme na UŽIVATELÉ a dle filtru nalezneme konkrétní osobu, které bude přidělena role ke konkrétnímu systému.
+
+   Po rozkliknutí konkrétního uživatele lokální administrátor přidělí roli ke konkrétnímu systému běžnému uživateli v horní liště pod detailem uživatele klikneme na SPRÁVA ROLÍ  a LA přidělí požadované. 
+
+.. dropdown:: Přiřazení role uživatelům k agendovému informačnímu systému
 
