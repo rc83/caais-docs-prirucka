@@ -21,8 +21,8 @@ Hlavní odpovědností lokálního administrátora v CAAIS je **zakládání a s
 
 Přehled celého procesu:
 
-.. figure:: ../images/CAAIS_BU.jpg
-    :alt: CAAIS pro běžné uživatele
+.. figure:: ../images/CAAIS.jpg
+    :alt: Přehled procesu prvního přihlášení a založení uživatele v CAAIS
     :width: 1000px
 
 .. _la_prirucka_prihlaseni:
@@ -172,9 +172,38 @@ Přiřazení rolí
 
 .. dropdown:: Přiřazení role v detailu uživatele
    
-   Po přihlášení do CAAIS lokálním administrátorem musí lokální administrátor přiřadit přístupové role ke konkrétnímu informačnímu systému dalším uživatelům (v našem případě momentálně ISSV). Po přihlášení LA do systému CAAIS v levé modré liště klikneme na UŽIVATELÉ a dle filtru nalezneme konkrétní osobu, které bude přidělena role ke konkrétnímu systému.
+   Po přihlášení do CAAIS musí lokální administrátor přiřadit běžným uživatelům přístupové role ke konkrétním informačním systémům. V záložce **Správa rolí** v detailu uživatele kontrolujete, případně přidáváte a odebíráte konkrétnímu uživateli příslušné role. Jedná se o organizační, skupinové, přístupové a činnostní role. Seznam rolí, které má uživatel k dispozici, zobrazíte po rozkliknutí příslušného názvu role.
 
-   Po rozkliknutí konkrétního uživatele lokální administrátor přidělí roli ke konkrétnímu systému běžnému uživateli v horní liště pod detailem uživatele klikneme na SPRÁVA ROLÍ  a LA přidělí požadované. 
+   .. figure:: ../images/LA_CAAIS_role-1.png
+      :alt: Přiřazení role v detailu uživatele
+      :width: 1000px
+
+   Jestliže se chystáte stejnou roli přidělovat několika uživatelům, je efektivnější přejít do volby **Správa rolí** nacházejícím se v levém menu viz :ref:`Přiřazení role uživatelům k agendovému informačnímu systému <la_prirucka_prirazeni_role_ais>`.
+
+.. _la_prirucka_prirazeni_role_ais:
 
 .. dropdown:: Přiřazení role uživatelům k agendovému informačnímu systému
+
+   Do komplexního prostředí pro správu rolí, které byly vašemu subjektu uděleny garanty jednotlivých AIS, nebo které vašemu subjektu náleží na základě RPP, se dostanete přes levé menu volbou **Správa rolí**.
+
+   .. admonition:: Poznámka
+      :class: note
+
+      Přidělování rolí doporučujeme provádět právě zde, kde můžete nad seznamem uživatelů filtrovat a snáze přidat jednu roli více uživatelům najednou.
+   
+   **Přístupové role**
+
+   Po rozkliknutí řádku **Přístupové role** uvidíte v úvodní záložce seznam veškerých přístupových rolí, které byly vašemu subjektu uděleny garanty jednotlivých Agendových informačních systémů.
+
+   Kliknutím na řádek konkrétní role se dostanete na její detail se základními údaji.
+
+   .. figure:: ../images/LA_CAAIS_role-2.png
+      :alt: Přiřazení role přes správu rolí 1
+      :width: 1000px
+
+   V detailu AIS na záložce **Uživatelé** se nachází seznam uživatelů vašeho subjektu, kteří mají danou roli přidělenou. Na tomto místě můžete příslušnou roli uživatelům odebírat nebo přidávat kliknutím na tlačítko **EDITOVAT**.
+
+   .. figure:: ../images/LA_CAAIS_role-3.png
+      :alt: Přiřazení role přes správu rolí 2
+      :width: 1000px
 
