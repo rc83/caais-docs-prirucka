@@ -4,7 +4,7 @@
 Založení lokálního administrátora datovou zprávou
 =================================================
 
-O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_prirucka>` můžete požádat i prostřednictvím formuláře a odesláním jeho výstupu datovou schránkou. `Založení lokálního administrátora datovou schránkou <https://caais.gov.cz/la-create>`_, vás přesměruje na online formulář.
+O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_prirucka>` můžete požádat prostřednictvím `formuláře „Založení lokálního administrátora datovou schránkou“ <https://caais.gov.cz/la-create>`_ a odesláním jeho výstupu datovou schránkou.
 
 .. figure:: ../images/SZ_zalozeni_LA_DS-1.png
     :alt: Založení lokálního administrátora datovou schránkou 1
