@@ -168,7 +168,7 @@ uživatelské jméno nelze (zatím) měnit, vhodná konvence
 Přiřazení rolí
 --------------
 
-Úkolem lokálního administrátora je také přiřazení rolí uživatelům, aby se mohli přihlásit do konkrétních informačních systémů. Pro tento úkol existují dva způsoby:
+Úkolem lokálního administrátora je také přiřazení rolí uživatelům, aby se mohli přihlásit do konkrétních informačních systémů. Pro tento úkol existují dva základní způsoby:
 
 .. dropdown:: Přiřazení role v detailu uživatele
    
@@ -207,3 +207,86 @@ Přiřazení rolí
       :alt: Přiřazení role přes správu rolí 2
       :width: 1000px
 
+   **Agendy a činnostní role**
+
+   Položky v záložce **Agendy a činnostní role** jsou synchronizovány s oprávněními vašeho subjektu dle RPP.
+
+   .. figure:: ../images/LA_CAAIS_role-4.png
+      :alt: Přiřazení agendy a činnostní role 1
+      :width: 1000px
+
+   Rozkliknutím řádku se dostanete na **základní údaje** dané činnostní role.
+
+   .. figure:: ../images/LA_CAAIS_role-5.png
+      :alt: Přiřazení agendy a činnostní role 2
+      :width: 1000px
+
+   Po rozkliknutí záložky **Uživatelé** se zobrazí seznam uživatelů vedených pod vaším subjektem, kteří mají příslušnou roli přidělenou. Zde můžete roli uživatelům odebírat nebo přidávat kliknutím na tlačítko **EDITOVAT**.
+
+   .. figure:: ../images/LA_CAAIS_role-6.png
+      :alt: Přiřazení agendy a činnostní role 3
+      :width: 1000px
+
+Organizační role
+^^^^^^^^^^^^^^^^
+
+Organizační role zjednodušují proces přiřazování rolí, jelikož umožňují zkombinovat přístupové role, činnostní role a skupiny rolí takovým způsobem, aby odpovídal například pracovní pozici.
+
+.. dropdown:: Vytvoření organizační role
+
+   Pro vytvoření nové organizační role klikněte na tlačítko **+ ORGANIZAČNÍ ROLE**. Vyplňte její název, případně popis a garanta a klikněte na **POKRAČOVAT**.
+
+   Na další stránce vyberte **přístupové role**, **činnostní role** a **skupiny rolí**, které má zakládaná organizační role obsahovat. Kombinace těchto rolí je zcela na vašem uvážení.
+
+   1. Pro přiřazení přístupových a činnostních rolí klikněte na řádek **Skupiny rolí**. Zobrazí se rolovací nabídka již existujících skupin rolí. Vyberte jednu nebo více rolí.
+
+   .. admonition:: Poznámka
+      :class: note
+
+      Vyberete-li možnost **„Jednorázové přidělení“**, dojde k přidělení skupinové role nebo rolí v aktuální podobě. To znamená, že pokud dotčenou skupinu rolí v budoucnu upravíte, provedené změny se v rámci organizační role neprojeví.
+
+   2. Obdobně přidáte do organizační role i dílčí role přístupové a činnostní.
+
+   3. Jakmile máte všechny role přiřazené, klikněte na tlačítko **ZALOŽIT**.
+
+   Organizační roli lze vytvořit i podle vzoru. Zaškrtněte možnost **„Vytvořit organizační roli podle vzoru”**. Vytvoření organizační role podle vzoru vybraného uživatele vaší organizace je vhodné, jestliže některý z uživatelů disponuje kombinací rolí vhodných pro konkrétní pracovní zařazení. Vyberte jméno takového uživatele z rolovací nabídky a klikněte na **„Zkopírovat obsah role“**.
+
+.. dropdown:: Editace organizační role
+
+   K základním údajům organizační role, jež můžete na stejném místě i editovat, se dostanete rozkliknutím příslušného řádku.
+
+   Na záložce Detail role lze upravit, z jakých jednotlivých rolí se má organizační role skládat.
+
+   V záložce Uživatelé naleznete seznam uživatelů, kterým byla konkrétní organizační role přidělena. Přidávat a odebírat roli uživatelům můžete kliknutím na tlačítko EDITOVAT.
+
+Skupiniové role
+^^^^^^^^^^^^^^^
+
+Skupiny rolí zjednodušují proces přiřazování rolí, jelikož umožňují kombinovat přístupové a činnostní role, které má váš subjekt k dispozici.
+
+.. dropdown:: Vytvoření skupiny rolí
+
+   Pro vytvoření nové skupiny rolí. Pokud jste již nějakou skupinu rolí vytvořili a přidělili konkrétnímu uživateli, můžete vytvořit další skupinu rolí podle tohoto vzoru.
+
+   1. Klikněte na + SKUPINA ROLÍ.
+
+   2. Otevře se stránka s názvem „Nová skupina rolí”.
+
+   .. admonition:: Poznámka
+      :class: note
+
+      Pokud jste již nějakou skupinu rolí vytvořili a přidělili konkrétnímu uživateli, můžete vytvořit další skupinu rolí podle tohoto vzoru.
+
+   3. Přidejte přístupové role. Rozklikněte příslušný řádek a z nabídky vyberte AIS (agendový informační systém), jehož přístupovou roli nebo role chcete přidat. Zaškrtněte požadované přístupové role.
+   Pokud chcete přidat přístupové role k dalšímu AIS, vyberte z rolovací nabídky jeho jméno a opět i požadovanou přístupovou roli/role. Všechny zvolené role se zobrazí v modrých rámečcích pod rolovací nabídkou.
+
+   .. admonition:: Poznámka
+      :class: note
+
+      Jestliže chcete některou z nich odstranit, klikněte na křížek na pravé straně rámečku.
+
+.. dropdown:: Editace skupiny rolí
+
+   Rozkliknutím řádku se dostanete k základním údajům dané skupinové role. V záložce Detail role můžete změnit skladbu skupinové role, tedy změnit složení přístupových a činnostních rolí, které ji tvoří.
+
+   V záložce Uživatelé najdete seznam všech uživatelů, kteří mají tuto skupinu rolí přidělenu. Přidávat a odebírat ji uživatelům můžete po kliknutí na tlačítko EDITOVAT.

@@ -77,13 +77,13 @@ První přihlášení prostřednictvím CAAIS IdP
 
 Pokud zvolíte přihlášení prostřednictvím CAAIS IdP, certifikát nahrajete následujícím způsobem:
 
-1. Pod přihlašovacím formulářem najděte text + CERTIFIKÁT. Klikněte na něj.
+1. Pod přihlašovacím formulářem najděte text **+ CERTIFIKÁT**. Klikněte na něj.
 
-.. figure:: ../images/BU_CAAIS-IdP_PncdCAAIS-1.jpg
+.. figure:: ../images/BU_CAAIS-IdP_PncdCAAIS-1.png
     :alt: První přihlášení do CAAIS IdP
     :width: 1000px
 
-2. V dalším kroku vyplntě své uživatelské jméno a heslo a následně klikněte na NASTAVIT CERTIFIKÁT.
+2. V dalším kroku vyplntě své uživatelské jméno a heslo a následně klikněte na **NASTAVIT CERTIFIKÁT**.
 
 .. figure:: ../images/BU_CAAIS-IdP_PncdCAAIS-2.png
     :alt: První přihlášení do CAAIS IdP
@@ -91,13 +91,13 @@ Pokud zvolíte přihlášení prostřednictvím CAAIS IdP, certifikát nahrajete
 
 3. Systém vám pošle e-mail nebo SMS s ověřovacím kódem.
 
+4. Na následující stránce zadejte obdržený kód do příslušného pole a klikněte na tlačítko **NAHRÁT**. V počítači vyskočí okno s nabídkou certifikátů, které v něm máte nainstalované. Vyberte správný certifikát a potvrďte.
+
 .. figure:: ../images/BU_CAAIS-IdP_PncdCAAIS-3.png
     :alt: První přihlášení do CAAIS IdP
     :width: 1000px
 
-4. Na následující stránce zadejte obdržený kód do příslušného pole a klikněte na tlačítko NAHRÁT. V počítači vyskočí okno s nabídkou certifikátů, které v něm máte nainstalované. Vyberte správný certifikát a potvrďte.
-
-Objeví se zelený proužek: „Certifikát jsme úspěšně nahráli do CAAIS. Teď se můžete přihlásit“.
+Objeví se zelený proužek: **„Certifikát jsme úspěšně nahráli do CAAIS. Teď se můžete přihlásit“**.
 
 .. figure:: ../images/BU_CAAIS-IdP_PncdCAAIS-5.png
     :alt: První přihlášení do CAAIS IdP
