@@ -7,6 +7,7 @@ Uživatelská příručka CAAIS
    :caption: Obsah
    :hidden:
 
+   onboarding/index
    statutarni-zastupce/index
    lokalni-administrator/index
    uzivatel/index
