@@ -2,7 +2,7 @@
 Co je to CAAIS
 ==============
 
-**Centrální autorizační a autentizační informační systém (CAAIS)** slouží k jednotné autentizaci a autorizaci uživatelů (single sign-on) státní správy do Agendových informačních systémů (AIS) a také ke správě a řízení uživatelských rolí v těchto AIS, které komunikují se systémem CAAIS. Postupně nahradí původní JIP/KAAS. Pozice CAAIS je zakotvena v § 56a zákona č. 111/2009 Sb., o základních registrech.
+`Centrální autorizační a autentizační informační systém (CAAIS) <https://caais.gov.cz/login>`_ slouží k jednotné autentizaci a autorizaci uživatelů (single sign-on) státní správy do Agendových informačních systémů (AIS) a také ke správě a řízení uživatelských rolí v těchto AIS, které komunikují se systémem CAAIS. Postupně nahradí původní JIP/KAAS. Pozice CAAIS je zakotvena v § 56a zákona č. 111/2009 Sb., o základních registrech.
 
 CAAIS je vytvořen v designu respektujícím jednotné prostředí gov.cz a přináší pokročilé služby, které usnadní uživatelům přihlašování do agendových informačních systémů.
 

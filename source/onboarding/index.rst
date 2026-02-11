@@ -40,7 +40,7 @@ Onboarding
 
     4. Úřad obdrží vyrozumění o zpracování žádosti do datové schránky během několika minut.
 
-2. Lokální administrátor se ztotožní v systému CAAIS
+2. Lokální administrátor se přihlásí v systému CAAIS
 ----------------------------------------------------
 
 A. Akcivace účtu Identitou občana / NIA
