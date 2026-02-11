@@ -105,31 +105,31 @@ B. Akcivace účtu v CAAIS IdP (jméno, heslo, certifikát)
 3. Lokální administrátor založí uživatele v CAAIS
 --------------------------------------------------
 
-.. dropdown:: Přenos dat uživatelů
+.. dropdown:: Založení uživatele v CAAIS
     :open:
 
     1. Pro založení nového uživatele klikněte na položku **Uživatelé**. Zobrazí se seznam všech již existujících uživatelů. Pokračujte kliknutím na **+UŽIVATEL**.
 
     .. figure:: ../images/LA_CAAIS-1.png
-        :alt: Postup pro založení nového uživatele v CAAIS 1
+        :alt: Postup pro založení nového uživatele v CAAIS
         :width: 1000px
     
     2. Budete přesměrováni na formulář, kde vyplníte základní údaje o uživateli.
 
     .. figure:: ../images/LA_CAAIS-2.png
-        :alt: Postup pro založení nového uživatele v CAAIS 2
+        :alt: Postup pro založení nového uživatele v CAAIS
         :width: 1000px
     
     3. Dalším krokem je kontrola ztotožnění uživatele. Ztotožnění je možné provést několika způsoby Preferovaná varianta je že se **Uživatel se ztotožní sám**. Uživateli přijde e-mail s předmnětem :ref:`„Byl vám založen profil v CAAIS“ <email_CAAIS>` (a je potřeba se doztotožnit). 
 
     .. figure:: ../images/LA_CAAIS-3.png
-        :alt: Postup pro založení nového uživatele v CAAIS 3
+        :alt: Postup pro založení nového uživatele v CAAIS
         :width: 1000px
 
     4. Objeví se hláška o úspěšném založení profilu a uživateli je zároveň poslán e-mail s odkazem na stránku, na níž ztotožnění dokončí. Pozor, odkaz má omezenou platnost. (platnost je 30 dní!)
 
     .. figure:: ../images/LA_CAAIS-7.png
-        :alt: Postup pro založení nového uživatele v CAAIS 7
+        :alt: Postup pro založení nového uživatele v CAAIS
         :width: 1000px
 
 .. dropdown:: Přiřazení rolí
