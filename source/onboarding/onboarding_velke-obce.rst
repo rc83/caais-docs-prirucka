@@ -1,7 +1,7 @@
 .. _onboarding:
 
-Onboarding
-==========
+Rychlý start pro velké obce
+===========================
 
 1. Statutární zástupce založí lokálního administrátora v systému CAAIS
 ----------------------------------------------------------------------
@@ -102,7 +102,7 @@ B. Akcivace účtu v CAAIS IdP (jméno, heslo, certifikát)
 
     Nyní se můžete do svého účtu v systému CAAIS přihlašovat prostřednictvím jména, hesla a certifikátu a zároveň používat účet CAAIS pro přihlašování do agendových informačních systémů vyžadující značnou mírou zabezpečení.
 
-3. Lokální administrátor založí uživatele v CAAIS
+3A. Lokální administrátor založí uživatele v CAAIS
 --------------------------------------------------
 
 .. dropdown:: Založení uživatele v CAAIS
@@ -141,32 +141,31 @@ B. Akcivace účtu v CAAIS IdP (jméno, heslo, certifikát)
       :alt: Přiřazení role v detailu uživatele
       :width: 1000px
 
-..
-    3. Lokální administrátor převede uživatele z JIP / KAAS do CAAIS
-    -----------------------------------------------------------------
+3B. Lokální administrátor převede uživatele z JIP / KAAS do CAAIS
+-----------------------------------------------------------------
 
-    .. dropdown:: Přenos dat uživatelů
-        :open:
+.. dropdown:: Přenos dat uživatelů
+    :open:
         
-        1. V levém menu vyberte volbu **Přenos dat**.
+    1. V levém menu vyberte volbu **Přenos dat**.
 
-        .. figure:: ../images/prenos_dat-1.png
-            :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 1
-            :width: 1000px
+    .. figure:: ../images/prenos_dat-1.png
+        :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 1
+        :width: 1000px
 
-        2. Systém vás přesměruje do prostředí pro migraci dat z JIP/KAAS, na záložku Uživatelé. Jakmile nějaké přenosy provedete, najdete zde jejich seznam. Pro zahájení nového klikněte na **+ PŘENOS**.
+    2. Systém vás přesměruje do prostředí pro migraci dat z JIP/KAAS, na záložku Uživatelé. Jakmile nějaké přenosy provedete, najdete zde jejich seznam. Pro zahájení nového klikněte na **+ PŘENOS**.
 
-        .. figure:: ../images/prenos_dat-2.png
-            :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 2
-            :width: 1000px
+    .. figure:: ../images/prenos_dat-2.png
+        :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 2
+        :width: 1000px
 
-        3. Na další stránce *„Nový přenos uživatelů“* vyplňte své přihlašovací údaje (jméno a heslo) do JIP/KAAS. Pole *„Zkratka přenášeného subjektu ve zvolené verzi JIP“* už bude přednastavená, není potřeba ji měnit. Pokračujte tlačítkem **PŘENÉST UŽIVATELE**.
+    3. Na další stránce *„Nový přenos uživatelů“* vyplňte své přihlašovací údaje (jméno a heslo) do JIP/KAAS. Pole *„Zkratka přenášeného subjektu ve zvolené verzi JIP“* už bude přednastavená, není potřeba ji měnit. Pokračujte tlačítkem **PŘENÉST UŽIVATELE**.
 
-        .. figure:: ../images/prenos_dat-3.png
-            :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 3
-            :width: 1000px
+    .. figure:: ../images/prenos_dat-3.png
+        :alt: Postup pro zahájení přenosu dat z JIP/KAAS do CAAIS 3
+        :width: 1000px
 
-        4. Po potvrzení přenosu vás systém pošle zpět na seznam provedených migrací, kde uvidíte i právě založený požadavek. Aktuální přenos bude mít příznak **„Podáno“**. Jakmile systém začne úlohu zpracovávat, stav migrace se nastaví na **„Probíhá“**. Aplikace pro přenos dat přetáhne z JIP/KAAS do CAAIS detaily jednotlivých aktivních uživatelů v rozsahu *uživatelské jméno, jméno, příjmení, tzv. oficiální e-mail, telefonní čísla a seznam přidělených přístupových a činnostních rolí a agend*.
+    4. Po potvrzení přenosu vás systém pošle zpět na seznam provedených migrací, kde uvidíte i právě založený požadavek. Aktuální přenos bude mít příznak **„Podáno“**. Jakmile systém začne úlohu zpracovávat, stav migrace se nastaví na **„Probíhá“**. Aplikace pro přenos dat přetáhne z JIP/KAAS do CAAIS detaily jednotlivých aktivních uživatelů v rozsahu *uživatelské jméno, jméno, příjmení, tzv. oficiální e-mail, telefonní čísla a seznam přidělených přístupových a činnostních rolí a agend*.
 
 
 4. Běžný uživatel ztotožní svuj účet v systému CAAIS

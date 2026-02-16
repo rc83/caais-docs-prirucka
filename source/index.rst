@@ -7,7 +7,8 @@ Uživatelská příručka CAAIS
    :caption: Obsah
    :hidden:
 
-   onboarding/index
+   onboarding/onboarding_male-obce
+   onboarding/onboarding_velke-obce
    statutarni-zastupce/index
    lokalni-administrator/index
    uzivatel/index
