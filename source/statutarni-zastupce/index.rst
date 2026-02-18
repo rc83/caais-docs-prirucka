@@ -13,8 +13,8 @@ Aby mohl :ref:`lokální administrátor <la_prirucka>` uživatele založit (nebo
 
 Systém nabízí dvě možnosti, jak tento úkon provést:
 
-- **Doporučovanou variantou** je :ref:`vyplnění online formuláře a jeho odeslání do datové schránky CAAIS <sz_prirucka_zalozeni_la_ds>`.
-- Alternativně lze :ref:`založit nový uživatelský účet v prostředí aplikace CAAIS <sz_prirucka_zalozeni_la_CAAIS>`.
+- **Doporučovanou variantou** je :ref:`vyplnění on-line formuláře a jeho odeslání do datové schránky CAAIS <sz_prirucka_zalozeni_la_ds>`.
+- Alternativně lze :ref:`založit uživatelský účet přímo v prostředí aplikace CAAIS <sz_prirucka_zalozeni_la_CAAIS>`.
 
 .. admonition:: Poznámka
    :class: note

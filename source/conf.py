@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Uživatelská příručka CAAIS'
-copyright = '2025 Digitální a informační agentura'
-author = 'Richard Chudoba, Vojtěch Art, Vojtěch Duraj (DIA)'
+copyright = '2026 Digitální a informační agentura'
+author = 'Richard Chudoba, Vojtěch Art, Vojtěch Duraj'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
