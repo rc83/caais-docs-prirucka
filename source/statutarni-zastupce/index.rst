@@ -26,7 +26,7 @@ Ve výchozím stavu má každý statutární zástupce v CAAIS připravený úč
 .. admonition:: Upozornění
    :class: warning
    
-   **Pokud jmenujete lokálního administrátora formulářem do datové schránky, nemusíte se do aplikace CAAIS vůbec přihlašovat.**
+   **Zdůrazňujeme, že pokud jmenujete lokálního administrátora formulářem do datové schránky, nemusíte se do aplikace CAAIS vůbec přihlašovat.**
 
 .. _sz_prirucka_zalozeni_la:
 
