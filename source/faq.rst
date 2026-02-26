@@ -32,43 +32,54 @@ Pokud se vám nepodaří lokálního administrátora tímto způsobem dohledat, 
 JIP / KAAS a CAAIS
 ------------------
 
-Mohou být vedle sebe oba systémy?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mohou oba systémy fungovat souběžně?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ANO, to už nyní je realita, do některých systémů je vyžadován CAAIS, jinak JIP / KAAS.
+Ano. V praxi již nyní fungují vedle sebe – některé informační systémy vyžadují přihlášení prostřednictvím CAAIS, jiné prostřednictvím JIP / KAAS. V budoucnu bude CAAIS jediným systémem pro přihlašování do agendových informační systémů, ale přechod bude probíhat postupně.
 
-Jak je zajištěna migrace dat z JIPKasu do CAAISU? Je to možné?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Je možné migrovat data z JIP / KAAS do CAAIS? Jak je migrace zajištěna?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ANO, migraci je možné provést v rámci CAAIS, viz `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_
+Ano, migraci dat lze provést přímo v prostředí CAAIS. Podrobný postup je popsán zde: `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_
 
-Co s údaji v JIPKasu, když teď zapisujeme do CAAIS?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Co se stane s údaji v JIP / KAAS, pokud nyní pracujeme v CAAIS?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Údaje lze převést z JIP / KAAS do CAAIS viz `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_ a CAAIS umí i zapsat zpět do JIP / KAAS.
+Údaje je možné převést z JIP / KAAS do CAAIS viz `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_. CAAIS zároveň umožňuje i zpětný zápis dat do JIP / KAAS.
 
-Je systém CAAIS již finálně hotový?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Je systém CAAIS již finálně dokončen?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-CAAIS je v produkčním provozu, ale jelikož se jedná o software, tak jej lze postupně vylepšovat.
+CAAIS je v produkčním provozu. Stejně jako u jiných softwarových řešení probíhá jeho průběžný rozvoj a vylepšování.
 
-Na koho se můžu obrátit s dotazem ohledně CAAIS
+Na koho se mohu obrátit s dotazem ohledně CAAIS
 -----------------------------------------------
 
-Jsme obec, která nemá ani ajťáka, ani tajemníka, jen neuvolněného starostu a 3 úředníky, kdo nám pomůže a jak bude zajištěn např. Helpdesk nebo nás budete objíždět?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Jsme malá obec bez IT pracovníka. Kdo nám pomůže? Bude k dispozici helpdesk?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Obcím přijde dopis s instrukcemi, bude zřízena telefonická podpora na tel. čísle 246 091 450 (číslo bude aktivováno v průběhu března 2026), dotazy bude možné zasílat také na e-mailovou adresu caais@dia.gov.cz. Dále, pro technické problémy máme dostupnou aplikaci `Service Desk <https://portal.szrcr.cz/login-page>`_, kam se dá přihlásit jak pomocí JIP / KAAS, tak i CAAIS.
+Obce obdrží informační dopis s dalšími instrukcemi.
 
-Od kdy bude Helpdesk spuštěn?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+K dispozici je:
 
-Telefonická podpora bude aktivována v průběhu března 2026, e-mailová adresa caais@dia.gov.cz a `Service Desk <https://portal.szrcr.cz/login-page>`_ pro technické dotazy je již v provozu.
+- telefonická podpora na čísle 246 091 450 (aktivace v průběhu března 2026),
+- e-mailová adresa caais@dia.gov.cz,
+- aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_, pro řešení technických problémů.
+
+Do aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_ je možné se přihlásit prostřednictvím JIP / KAAS i CAAIS.
+
+Od kdy bude helpdesk v provozu?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Telefonická podpora bude spuštěna v průběhu března 2026.
+E-mailová adresa caais@dia.gov.cz a aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_ jsou již v provozu.
 
 CAAIS a ISSV
 ------------
 
-Kdo je odpovědný za komplexní spuštění a aplikaci CAAISU do ISSV?
+Kdo odpovídá za komplexní spuštění a zavedení CAAIS v rámci ISSV?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Primární odpovědnost za spuštění ISSV včetně integrace služeb CAAIS má Ministerstvo vnitra. CAAIS samotný je pod správou DIA, ale ten již v produkčním provozu je dlouho. DIA se dále dohodla s MV, že v souvislosti se spuštěním ISSV hromadně oslovíme samosprávu a pomůžeme všem, aby CAAIS začali používat.
+Primární odpovědnost za spuštění ISSV, včetně integrace služeb CAAIS, nese Ministerstvo vnitra.
+
+Samotný systém CAAIS je ve správě DIA a je již delší dobu v produkčním provozu. DIA se zároveň s Ministerstvem vnitra dohodla, že v souvislosti se spuštěním ISSV bude samosprávy hromadně informovat a poskytne jim metodickou podporu při zavádění CAAIS do praxe.
