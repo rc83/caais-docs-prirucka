@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská
+# příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../statutarni-zastupce/prihlaseni_AIS_NIA.rst:4
+#: ../../statutarni-zastupce/prihlaseni_AIS_NIA.rst:8
+msgid "Přihlášení k AIS Identitou občana (NIA)"
+msgstr ""
+
+#: ../../statutarni-zastupce/prihlaseni_AIS_NIA.rst:6
+msgid ""
+"Jestliže si vyberete ověření totožnosti prostřednictvím **Identity občana"
+" (NIA)**, CAAIS vás rozpozná na základě informací poskytnutých NIA a "
+"předá agendovému informačnímu systému informaci o vaší úspěšné "
+"autentizaci včetně sady vašich oprávnění (přístupových a činnostních "
+"rolí)."
+msgstr ""
+

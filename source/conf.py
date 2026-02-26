@@ -23,6 +23,9 @@ exclude_patterns = []
 
 language = 'cs'
 
+locale_dirs = ['locale/']
+gettext_compact = False
+
 autosectionlabel_prefix_document = True
 smartquotes = False
 numfig = True

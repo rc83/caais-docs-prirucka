@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../prihlaseni/prihlaseni_NIA.rst:4
+msgid "Přihlášení Identitou občana / NIA"
+msgstr ""
+
+#: ../../prihlaseni/prihlaseni_NIA.rst:6
+msgid "Na přihlašovací stránce vyberte možnost **NIA – Přihlášení pomocí identity občana**."
+msgstr ""
+
+#: ../../prihlaseni/prihlaseni_NIA.rst:8
+#: ../../prihlaseni/prihlaseni_NIA.rst:14
+msgid "Přihlášení NIA"
+msgstr ""
+
+#: ../../prihlaseni/prihlaseni_NIA.rst:12
+msgid "Zvolte způsob autentizace."
+msgstr ""
+
+#: ../../prihlaseni/prihlaseni_NIA.rst:18
+msgid "CAAIS vás rozpozná na základě informací poskytnutých NIA a vpustí do systému s právy odpovídajícími vaší přístupové roli."
+msgstr ""

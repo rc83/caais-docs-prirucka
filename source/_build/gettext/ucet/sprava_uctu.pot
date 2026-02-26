@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../ucet/sprava_uctu.rst:4
+#: ../../ucet/sprava_uctu.rst:10
+msgid "Správa vlastního účtu"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:6
+msgid "Správa vlastního účtu je stejná pro :ref:`statutární zástupce <sz_prirucka>`, :ref:`lokálního administrátora <la_prirucka>` i :ref:`běžného uživatele <bu_prirucka>`."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:8
+msgid "Pro zobrazení detailu vašeho uživatelského účtu klikněte na své jméno v pravém horním rohu obrazovky."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:14
+msgid "V detailu můžete přepínat mezi záložkami :ref:`základní údaje <sprava_uctu_zakladni-udaje>`, :ref:`kontakty <sprava_uctu_kontakty>`, :ref:`certifikáty <sprava_uctu_certifikaty>`, :ref:`správa rolí <sprava_uctu_sprava-roli>` a :ref:`delegace oprávnění <sprava_uctu_delegace-opravneni>`."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:16
+msgid "Správa vlastního účtu – detail"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:23
+msgid "Základní údaje"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:25
+msgid "Na záložce Základní údaje je uvedeno, jakým způsobem došlo k vašemu ztotožnění (nejčastěji „Uživatele jsme ztotožnili v ROB“) a nacházejí se zde vaše osobní údaje. Uvidíte zde i svou fotografii, pokud vám ji ovšem lokální administrátor nahrál. Chcete-li ji odstranit, změnit, nebo naopak přidat, požádejte lokálního administrátora. Sami tuto akci provést nemůžete."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:27
+#: ../../ucet/sprava_uctu.rst:46
+msgid "Poznámka"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:30
+msgid "Upozorňujeme, že některé z osobních údajů jsou porovnávány s registrem obyvatel, nemůžete je tudíž editovat. Upravovat lze pouze údaje v záložce Kontakty."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:35
+msgid "Kontakty"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:37
+msgid "V záložce lze v případě potřeby aktualizovat vaši e-mailovou adresu a telefonní číslo. E-mailová adresa a mobilní telefonní číslo se přenáší do CAAIS IdP, kde slouží k zaslání kódu pro přihlášení. Pokud byste chtěli přidat další telefonní číslo, klikněte na ikonku „+“."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:42
+msgid "Certifikáty"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:44
+msgid "Záložka Certifikáty slouží pro kontrolu současných a nahrávání nových osobních komerčních certifikátů. Certifikát, který už z jakéhokoli důvodu nepotřebujete, smažete kliknutím na ikonku koše. Pokud chcete nahrát nový certifikát, zaškrtněte, odkud jej budete nahrávat (zda jej máte uložený ve složce v počítači, nebo v internetovém prohlížeči), a pokračujte kliknutím na tlačítko NAHRÁT CERTIFIKÁT."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:49
+msgid "Jestliže v počítači ani v prohlížeči certifikát nemáte nebo se vám nahrávání nepodaří provést, obraťte se na svého lokálního administrátora."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:54
+msgid "Správa rolí"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:56
+msgid "Na záložce Správa rolí si lze zkontrolovat, jestli máte přidělené všechny přístupové a činností role, které potřebujete. V případě nejasností se obraťte na svého lokálního administrátora. Sami si role nemůžete ani přidávat, ani odebírat."
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:61
+msgid "Delegace oprávnění"
+msgstr ""
+
+#: ../../ucet/sprava_uctu.rst:63
+msgid "Poslední záložka bude obsahovat záznam pouze pokud vám lokální administrátor dočasně přiřadil role některého jiného uživatele, například z důvodu zástupu během dovolené. Delegace je časově omezená a po jejím vypršení je záznam automaticky odstraněn."
+msgstr ""

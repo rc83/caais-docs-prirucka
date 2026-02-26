@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská
+# příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../ucet/email_CAAIS.rst:4
+msgid "Byl vám založen profil v CAAIS"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:6
+msgid ""
+"Pokud :ref:`lokální administrátor <la_prirucka>` (nebo :ref:`statutární "
+"zástupce <sz_prirucka>` v případě LA) při zakládání vašeho účtu neměl k "
+"dispozici údaje nutné pro ověření vaší totožnosti, naleznete ve své "
+"e-mailové schránce zprávu s předmětem **„Byl vám založen profil v "
+"CAAIS“** s odkazem pro ztotožnění svého profilu v CAAIS."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:8
+msgid "Poznámka"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:11
+msgid ""
+"Pokud jste připojeni v uzavřené síti CMS, můžete místo toho alternativně "
+"ztotožnit svůj profil v CAAIS v síti CMS."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:14
+msgid "Aktivace účtu s nutností ověření totožnosti uživatelem"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst
+msgid "Postup pro ztotožnění profilu v CAAIS"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:19
+msgid ""
+"Po kliknutí na odkaz v e-mailu vás systém přesměruje na stránku **„Jak se"
+" chcete ztotožnit“**, kde si zvolíte způsob, kterým chcete svou totožnost"
+" ověřit. Máte na výběr z několika možností:"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:21
+msgid ""
+"**Identita občana / NIA** - Totožnost ověříte prostřednictvím přihlášení "
+"se k Identitě občana. Systém CAAIS vás ověří na základě informací "
+"poskytnutých NIA."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:23
+msgid ""
+"**Doklad totožnosti** - Po zvolení této možnosti vás systém vyzve, abyste"
+" vybrali druh dokladu, který chcete pro ověření totožnosti použít a "
+"uvedli jeho číslo. Pokračujte kliknutím na tlačítko ZTOTOŽNIT."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:25
+msgid ""
+"**Přihlášení prostřednictvím CAAIS** - Lze využít v případě, kdy už jeden"
+" aktivní (tzv. přihlašovací) účet v CAAIS máte a disponujete i tzv. CAAIS"
+" IdP."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:27
+msgid "Možnosti ztotožnění uživatelského proflilu v CAAIS"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:31
+msgid ""
+"Po úspěšném ověření totožnosti pokračujte na stránku **„První "
+"přihlášení”**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:33
+msgid "Upozornění"
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:36
+msgid ""
+"**Jestliže se vám nedaří ověřit svou totožnost ani například "
+"prostřednictvím jiného dokladu, kontaktujte svého** :ref:`lokálního "
+"administrátora <bu_prirucka_LA>`."
+msgstr ""
+
+#: ../../ucet/email_CAAIS.rst:38
+msgid ""
+"Po ztotožnění profilu se budete moci v CAAIS :ref:`autentizovat "
+"prostřednictvím Identity občana (NIA) <prihlaseni_NIA>` nebo si budete "
+"moci :ref:`(1) nastavit heslo <email_CAAIS_IdP_aktivace>` a následně "
+":ref:`(2) registrovat autentizační certifikát "
+"<email_CAAIS_IdP_certifikat>`."
+msgstr ""
+

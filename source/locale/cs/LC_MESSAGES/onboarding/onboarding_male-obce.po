@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská
+# příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../onboarding/onboarding_male-obce.rst:4
+msgid "Rychlý start pro malé obce"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:7
+msgid "1. Statutární zástupce založí lokálního administrátora v systému CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "Založení lokálního administrátora datovou zprávou"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:12
+msgid ""
+"O vytvoření profilu a přidělení role :ref:`lokálního administrátora "
+"<la_prirucka>` můžete požádat prostřednictvím `formuláře „Založení "
+"lokálního administrátora datovou schránkou“ <https://caais.gov.cz/la-"
+"create>`_ a odesláním jeho výstupu datovou schránkou."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:14
+msgid "Založení lokálního administrátora datovou schránkou 1"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:18
+msgid "Do formuláře vyplňte všechna pole označená hvězdičkou."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:20
+msgid "Založení lokálního administrátora datovou schránkou 2"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:24
+msgid ""
+"V případě potřeby lze založit i několik lokálních administrátorů "
+"najednou. Stačí kliknout na **„+ Lokální administrátor“** a ve formuláři "
+"se zobrazí další pole. Pokud si založení dalšího administrátora "
+"rozmyslíte, stačí kliknout na ikonu popelnice."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:26
+msgid "Upozornění"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:29
+msgid ""
+"**Nezapomeňte, že všichni takto založení uživatelé budou mít v systému "
+"CAAIS roli lokálního administrátora a budou moci spravovat váš subjekt i "
+"jeho uživatele.**"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:31
+msgid "Založení lokálního administrátora datovou schránkou 3"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:35
+msgid ""
+"Po vyplnění všech údajů klikněte na **„Generovat XML“**. Do počítače se "
+"vám stáhne XML soubor, který odešlete z datové schránky vašeho subjektu "
+"(organizace) do datové schránky systému CAAIS **ejmm527** (touto datovou "
+"zprávou zasíláte pouze XML soubor, žádný další text popř. průvodní dopis "
+"není potřeba)."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:37
+msgid "Založení lokálního administrátora datovou schránkou 4"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:41
+msgid ""
+"Úřad obdrží vyrozumění o zpracování žádosti do datové schránky během "
+"několika minut."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:44
+msgid "2. Lokální administrátor se přihlásí v systému CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:47
+msgid "A. Akcivace účtu Identitou občana / NIA"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "První přihlášení Identitou občana / NIA"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:52
+msgid ""
+"Pokud se budete přihlašovat výhradně prostřednictvím NIA, nahrání "
+"certifikátu není nutné. V takovém případě ale přijdete o možnost používat"
+" CAAIS IdP, tedy přihlášení prostřednictvím jména, hesla a certifikátu."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:55
+msgid "B. Akcivace účtu v CAAIS IdP (jméno, heslo, certifikát)"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "Postup aktivace účtu v CAAIS IdP"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:59
+msgid ""
+"Odkaz z e-mailu vás přesměruje na stránku **„První přihlášení do CAAIS "
+"IdP“** a vyzve k vyplnění uživatelského jména. Jakmile jej vyplníte, "
+"klikněte na tlačítko **POKRAČOVAT**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:61
+#: ../../onboarding/onboarding_male-obce.rst:67
+#: ../../onboarding/onboarding_male-obce.rst:73
+#: ../../onboarding/onboarding_male-obce.rst:79
+#: ../../onboarding/onboarding_male-obce.rst:85
+#: ../../onboarding/onboarding_male-obce.rst:91
+#: ../../onboarding/onboarding_male-obce.rst:99
+msgid "První přihlášení do CAAIS IdP"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:65
+msgid ""
+"Pro ověření shody potvrďte volbu zaslání na e-mail, případně SMS (v "
+"případě, že systém zná vaše mobilní telefonní číslo) a na další stránce "
+"jednorázový kód přepište do příslušného pole."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:71
+msgid ""
+"Dalším krokem je vytvoření hesla. Systém vyžaduje heslo o minimálně 10 "
+"znacích a obsahující alespoň jedno velké písmeno. Pro kontrolu heslo "
+"zopakujte a klikněte na **POKRAČOVAT**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:77
+msgid ""
+"Jestliže všechny kroky proběhly správně, pokračujte volbou **K "
+"PŘIHLÁŠENÍ**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:83
+msgid "Pod přihlašovacím formulářem najděte text **+ CERTIFIKÁT**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:89
+msgid ""
+"V dalším kroku vyplntě své uživatelské jméno a heslo a následně klikněte "
+"na **NASTAVIT CERTIFIKÁT**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:95
+msgid "Systém vám pošle e-mail nebo SMS s ověřovacím kódem."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:97
+msgid ""
+"Na následující stránce zadejte obdržený kód do příslušného pole a "
+"klikněte na tlačítko **NAHRÁT**. V počítači vyskočí okno s nabídkou "
+"certifikátů, které v něm máte nainstalované. Vyberte správný certifikát a"
+" potvrďte."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:103
+msgid ""
+"Nyní se můžete do svého účtu v systému CAAIS přihlašovat prostřednictvím "
+"jména, hesla a certifikátu a zároveň používat účet CAAIS pro přihlašování"
+" do agendových informačních systémů vyžadující značnou mírou zabezpečení."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:106
+msgid "3. Lokální administrátor založí uživatele v CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "Založení uživatele v CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:111
+msgid ""
+"Pro založení nového uživatele klikněte na položku **Uživatelé**. Zobrazí "
+"se seznam všech již existujících uživatelů. Pokračujte kliknutím na "
+"**+UŽIVATEL**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:113
+#: ../../onboarding/onboarding_male-obce.rst:119
+#: ../../onboarding/onboarding_male-obce.rst:125
+#: ../../onboarding/onboarding_male-obce.rst:131
+msgid "Postup pro založení nového uživatele v CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:117
+msgid "Budete přesměrováni na formulář, kde vyplníte základní údaje o uživateli."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:123
+msgid ""
+"Dalším krokem je kontrola ztotožnění uživatele. Ztotožnění je možné "
+"provést několika způsoby Preferovaná varianta je že se **Uživatel se "
+"ztotožní sám**. Uživateli přijde e-mail s předmnětem :ref:`„Byl vám "
+"založen profil v CAAIS“ <email_CAAIS>` (a je potřeba se doztotožnit)."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:129
+msgid ""
+"Objeví se hláška o úspěšném založení profilu a uživateli je zároveň "
+"poslán e-mail s odkazem na stránku, na níž ztotožnění dokončí. Pozor, "
+"odkaz má omezenou platnost. (platnost je 30 dní!)"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "Přiřazení rolí"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:138
+msgid ""
+"Úkolem lokálního administrátora je také přiřazení rolí uživatelům, aby se"
+" mohli přihlásit do konkrétních informačních systémů. V záložce **Správa "
+"rolí** v detailu uživatele kontrolujete, případně přidáváte a odebíráte "
+"konkrétnímu uživateli příslušné role."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:140
+msgid "Přiřazení role v detailu uživatele"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:173
+msgid "4. Běžný uživatel ztotožní svuj účet v systému CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst
+msgid "Aktivace účtu běžného uživatele"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:178
+msgid ""
+"Běžný uživatel nalezne ve své e-mailové schránce zprávu s předmětem "
+"**„Byl vám založen profil v CAAIS“** s odkazem pro ztotožnění svého "
+"profilu v CAAIS."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:180
+msgid ""
+"Po kliknutí na odkaz v e-mailu vás systém přesměruje na stránku **„Jak se"
+" chcete ztotožnit“**, kde si zvolíte způsob, kterým chcete svou totožnost"
+" ověřit. Máte na výběr z několika možností z nichž nejjednodušší je "
+"vybrat jednu z následujících možností:"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:182
+msgid ""
+"**Identita občana / NIA** - Totožnost ověříte prostřednictvím přihlášení "
+"se k Identitě občana. Systém CAAIS vás ověří na základě informací "
+"poskytnutých NIA."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:184
+msgid ""
+"**Doklad totožnosti** - Po zvolení této možnosti vás systém vyzve, abyste"
+" vybrali druh dokladu, který chcete pro ověření totožnosti použít a "
+"uvedli jeho číslo. Pokračujte kliknutím na tlačítko ZTOTOŽNIT."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:186
+msgid "Možnosti ztotožnění uživatelského proflilu v CAAIS"
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:190
+msgid ""
+"Po úspěšném ověření totožnosti pokračujte na stránku **„První "
+"přihlášení”**."
+msgstr ""
+
+#: ../../onboarding/onboarding_male-obce.rst:192
+msgid ""
+"**Uživatel je tímto krokem ztotožněn a může se přihlašovat k agendovým "
+"informačním systémům pomocí CAAIS.**"
+msgstr ""
+

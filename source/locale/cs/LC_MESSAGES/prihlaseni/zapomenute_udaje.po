@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská
+# příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../prihlaseni/zapomenute_udaje.rst:4
+#: ../../prihlaseni/zapomenute_udaje.rst:6
+msgid "Zapomenuté údaje"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:11
+msgid "Zapomenuté uživatelské jméno"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:13
+msgid "Pokud jste zapomněli své uživatelské jméno:"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:15
+msgid "Klikněte na text **ZAPOMNĚL JSEM JMÉNO**."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:17
+msgid ""
+"Vyplňte e-mailovou adresu, kterou máte spárovanou s vaším účtem a "
+"klikněte na VYHLEDAT."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:19
+msgid ""
+"Na obrazovce se zobrazí hláška „Vaše uživatelské jméno jsme vám odeslali "
+"na zadaný e-mail“."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:21
+msgid ""
+"Jestliže jste ve schránce zprávu s uživatelským jménem nenalezli, je "
+"možné, že jste zadali chybnou adresu. Se zjištěním té správné vám pomůže "
+":ref:`lokální administrátor <bu_prirucka_LA>`."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:24
+msgid "Zapomenuté heslo"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:26
+msgid "Při zapomenutí hesla postupujte následovně:"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:28
+msgid "Klikněte na text **ZAPOMNĚL JSEM HESLO**."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:30
+msgid "Vyplňte své uživatelské jméno a klikněte na tlačítko POKRAČOVAT."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:32
+msgid ""
+"Pokud bylo vaše jméno v databázi nalezeno, systém vám odešle e-mail nebo "
+"SMS s jednorázovým kódem."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:34
+msgid "Na další stránce vyplňte obdržený kód a zvolte si nové heslo."
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:36
+msgid ""
+"O změně hesla informuje zelený proužek „Nastavili jsme vám nové heslo. "
+"Teď se můžete přihlásit.“"
+msgstr ""
+
+#: ../../prihlaseni/zapomenute_udaje.rst:38
+msgid ""
+"Pokud vaše uživatelské jméno nebylo nalezeno, to znamená, že jste "
+"neobdrželi e-mail, zkontrolujte, zda jste jej zadali správně, případně se"
+" obraťte na :ref:`lokálního administrátora <bu_prirucka_LA>`."
+msgstr ""
+

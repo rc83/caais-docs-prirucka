@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../ucet/nemam_ucet.rst:4
+msgid "Nemám profil v CAAIS, ani účet v CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:6
+msgid "Nejste si jistí, zda máte v CAAIS účet? Zkuste využít možnost **ZAPOMENUTÉ UŽIVATELSKÉ JMÉNO**. Do políčka vyplňte svůj pracovní e-mail. Pokud účet v CAAIS máte, přijde vám v odpovědi vaše uživatelské jméno. Na jeho základě si můžete požádat i o nové heslo."
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:8
+msgid "Zapomenuté uživatelské jméno CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:12
+msgid "Upozornění"
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:15
+msgid "**Tento postup platí pouze pro běžného uživatele. Pokud máte být lokálním administrátorem a účet v CAAIS dosud nemáte, obraťte se na svého statutárního zástupce, který je povinen vám účet lokálního administrátora zřídit.**"
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:17
+msgid "Poznámka"
+msgstr ""
+
+#: ../../ucet/nemam_ucet.rst:20
+msgid "Jestliže se vám nepodařilo přihlásit a domníváte se, že účet v CAAIS nemáte, doporučujeme kontaktovat pracovníka, který vám nastavuje přístupy v JIP/KAAS, případně vydává komerční a kvalifikované certifikáty. Pokud se vám lokálního administrátora žádným uvedeným způsobem nepovede najít, kontaktujte technickou podporu: **portal.szrcr.cz**"
+msgstr ""

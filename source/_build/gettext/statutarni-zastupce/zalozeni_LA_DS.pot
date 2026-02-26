@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:5
+msgid "Založení lokálního administrátora datovou zprávou"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:7
+msgid "O vytvoření profilu a přidělení role :ref:`lokálního administrátora <la_prirucka>` můžete požádat prostřednictvím `formuláře „Založení lokálního administrátora datovou schránkou“ <https://caais.gov.cz/la-create>`_ a odesláním jeho výstupu datovou schránkou."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:9
+msgid "Založení lokálního administrátora datovou schránkou 1"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:13
+msgid "Do formuláře vyplňte všechna pole označená hvězdičkou. Kromě **jména** a **příjmení** je nutné zvolit i **druh dokladu totožnosti** a uvést jeho **číslo**."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:15
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:33
+msgid "Upozornění"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:18
+msgid "**Jméno a přijmení musí být vyplněno přesně tak jak je uvedeno v základním registru obyvatel (dle osobního dokladu).**"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:20
+msgid "Do kolonky uživatelské jméno lze uvést uživatelské jméno, pokud není vyplněno bude vytvořeno automaticky ve tvaru JMENO_PRIJMENI. Bez úspěšného ztotožnění není založení lokálního administrátora možné. Povinné je i vyplnění **e-mailové adresy**, na kterou uživateli přijde e-mail obsahující jeho uživatelské jméno a odkaz pro první přihlášení. Pokud zadáte i jeho **telefonní číslo**, při pozdější autentifikaci si bude moci vybrat, jestli mu bude poslán jednorázový ověřovací kód e-mailem, nebo prostřednictvím SMS."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:23
+msgid "Založení lokálního administrátora datovou schránkou 2"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:27
+msgid "V případě potřeby lze založit i několik lokálních administrátorů najednou. Stačí kliknout na **„+ Lokální administrátor“** a ve formuláři se zobrazí další pole. Pokud si založení dalšího administrátora rozmyslíte, stačí kliknout na ikonu popelnice."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:29
+msgid "Založení lokálního administrátora datovou schránkou 3"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:36
+msgid "**Nezapomeňte, že všichni takto založení uživatelé budou mít v systému CAAIS roli lokálního administrátora a budou moci spravovat váš subjekt i jeho uživatele.**"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:38
+msgid "Po vyplnění všech údajů klikněte na **„Generovat XML“**. Do počítače se vám stáhne XML soubor, který odešlete z datové schránky vašeho subjektu (organizace) do datové schránky systému CAAIS **ejmm527** (touto datovou zprávou zasíláte pouze XML soubor, žádný další text popř. průvodní dopis není potřeba)."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:40
+msgid "Založení lokálního administrátora datovou schránkou 4"
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:44
+msgid "Úřad obdrží vyrozumění o zpracování žádosti do datové schránky během několika minut."
+msgstr ""
+
+#: ../../statutarni-zastupce/zalozeni_LA_DS.rst:46
+msgid "Jakmile je žádost o založení profilu schválena, uživateli (budoucímu lokálnímu administrátorovi) přijde e-mail obsahující jeho přihlašovací jméno a link na stránku pro první přihlášení, případně pro samoztotožnění (pokud již nějaký profil v CAAIS měl)."
+msgstr ""

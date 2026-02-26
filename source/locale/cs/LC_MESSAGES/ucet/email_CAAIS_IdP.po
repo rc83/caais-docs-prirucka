@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 Digitální a informační agentura
+# This file is distributed under the same license as the Uživatelská
+# příručka CAAIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uživatelská příručka CAAIS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../ucet/email_CAAIS_IdP.rst:4
+msgid "Byl vám založen nový účet v CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:6
+msgid ""
+"Jakmile vám lokální administrátor (nebo statutární zástupce v případě LA)"
+" účet založí, budete o tom informováni prostřednictvím e-mailové zprávy. "
+"V této zprávě s předmětem **„Byl vám založen nový účet v CAAIS IdP“** "
+"naleznete své uživatelské jméno spolu s odkazem na přihlašovací stránky, "
+"kde je nejprve nutné :ref:`(1) nastavit heslo <email_CAAIS_IdP_aktivace>`"
+" a následně :ref:`(2) registrovat autentizační certifikát "
+"<email_CAAIS_IdP_certifikat>`."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:8
+msgid ""
+"**CAAIS lze plnohodnotně využívat, i pokud se budete** :ref:`autentizovat"
+" prostřednictvím Identity občana (NIA) <prihlaseni_NIA>`. **Pak výše "
+"uvedené nastavení hesla a registraci certifikátu nemusíte provádět.** "
+"Interní předpisy vašeho úřadu však přesto mohou vyžadovat, abyste si účet"
+" v CAAIS IdP zřídili."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:10
+msgid "Upozornění"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:13
+msgid ""
+"**Zpráva přijde na adresu, která byla do systému zadána během vaší "
+"registrace. Pokud víte, že vám byl účet zřízen, ale v doručené poště "
+"e-mail nevidíte, zkontrolujte složku „nevyžádaná pošta / spam“, případně "
+"kontaktujte lokálního administrátora.**"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:18
+msgid "Aktivace účtu"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst
+msgid "Postup aktivace účtu v CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:23
+msgid ""
+"Odkaz z e-mailu vás přesměruje na stránku **„První přihlášení do CAAIS "
+"IdP“** a vyzve k vyplnění uživatelského jména. Jakmile jej vyplníte, "
+"klikněte na tlačítko **POKRAČOVAT**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:25 ../../ucet/email_CAAIS_IdP.rst:31
+#: ../../ucet/email_CAAIS_IdP.rst:37 ../../ucet/email_CAAIS_IdP.rst:43
+#: ../../ucet/email_CAAIS_IdP.rst:72 ../../ucet/email_CAAIS_IdP.rst:78
+#: ../../ucet/email_CAAIS_IdP.rst:86 ../../ucet/email_CAAIS_IdP.rst:92
+msgid "První přihlášení do CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:29
+msgid ""
+"Pro ověření shody potvrďte volbu zaslání na e-mail, případně SMS (v "
+"případě, že systém zná vaše mobilní telefonní číslo) a na další stránce "
+"jednorázový kód přepište do příslušného pole."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:35
+msgid ""
+"Dalším krokem je vytvoření hesla. Systém vyžaduje heslo o minimálně 10 "
+"znacích a obsahující alespoň jedno velké písmeno. Pro kontrolu heslo "
+"zopakujte a klikněte na **POKRAČOVAT**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:41
+msgid ""
+"Jestliže všechny kroky proběhly správně, pokračujte volbou **K "
+"PŘIHLÁŠENÍ**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:50
+msgid "První nahrání certifikátu do CAAIS"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:52
+msgid ""
+"Systém CAAIS umožňuje všem uživatelům přístup do administračního "
+"prostředí, kde mohou spravovat své osobní údaje. Pro jejich úpravu je "
+"nutné se do systému přihlásit pod ověřenou identitou. Identita se ověřuje"
+" na základě osobního komerčního certifikátu nebo prostřednictvím "
+"přihlášení přes Identitu občana / Národní identitní autoritu (NIA)."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:56
+msgid ""
+"**Pozor, následující kroky předpokládají, že máte v počítači "
+"nainstalovaný certifikát nebo disponujete účtem NIA ID.**"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:58
+msgid ""
+"Pro nahrání certifikátu je nutné se do systému CAAIS přihlásit pod svým "
+"účtem. Lze zvolit z následujících možností přihlášení:"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:60
+msgid ""
+":ref:`první přihlášení prostřednictvím CAAIS IdP "
+"<email_CAAIS_IdP_pp_CAAIS_IdP>`,"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:61
+msgid ":ref:`první přihlášení Identitou občana / NIA <email_CAAIS_IdP_pp_NIA>`."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:66
+msgid "První přihlášení prostřednictvím CAAIS IdP"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:68
+msgid ""
+"Pokud zvolíte přihlášení prostřednictvím CAAIS IdP, certifikát nahrajete "
+"následujícím způsobem:"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:70
+msgid ""
+"Pod přihlašovacím formulářem najděte text **+ CERTIFIKÁT**. Klikněte na "
+"něj."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:76
+msgid ""
+"V dalším kroku vyplntě své uživatelské jméno a heslo a následně klikněte "
+"na **NASTAVIT CERTIFIKÁT**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:82
+msgid "Systém vám pošle e-mail nebo SMS s ověřovacím kódem."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:84
+msgid ""
+"Na následující stránce zadejte obdržený kód do příslušného pole a "
+"klikněte na tlačítko **NAHRÁT**. V počítači vyskočí okno s nabídkou "
+"certifikátů, které v něm máte nainstalované. Vyberte správný certifikát a"
+" potvrďte."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:90
+msgid ""
+"Objeví se zelený proužek: **„Certifikát jsme úspěšně nahráli do CAAIS. "
+"Teď se můžete přihlásit“**."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:96
+msgid ""
+"Nyní se můžete do svého účtu v systému CAAIS přihlašovat prostřednictvím "
+"jména, hesla a certifikátu a zároveň používat účet CAAIS pro přihlašování"
+" do agendových informačních systémů vyžadující značnou mírou zabezpečení."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:98 ../../ucet/email_CAAIS_IdP.rst:114
+msgid "Poznámka"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:101
+msgid ""
+"Certifikát za vás mohl do CAAIS nahrát i lokální administrátor. V takovém"
+" případě nebudete k nahrávání certifikátu vyzváni a přecházíte rovnou k "
+"přihlášení."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:106
+msgid "První přihlášení Identitou občana / NIA"
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:108
+msgid ""
+"Jestliže se do účtu přihlásíte prostřednictvím Identity občana, CAAIS vás"
+" rozpozná na základě informací poskytnutých NIA. V takovém případě je "
+"možné nahrát certifikát přímo v administračním prostředí CAAIS skrze "
+"volbu „Správa certifikátů“."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:110
+msgid ""
+"Pro detailní návod přejděte prosím do článku „Správa vlastního účtu - "
+"Certifikáty“."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:112
+msgid "Nápovědu k NIA ID naleznete na stránce https://info.identita.gov.cz/."
+msgstr ""
+
+#: ../../ucet/email_CAAIS_IdP.rst:117
+msgid ""
+"Pokud se budete přihlašovat výhradně prostřednictvím NIA, nahrání "
+"certifikátu není nutné. V takovém případě ale přijdete o možnost používat"
+" CAAIS IdP, tedy přihlášení prostřednictvím jména, hesla a certifikátu."
+msgstr ""
+
