@@ -29,6 +29,42 @@ Pokud se vám nepodařilo přihlásit a domníváte se, že máte mít účet v 
 
 Pokud se vám nepodaří lokálního administrátora tímto způsobem dohledat, kontaktujte technickou podporu CAAIS prostřednictvím e-mailové adresy **portal.szrcr.cz**.
 
+Mohu být lokálním administrátorem u více subjektů?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ano, je možné být lokálním administrátorem pro více subjektů. V takovém případě budete mít přístup k administraci všech těchto subjektů v rámci CAAIS.
+
+Byl/a jsem jmenován/a lokálním administrátorem (LA) u dalšího subjektu. Proč mi nepřišel e-mail k vytvoření nového hesla?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+CAAIS umožňuje pouze jeden přihlašovací účet na jednu fyzickou osobu. Pokud již máte účet v CAAIS IdP zřízený u jiného subjektu, při jmenování do role u dalšího subjektu se nevytváří nový účet, ale pouze se k vašemu stávajícímu účtu přidá další profil. Z tohoto důvodu vám nepřijde nový e-mail k nastavení hesla. Po přihlášení si následně můžete vybrat subjekt, za který chcete pracovat.
+
+Jsem LA u více subjektů. Jak se mám přihlašovat?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Vždy používáte stejné přihlašovací údaje (stejný účet v CAAIS IdP). Po úspěšném přihlášení si zvolíte subjekt, za který se chcete autorizovat. CAAIS neumožňuje mít více samostatných účtů pro jednu fyzickou osobu, ale umožňuje mít více profilů u různých subjektů.
+
+Při použití „Zapomněl jsem heslo“ mi systém hlásí chybu nebo zobrazuje jinou e-mailovou adresu. Proč?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Nejčastějším důvodem je, že:
+
+- účet, který zadáváte, v CAAIS IdP neexistuje (protože už máte jiný účet),
+- nebo používáte jiné uživatelské jméno, než které je vedeno u vašeho existujícího účtu.
+
+Pokud jste byli nově jmenováni u dalšího subjektu, pravděpodobně již účet máte a nový se nevytvářel.
+
+Nepamatuji si své uživatelské jméno. Jak ho zjistím?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+V CAAIS IdP použijte funkci „Zapomněl jsem uživatelské jméno“ a zadejte e-mailovou adresu, kterou jste uvedl/a při založení nového profilu. V CAAIS IdP se u jedné fyzické osoby sdružují e-mailové adresy ze všech jejích profilů. Pokud je na základě zadaného e-mailu možné jednoznačně určit účet, systém vám zašle odpovídající uživatelské jméno.
+
+Funkce „Zapomněl jsem uživatelské jméno“ mi nepomohla. Co může být důvod?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Funkce funguje pouze tehdy, pokud je možné podle zadané e-mailové adresy jednoznačně určit konkrétní účet. Pokud je stejná e-mailová adresa použita u více fyzických osob, systém z bezpečnostních důvodů uživatelské jméno nezašle. V takovém případě se obraťte na Service Desk.
+
+
 JIP / KAAS a CAAIS
 ------------------
 
