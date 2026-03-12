@@ -9,7 +9,7 @@
 project = 'Uživatelská příručka CAAIS'
 copyright = '2026 Digitální a informační agentura'
 author = 'Richard Chudoba, Vojtěch Art, Vojtěch Duraj'
-release = '0.1'
+release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
