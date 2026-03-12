@@ -56,7 +56,7 @@ První přihlášení do CAAIS
 Chcete se rychle zorientovat v systému?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Vyzkoušejte Interaktivního průvodce systémem CAAIS. Průvodce vás krok za krokem provede prostředím systému a ukáže vám jeho hlavní funkce podle role, kterou si sami zvolíte. Vyzkoušet si můžete i interaktivní obrazovky.
+Vyzkoušejte Interaktivního průvodce systémem CAAIS v eAkademii Digitální a informační agentury. Průvodce vás krok za krokem provede prostředím systému a ukáže vám jeho hlavní funkce podle role, kterou si sami zvolíte. Vyzkoušet si můžete i interaktivní obrazovky.
 
 .. grid:: 1
 
@@ -66,7 +66,7 @@ Vyzkoušejte Interaktivního průvodce systémem CAAIS. Průvodce vás krok za k
 Potřebujete nejprve základní přehled?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Seznamte se s Úvodem do systému CAAIS. Získáte základní informace o tom, k čemu systém slouží a jak je strukturován.
+Seznamte se s Úvodem do systému CAAIS v eAkademii Digitální a informační agentury. Získáte základní informace o tom, k čemu systém slouží a jak je strukturován.
 
 .. grid:: 1
 
