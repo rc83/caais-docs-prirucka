@@ -1,4 +1,4 @@
-.. _onboarding:
+.. _onboarding_male-obce:
 
 Rychlý start pro malé obce
 ==========================

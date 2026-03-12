@@ -1,4 +1,4 @@
-.. _onboarding:
+.. _onboarding_velke-obce:
 
 Rychlý start pro velké obce
 ===========================
