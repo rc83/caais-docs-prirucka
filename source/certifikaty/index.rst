@@ -110,3 +110,39 @@ Aby mohl být certifikát použit pro přihlášení do CAAIS, musí být nejprv
 .. dropdown:: macOS
 
   V systému macOS se certifikáty spravují prostřednictvím systémové aplikace Klíčenka. Certifikát musí být uložen v příslušném úložišti, aby jej mohl prohlížeč použít.
+
+Často řešené potíže
+-------------------
+
+1. Chyba nezabezpečeného spojení v CMS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Při přístupu k CAAIS v síti CMS (https://caais.cms2.cz či https://caais-edu.cms2.cz) dostávám chybu nezabezpečeného spojení – neznámé certifikační autority.
+
+Na rozhraní do sítě CMS využívá CAAIS TLS certifikáty od I.CA, která bohužel není obsažena ve výchozím trust store webových prohlížečů. Výjimkou je prohlížeč Microsoft Edge, který využívá certifikáty Microsoft Trusted Root Certificate Program, kde I.CA zařazena je. Je tedy nutné použít webový prohlížeč Microsoft Edge, anebo do trust store prohlížeče přidat příslušný kořenový certifikát I.CA (údaje platné k 2026/02).
+
+*Jak přidám certifikát I.CA do prohlížeče?*
+
+Na stránce `I.CA <https://www.ica.cz/en/root-certificates>`_ stáhněte kořenový certifikát I.CA (Certificate of the sca22_rsa subordinate CA for issuing SSL certificates), kde stáhnete PEM format a importujte jej do trust store vašeho webového prohlížeče.
+
+.. figure:: ../images/Certificate_I.CA.png
+    :alt: Přiřazení certifikátu I.CA do prohlížeče
+    :width: 1000px
+
+**Import PEM v Google Chrome**
+
+1. V Google Chrome přejděte do nastavení a vyberte "Ochrana soukromí a zabezpečení" > "Zabezpečení" > "Správa certifikátů".
+2. Do záložky "Vlastní" > "Důvěryhodné certifikáty" přidejte stažený PEM certifikát I.CA a potvrďte import.
+
+**Import PEM v Mozilla Firefox**
+
+1. V Mozzila Firefox otevřete "Nastavení" > "Soukromí a zabezpečení" > "Certifikáty".
+2. V záložce "Zobrazit certifikáty", sloupci "Autority" lze importovat stažený PEM certifikát I.CA a potvrďte import.
+
+
+2. Autentizace kvalifikovaným certifikátem
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Zkoušel jsem přidat certifikát QCA k uživateli a při tom jsem zjistil, že seznam certifikačních autorit v CAAIS je neúplný. Chybí v něm certifikační autorita pro QCA certifikáty PostSignum – CN=PostSignum QCA 4. Proč tato certifikační autorita v CAAIS chybí?
+
+Kvalifikované certifikáty nelze pro autentizaci uživatelů použít, jsou určeny výhradně pro kvalifikovaný podpis dle eIDAS. Kvalifikované certifikáty neobsahují hodnotu Client Authentication (OID 1.3.6.1.5.5.7.3.2) v atributu Extended Key Usage (EKU). Toto omezení dané certifikační politikou brání zneužití kvalifikovaného podpisu. Je nutné použít certifikáty vydané jako komerční; v případě Postsignum se jedná o certifikáty podepsané mezilehlým certifikátem CN=PostSignum Public CA 4 či CN=PostSignum Public CA 5 (údaj platný k 2025/12). Tyto mezilehlé certifikáty CAAIS rozpoznává.
