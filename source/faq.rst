@@ -120,11 +120,11 @@ Primární odpovědnost za spuštění ISSV, včetně integrace služeb CAAIS, n
 
 Samotný systém CAAIS je ve správě DIA a je již delší dobu v produkčním provozu. DIA se zároveň s Ministerstvem vnitra dohodla, že v souvislosti se spuštěním ISSV bude samosprávy hromadně informovat a poskytne jim metodickou podporu při zavádění CAAIS do praxe.
 
-Při přidělování rolí do ISSV mi systém vyhazuje hlášku Nemáte dostatečné oprávnění na provedení akce. Co s tím?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Přidělování rolí do ISSV končí neúspěchem „Nemáte dostatečné oprávnění na provedení akce“. Co s tím?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Jedná se o chybu, kterou evidujeme. Pravděpodobně v přiřazovaných rolích vidíte také roli **ISSV Správa petic pro MV**, kterou nelze přidělit. Pokud tuto roli z nabídky odškrtnete, mělo by být možné role přidělit bez problémů. Opravu této chyby plánujeme v nejbližší době.
+Pravděpodobně v přiřazovaných rolích vidíte také roli **ISSV Správa petic pro MV**, kterou nelze přidělit. Pokud tuto roli z nabídky odškrtnete, mělo by být možné role přidělit bez problémů. Jedná se o chybu na straně CAAIS, jejíž oprava bude nasazena v nejbližších dnech. Zatím prosím využijte popsaného náhradního řešení s odškrtnutím problematické role.
 
-.. figure:: ../images/role-issv-aktivni.webp
+.. figure:: images/role-issv-aktivni.webp
     :alt: Přiřazení rolí do ISSV
-    :width: 1000px
+    :width: 460px
