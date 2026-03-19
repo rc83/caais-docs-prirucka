@@ -143,13 +143,13 @@ B. Akcivace účtu v CAAIS IdP (jméno, heslo, certifikát)
 
     Lokální administrátor postupuje podle návodu výše, založí uživatele a přidělí jim role do Informačních systému správy voleb. Na výběr je produkční (ostrá) část systému jménem **ISSV_prod**, stejně jako školicí a trénovací část systému, tzv. pískoviště, jménem **ISSV_edu**. V obou případech je možné nastavit následující role: 
 
-    1.ISSV_JSV_VOLBY – Stažení výpisu ze seznamu voličů pro účely distribuce hlasovacích lístků a pro účely předání okrskovým volebním komisím. Vytvoření pomocného výpisu ze seznamu voličů pro hlasování v zařízení (nemocnice apod.). Zápis o konání místního nebo krajského referenda, aby pro něj mohl být využit seznam voličů.
+    1.ISSV_JSV_VOLBY (Organizace voleb a referenda; statistiky a seznamy voličů) – Stažení výpisu ze seznamu voličů pro účely distribuce hlasovacích lístků a pro účely předání okrskovým volebním komisím. Vytvoření pomocného výpisu ze seznamu voličů pro hlasování v zařízení (nemocnice apod.). Zápis o konání místního nebo krajského referenda, aby pro něj mohl být využit seznam voličů.
     
-    2.ISSV_JSV_VOLIC – Ověření zápisu voliče v seznamu. Výdej voličských průkazů. Zápis do jiného volebního okrsku. Zápis pro hlasování v zahraničí. Zápis voliče z jiného členského státu EU pro volby do Evropského parlamentu. Zápis o korespondenčním hlasování
+    2.ISSV_JSV_VOLIC (Zpracování žádosti/oznámení voličů pro obce a zastupitelské úřady) – Ověření zápisu voliče v seznamu. Výdej voličských průkazů. Zápis do jiného volebního okrsku. Zápis pro hlasování v zahraničí. Zápis voliče z jiného členského státu EU pro volby do Evropského parlamentu. Zápis o korespondenčním hlasování
     
-    3.ISSV_ROVK_ORGANIZACE – Zadání informací o volebních komisích a volebních místnostech (pro které volby je komise ustavena, adresa a telefon do volební místnosti, informace o bezbariérovosti přístupu do volební místnosti, minimální počet členů v komisi, kdy a kde se koná první zasedání a školení členů okrskové volební komise).
+    3.ISSV_ROVK_ORGANIZACE (Organizace okrskových volebních komisí pro obce a MV) – Zadání informací o volebních komisích a volebních místnostech (pro které volby je komise ustavena, adresa a telefon do volební místnosti, informace o bezbariérovosti přístupu do volební místnosti, minimální počet členů v komisi, kdy a kde se koná první zasedání a školení členů okrskové volební komise).
     
-    4.ISSV_ROVK_STAROSTA – Jmenování zapisovatele okrskové volební komise. Sestavení okrskových volebních komisí z delegovaných nebo starostou jmenovaných členů. Zápis zájemce o členství v okrskové volební komisi. Rozesílání pozvánek na první zasedání okrskové volební komise a školení jejích členů. Nastupování náhradníků za členy okrskové volební komise.
+    4.ISSV_ROVK_STAROSTA (Organizace okrskových volebních komisí pro starostu obce) – Jmenování zapisovatele okrskové volební komise. Sestavení okrskových volebních komisí z delegovaných nebo starostou jmenovaných členů. Zápis zájemce o členství v okrskové volební komisi. Rozesílání pozvánek na první zasedání okrskové volební komise a školení jejích členů. Nastupování náhradníků za členy okrskové volební komise.
 
 
 
