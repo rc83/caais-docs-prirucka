@@ -4,137 +4,224 @@
 Často kladené otázky
 ====================
 
-Účet v CAAIS
+Přihlášení, identita a certifikáty 
+----------------------------------
+
+1. Musí mít každý uživatel komerční certifikát? 
+
+Ne. Uživatel se může přihlašovat i jiným podporovaným způsobem, zejména přes Identitu občana. Komerční certifikát tedy není povinný pro každého. 
+
+2. Lze se do CAAIS přihlašovat údaji z JIP/KAAS? 
+
+Ne. Přihlašovací údaje ze stávajícího systému JIP/KAAS v CAAIS nefungují. Je potřeba použít přístupové prostředky podporované v CAAIS. 
+
+3. Jak je to s eDoklady a certifikáty? 
+
+Pro samotné používání eDokladů certifikát potřeba není. Integrace eDokladů s CAAIS se neplánuje a do budoucna se počítá s evropskou digitální peněženkou. 
+
+4. Jak dlouho platí odkaz pro ztotožnění uživatele? 
+
+Odkaz zaslaný e-mailem je platný 30 dnů. 
+
+5. Budou v CAAIS povinná složitější hesla a jejich pravidelná změna jako v JIP/KAAS? 
+
+Zatím ne, CAAIS vychází z toho, že uživatelé budou používat vícefaktorové přihlášení nebo certifikáty. 
+
+6. Jak se přidává nebo mění certifikát? 
+
+Nezadává se jen sériové číslo certifikátu. Nahraje se veřejná část certifikátu, případně se certifikát přidá přímo přes prohlížeč pomocí volby pro přidání certifikátu. Při výměně nebo expiraci je nutné nový certifikát přidat znovu. Technicky jej může přidat i lokální administrátor, pokud má veřejnou část certifikátu, ale bezpečnější je, když si jej přidá sám uživatel. 
+
+7. Co dělat při problémech s přihlášením nebo certifikátem? 
+
+Nejprve doporučujeme vyzkoušet anonymní okno prohlížeče nebo smazání cookies. Jako záložní varianta se doporučuje přihlášení přes Identitu občana. Pokud problém přetrvá, kontaktujte podporu.
+
+Účty, profily a role
+--------------------
+
+8. Může mít jedna osoba v CAAIS více účtů? 
+
+CAAIS je navržen jako jeden účet pro jednu fyzickou osobu. Tento účet ale může obsahovat více profilů pro různé subjekty a role udělené v rámci subjektu. 
+
+9. Může být jedna osoba lokálním administrátorem ve více obcích nebo subjektech? 
+
+Ano. Stačí jeden účet, pod kterým má uživatel více profilů. Po přihlášení si vybere subjekt, za který chce právě pracovat. 
+
+10. Může být jedna osoba současně lokálním administrátorem i běžným uživatelem? 
+
+Ano. V rámci jednoho subjektu jde o jeden profil s více rolemi. Pokud jde o více subjektů, uživatel se po přihlášení přepíná mezi jednotlivými profily. 
+
+11. Co se stane, když subjekt, pod kterým byl účet původně založen, ukončí činnost? 
+
+Účet tím nezaniká. Účet není svázán s prvním subjektem, pod kterým byl uživatel původně zaveden. Uživatel může dál používat své další profily u jiných subjektů. 
+
+12. Lze změnit uživatelské jméno nebo opravit e-mail? 
+
+E-mail lze opravit v detailu účtu na záložce Kontakty. Změna uživatelského jména podle webináře zatím možná není, ale je plánována. 
+
+13. Kde zjistím své role a proč se mi nahoře zobrazuje moje jméno místo názvu role? 
+
+V horní části se standardně zobrazuje jméno uživatele, nikoli název role. Přidělené role je možné zkontrolovat v profilu uživatele v přehledu rolí. 
+
+14. K čemu slouží delegace oprávnění a lze účet deaktivovat a později znovu aktivovat? 
+
+Delegace oprávnění slouží zejména pro dočasné zastupování, například během dovolené. Účet je možné podle potřeby deaktivovat a později znovu aktivovat. 
+
+Lokální administrátor a statutární zástupce
+-------------------------------------------
+
+15. Musí mít každý subjekt alespoň jednoho lokálního administrátora a může jich být více? 
+
+Ano. Každý subjekt musí mít alespoň jednoho lokálního administrátora a současně může mít lokálních administrátorů více. 
+
+16. Může si lokální administrátor přidělit roli lokálního administrátora sobě nebo jinému uživateli? 
+
+Ne. Tuto roli si lokální administrátor nepřidělí ani sobě, ani jinému uživateli. Jmenování lokálního administrátora provádí statutární zástupce, případně se řeší formálním postupem – zasláním formuláře ve formátu XML do datové schránky Automat CAAIS. 
+
+17. Co když si lokální administrátor tuto roli omylem odebere? 
+
+Sám si ji zpět nepřidělí. Obnovu musí provést statutární zástupce nebo je potřeba využít předepsaný postup, například formulář zaslaný datovou schránkou. 
+
+18. Může být statutární zástupce současně lokálním administrátorem a může běžnou administraci dělat pověřený úředník? 
+
+Ano. Statutární zástupce může mít současně i roli lokálního administrátora. Běžnou správu pak může vykonávat i pověřený úředník, pokud jej statutární zástupce jako lokálního administrátora řádně nastaví; samotné jmenování ale zahajuje statutární zástupce. 
+
+19. Lze odebrat roli lokálního administrátora a ponechat uživateli jiné role? 
+
+Ano, ale až poté, co je v subjektu jmenován jiný lokální administrátor. Subjekt nesmí zůstat bez lokálního administrátora. 
+
+20. Jak postupovat u bývalého nebo nového statutárního zástupce? 
+
+Bývalému statutárnímu zástupci se po změně údajů v registrech automaticky odebere role statutárního zástupce, účet ale zůstává aktivní, dokud jej lokální administrátor případně nedeaktivuje. Nový statutární zástupce se má do budoucna přihlašovat standardně jako ostatní uživatelé; pro iniciační kroky zůstává zachována i varianta přes datovou schránku nebo formulář. 
+
+Migrace z JIP/KAAS
+------------------
+
+21. Je migrace z JIP/KAAS povinná? 
+
+Není.  Nástroj pro přenos uživatelů můžete použít, ale nemusíte. U menšího počtu uživatelů může být praktičtější založit je v CAAIS ručně. 
+
+22. Přenesou se při migraci i role? 
+
+Ano. Přenášejí se uživatelé i jejich role, a to včetně rolí k informačním systémům, které CAAIS zatím ještě přímo nepoužívá. V tuto chvíli funguje JIP/KAAS a CAAIS paralelně vedle sebe, možnost přihlášení pouze přes CAAIS se tudíž netýká všech agendových informačních systémů. 
+
+23. Lze přenést jen vybrané uživatele a co když některý nemá e-mail? 
+
+Přenášejí se aktivní uživatelé s vyplněným e-mailem. Pokud chcete okruh uživatelů zúžit, je potřeba nepotřebné uživatele v JIP/KAAS předem deaktivovat. Uživatel bez oficiálního e-mailu se nepřenese, případně migrace nahlásí chybu. 
+
+24. Aktualizuje opakovaná migrace už existující uživatele a lze ji zopakovat? 
+
+Opakovaný přenos už existující uživatele neaktualizuje. Slouží jen k doplnění nových uživatelů. Migraci lze zopakovat, ale je potřeba požádat podporu o opětovné zpřístupnění této funkce. 
+
+25. Co dělat při duplicitách po migraci nebo když jeden z účtů nelze ztotožnit? 
+
+Připravuje se funkce pro mazání neaktivních nebo duplicitních účtů. Pokud vidíte duplicitní účty již ztotožněných uživatelů, nesnažte se je znovu ztotožnit a prozatím tyto účty nijak neupravujte. 
+
+26. Jak postupovat u cizince, kterého nelze ztotožnit? 
+
+Pokud cizinec není veden v registru obyvatel, standardní ztotožnění neproběhne. V takovém případě je potřeba požádat o výjimku ze ztotožnění. 
+
+27. Mohu některé uživatele založit ručně a zbytek přenést později? 
+
+Ano. Je to možné, ale účty se automaticky neslučují. Pokud zachováte stejné uživatelské jméno jako v JIP/KAAS, neměla by vzniknout duplicita, některé role ale může být nutné doplnit ručně. Mezi systémy neprobíhá synchronizace. 
+
+28. Může být při převodu v JIP/KAAS uveden jiný lokální administrátor než ten, kdo je právě přihlášen v CAAIS? 
+
+Ano. 
+
+29. Kde zjistím výsledek migrace a proč jsou v přenosu volby „uživatelé“ a „organizace“? 
+
+Výsledek migrace se zobrazuje přímo na stránce přenosu dat; administrátor o něm nedostává samostatný e-mail. Volba „organizace“ je zachována kvůli kompatibilitě se stávajícím systémem, většina subjektů ale obvykle využije jen přenos uživatelů. 
+
+Volby a ISSV
 ------------
 
-1. Jak zjistím zda mám účet v CAAIS?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+30. Kdy má být nastavena osoba pro správu voleb? 
 
-Na webu `caais.gov.cz <https://caais.gov.cz/login>`_ vyberte možnost přihlášení přes **CAAIS IdP** a klikněte na volbu **Zapomněl jsem jméno**. Zadejte svou e-mailovou adresu. Pokud je k této adrese v CAAIS veden účet, bude Vám zaslán e-mail s dalšími instrukcemi. Pokud e-mail neobdržíte, účet pravděpodobně není založen.
+Doporučujeme neodkládat přípravu, abyste nebyli zbytečně ve stresu. Udělejte to co nejdřív. 
 
-2. Co mám dělat, když si nepamatuji přihlašovací údaje?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+31. Lze migraci odložit až po komunálních volbách a nyní založit jen uživatele pro volby? 
 
-Na hlavní stránce CAAIS zvolte možnost přihlášení přes **CAAIS IdP**.
+Ano. Nyní je možné založit pouze uživatele potřebné pro volby a širší migraci provést později. 
 
-- Pokud si nepamatujete uživatelské jméno, klikněte na **Zapomněl jsem jméno** a zadejte svou e-mailovou adresu.
-- Pokud si nepamatujete heslo, klikněte na **Zapomněl jsem heslo** a zadejte své uživatelské jméno.
+32. Co bude potřeba udělat po volbách při změně starosty? 
 
-Pokud je účet v systému evidován, bude Vám zaslán e-mail s dalšími instrukcemi.
+Pro nejbližší volby platí, že změna statutárního zástupce ještě řeší ve stávajícím systému Správa dat SOVM (součást JIP Czech POINT) mimo CAAIS. Novému starostovi se založí uživatelský účet a přidělí role statutárního zástupce (korunka). 
 
-3. Jak zjistím, kdo je můj lokální administrátor?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+33. Jak ověřit, že je obec správně nastavena pro ISSV, a co se v CAAIS pro volby vlastně řeší? 
 
-Pokud se vám nepodařilo přihlásit a domníváte se, že máte mít účet v CAAIS, obraťte se nejprve na pracovníka, který vám ve vaší organizaci nastavuje přístupy do JIP/KAAS nebo zajišťuje vydání komerčních či kvalifikovaných certifikátů.
+V CAAIS je možné zkontrolovat přidělené role. Definitivní ověření ale nastane až přihlášením do ISSV, jakmile bude příslušné prostředí dostupné. V CAAIS se pro volby řeší především přístupové role; samotná agenda probíhá v ISSV. Volební seznamy se v CAAIS pro aktuální období ještě neřeší. 
 
-Pokud se vám nepodaří lokálního administrátora tímto způsobem dohledat, kontaktujte technickou podporu CAAIS prostřednictvím e-mailové adresy **portal.szrcr.cz**.
+34. Stačí zatím úředníkům pro volby nastavit role v ISSV? 
 
-4. Mohu být lokálním administrátorem u více subjektů?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ano, zatím je podstatné nastavit role potřebné pro ISSV; další role a systémy budou přibývat postupně. 
 
-Ano, je možné být lokálním administrátorem pro více subjektů. V takovém případě budete mít přístup k administraci všech těchto subjektů v rámci CAAIS.
+35. Je už známá adresa nebo školící prostředí ISSV a kde se role pro ISSV nastavují? 
 
-5. Byl/a jsem jmenován/a lokálním administrátorem (LA) u dalšího subjektu. Proč mi nepřišel e-mail k vytvoření nového hesla?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adresa ani školící prostředí ISSV ještě nejsou zveřejněny. Zde vyčkejte na informace z MV. 
 
-CAAIS umožňuje pouze jeden přihlašovací účet na jednu fyzickou osobu. Pokud již máte účet v CAAIS IdP zřízený u jiného subjektu, při jmenování do role u dalšího subjektu se nevytváří nový účet, ale pouze se k vašemu stávajícímu účtu přidá další profil. Z tohoto důvodu vám nepřijde nový e-mail k nastavení hesla. Po přihlášení si následně můžete vybrat subjekt, za který chcete pracovat.
+Organizace a informační systémy
+-------------------------------
 
-6. Jsem LA u více subjektů. Jak se mám přihlašovat?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+36. Musí si přístup do CAAIS zřídit i školy, školky a jiné příspěvkové organizace? 
 
-Vždy používáte stejné přihlašovací údaje (stejný účet v CAAIS IdP). Po úspěšném přihlášení si zvolíte subjekt, za který se chcete autorizovat. CAAIS neumožňuje mít více samostatných účtů pro jednu fyzickou osobu, ale umožňuje mít více profilů u různých subjektů.
+Jen pokud se potřebují do některého systému přihlašovat přes CAAIS. Není to obecná povinnost. Některé organizace jsou v CAAIS vedeny automaticky, jiné lze v případě potřeby přidat na základě žádosti. 
 
-7. Při použití „Zapomněl jsem heslo“ mi systém hlásí chybu nebo zobrazuje jinou e-mailovou adresu. Proč?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+37. Lze se už přes CAAIS přihlašovat do Czech POINTu? 
 
-Nejčastějším důvodem je, že:
+Zatím ne. Přechod se připravuje, nyní se pro Czech POINT používá stále JIP/KAAS. 
 
-- účet, který zadáváte, v CAAIS IdP neexistuje (protože už máte jiný účet),
-- nebo používáte jiné uživatelské jméno, než které je vedeno u vašeho existujícího účtu.
+38. Jak je to s ISEO, ISUÍ a dalšími systémy, které ještě CAAIS nepodporuje? 
 
-Pokud jste byli nově jmenováni u dalšího subjektu, pravděpodobně již účet máte a nový se nevytvářel.
+Pokud konkrétní systém stále používá JIP/KAAS nebo jej spravuje jiný gestor, uživatelé těchto systémů účty v CAAIS zatím nepotřebují. Postupujte podle informací daného systému nebo jeho správce. 
 
-8. Nepamatuji si své uživatelské jméno. Jak ho zjistím?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+39. Kde najdu seznam systémů dostupných přes CAAIS a kdy se očekává přechod dalších systémů? 
 
-V CAAIS IdP použijte funkci „Zapomněl jsem uživatelské jméno“ a zadejte e-mailovou adresu, kterou jste uvedl/a při založení nového profilu. V CAAIS IdP se u jedné fyzické osoby sdružují e-mailové adresy ze všech jejích profilů. Pokud je na základě zadaného e-mailu možné jednoznačně určit účet, systém vám zašle odpovídající uživatelské jméno.
+Přehled dostupných systémů je uveden na webu CAAIS. U dalších systémů záleží na harmonogramu jejich správců; jako orientační výhled zazněl přechod do poloviny roku 2027. 
 
-9. Funkce „Zapomněl jsem uživatelské jméno“ mi nepomohla. Co může být důvod?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+40. Jaký je rozdíl mezi školicím prostředím CAAIS a technickým testovacím prostředím pro integrace? 
 
-Funkce funguje pouze tehdy, pokud je možné podle zadané e-mailové adresy jednoznačně určit konkrétní účet. Pokud je stejná e-mailová adresa použita u více fyzických osob, systém z bezpečnostních důvodů uživatelské jméno nezašle. V takovém případě se obraťte na Service Desk.
+Školicí prostředí je určeno pro uživatele a lokální administrátory, aby si mohli vyzkoušet práci v prostředí aplikace CAAIS. Technické testovací prostředí je určeno pro dodavatele a integrátory, kteří napojují vlastní systémy. 
 
+41. Jak funguje přístup do školicího prostředí po pravidelné replikaci dat? 
 
-JIP/KAAS a CAAIS
-----------------
+Fungování EDU prostředí je popsáno v článku https://caais-edu.gov.cz/article?article-id=157.  
 
-1. Mohou oba systémy fungovat souběžně?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+V pondělí ráno se do školicího prostředí replikují data z produkčního prostředí, ale nepřenášejí se uložená hesla. Po replice je proto obvykle nutné použít volbu „Zapomněl jsem heslo“ a heslo si znovu nastavit. 
 
-Ano. V praxi již nyní fungují vedle sebe – některé informační systémy vyžadují přihlášení prostřednictvím CAAIS, jiné prostřednictvím JIP/KAAS. V budoucnu bude CAAIS jediným systémem pro přihlašování do agendových informační systémů, ale přechod bude probíhat postupně.
+Uživatelské údaje, e-maily a notifikace
+---------------------------------------
 
-2. Je možné migrovat data z JIP/KAAS do CAAIS?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+42. Může více uživatelů sdílet jednu e-mailovou adresu? 
 
-Ano, migraci dat lze provést přímo v prostředí CAAIS. Podrobný postup je popsán zde: `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_
+Takové řešení se nedoporučuje. Každý uživatel by měl mít vlastní unikátní e-mailovou adresu, jinak vznikají problémy například s uvítacími zprávami, resetem hesla nebo správou účtů. 
 
-3. Co se stane s údaji v JIP/KAAS, pokud nyní pracujeme v CAAIS?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+43. Proč chodí notifikační e-maily se zpožděním? 
 
-Údaje je možné převést z JIP/KAAS do CAAIS viz `Přenos dat z JIP/KAAS do CAAIS <https://docs.caais.gov.cz/prirucka/prenos-dat/index.html>`_. CAAIS zároveň umožňuje i zpětný zápis dat do JIP/KAAS.
+E-maily odchází ze systému ihned, zpoždění ale často způsobují spamové filtry nebo poštovní systémy příjemce. Doporučujeme konzultovat se správcem el. pošty, např.  požádat o whitelist příslušných domén. 
 
-4. Po přenosu dat z JIP/KAAS do CAAIS došlo ke vzniku duplicitních uživatelských účtů – jak postupovat?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+44. Aktualizuje se jméno a příjmení po změně v registrech automaticky a je nutné měnit číslo dokladu? 
 
-Každý uživatel může mít v systému CAAIS pouze jeden účet. Ostatní účty, které mohly vzniknout v důsledku migrace, jsou vždy neaktivní a není potřeba s nimi pracovat. Přístupové role z JIP/KAAS se v tuto chvíli k aktivnímu účtu nepřiřazují automaticky, proto je nutné je doplnit manuálně. Do budoucna se počítá s automatickým párováním rolí k aktivnímu účtu a zároveň i s doplněním funkcionality pro odstranění duplicitních účtů.
+Změny jména a příjmení by se měly propsat automaticky ze základních registrů. Číslo dokladu se v CAAIS neukládá, takže jej není potřeba měnit. 
 
-5. Proč se při přenosu dat z JIP/KAAS zobrazila chybová zpráva a nedošlo k přenosu uživatelských profilů?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+45. Jak postupovat, pokud se po ztotožnění zobrazí jméno v jiném tvaru, například celé velkými písmeny? 
 
-Nejčastější příčinou je nejedinečná e-mailová adresa u účtů v JIP/KAAS. Každý účet musí mít unikátní e-mail, který je nezbytný pro vytvoření a přihlášení do CAAIS.
+CAAIS přebírá údaje z registru obyvatel. Pokud je tam jméno nebo příjmení vedeno například velkými písmeny, může se tak zobrazit i zde. Při pochybnostech je vhodné údaj ověřit v registru obyvatel nebo řešit konkrétní nesoulad přes podporu. 
 
-6. Je systém CAAIS již finálně dokončen?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Správa rolí, podpora a materiály
+--------------------------------
 
-CAAIS je v produkčním provozu. Stejně jako u jiných softwarových řešení probíhá jeho průběžný rozvoj a vylepšování.
+46. Lze pro více uživatelů přidělovat role přes skupiny rolí a organizační role? 
 
-Na koho se mohu obrátit s dotazem ohledně CAAIS
------------------------------------------------
+Ano. Je to vhodný postup, pokud máte skupinu uživatelů se stejnými rolemi. 
 
-1. Jsme malá obec bez IT pracovníka. Kdo nám pomůže? Bude k dispozici helpdesk?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+47. Lze zkopírovat role z jednoho uživatele na druhého? 
 
-Obce obdrží informační dopis s dalšími instrukcemi.
+Přímá funkce pro kopírování rolí z uživatele na uživatele zatím dostupná není. Jako náhradní postup lze vytvořit skupinovou nebo organizační roli podle vzorového uživatele a tu pak přiřadit ostatním. 
 
-K dispozici je:
+48. Plánuje se přehlednější zobrazení přístupových rolí a další úpravy uživatelského rozhraní? 
 
-- telefonická podpora na čísle 246 091 450 (aktivace od 16. 3. 2026),
-- e-mailová adresa caais@dia.gov.cz,
-- aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_, pro řešení technických problémů.
+Podněty na vylepšení se sbírají, ale přednost mají jiné funkce, například mazání uživatelů nebo změna uživatelského jména.  
 
-Do aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_ je možné se přihlásit prostřednictvím JIP / KAAS i CAAIS.
+49. Co dělat při konkrétních chybových hláškách nebo individuálních technických problémech a jak funguje helpdesk? 
 
-2. Od kdy bude helpdesk v provozu?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Telefonická podpora je spuštěna od 16. 3. 2026.
-E-mailová adresa caais@dia.gov.cz a aplikace `Service Desk <https://portal.szrcr.cz/login-page>`_ jsou již v provozu.
-
-CAAIS a ISSV
-------------
-
-1. Kdo odpovídá za komplexní spuštění a zavedení CAAIS v rámci ISSV?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Primární odpovědnost za spuštění ISSV, včetně integrace služeb CAAIS, nese Ministerstvo vnitra.
-
-Samotný systém CAAIS je ve správě DIA a je již delší dobu v produkčním provozu. DIA se zároveň s Ministerstvem vnitra dohodla, že v souvislosti se spuštěním ISSV bude samosprávy hromadně informovat a poskytne jim metodickou podporu při zavádění CAAIS do praxe.
-
-2. Přidělování rolí do ISSV končí neúspěchem „Nemáte dostatečné oprávnění na provedení akce“. Co s tím?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Pravděpodobně v přiřazovaných rolích vidíte také roli **ISSV Správa petic pro MV**, kterou nelze přidělit. Pokud tuto roli z nabídky odškrtnete, mělo by být možné role přidělit bez problémů. Jedná se o chybu na straně CAAIS, jejíž oprava bude nasazena v nejbližších dnech. Zatím prosím využijte popsaného náhradního řešení s odškrtnutím problematické role.
-
-.. figure:: images/role-issv-aktivni.webp
-    :alt: Přiřazení rolí do ISSV
-    :width: 460px
+Technické problémy je potřeba řešit přes service desk, protože obvykle vyžadují kontrolu konkrétního účtu nebo dat. Telefonní podpora funguje v pracovní dny od 8:00 do 12:00 a od 14:00 do 18:00; u složitějších dotazů je vhodnější e-mail než telefon.
