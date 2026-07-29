@@ -28,21 +28,16 @@ Založení účtu a první přihlášení
       .. grid-item-card:: :ref:`Nemám profil v CAAIS, ani účet v CAAIS IdP“ <nemam_ucet>`
          :text-align: center
 
-.. _bu_prirucka_LA:
+   Kdo je vaším lokálním administrátorem můžete snadno zjistit prostřednictvím `formuláře „Zjisti mého lokálního administrátora CAAIS“ <https://caais.gov.cz/la-contact>`_. Stačí zadat svůj pracovní e-mail a na něj vám budou zaslány kontaktní údaje a další instrukce. Pokud e-mail nebude rozpoznán, obraťte se na pracovníky ICT oddělení nebo administrátory systému JIP/KAAS ve vaší organizaci.
 
-Kdo je lokálním administrátorem?
---------------------------------
-
-Jak zjistím, kdo je můj lokální administrátor? Ve většině případů je to váš **administrátor JIP / KAAS**, případně osoba zodpovědná za IT oddělení vašeho úřadu.
-
-.. admonition:: Poznámka
-   :class: note
+   .. admonition:: Poznámka
+      :class: note
    
-   Pokud již účet v CAAIS máte, po přihlášení najdete kontakt na lokálního administrátora v patičce stránky po rozkliknutí textu **KONTAKTNÍ ÚDAJE**.
+      Pokud již účet v CAAIS máte, po přihlášení najdete kontakt na lokálního administrátora v patičce stránky po rozkliknutí textu **KONTAKTNÍ ÚDAJE**.
 
-   .. figure:: ../images/data-image-3.jpg
-      :alt: Kdo je lokálním administrátorem?
-      :width: 1000px
+      .. figure:: ../images/data-image-3.jpg
+         :alt: Kdo je lokálním administrátorem?
+         :width: 1000px
 
 .. _bu_prirucka_LA_zalozeni:
 

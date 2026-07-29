@@ -27,6 +27,8 @@ Onboarding uživatelů do systému CAAIS
 
 Zavedení do systému CAAIS je jednoduché. Prvním krokem je, aby :ref:`statutární zástupce <sz_prirucka>` zajistil zřízení přístupu :ref:`lokálního administrátora <la_prirucka>`. Lokální administrátor následně zakládá :ref:`běžné uživatelské účty <bu_prirucka>` a přiděluje jim odpovídající role a oprávnění.
 
+Kdo je vaším lokálním administrátorem můžete snadno zjistit prostřednictvím `formuláře „Zjisti mého lokálního administrátora CAAIS“ <https://caais.gov.cz/la-contact>`_. Stačí zadat svůj pracovní e-mail a na něj vám budou zaslány kontaktní údaje a další instrukce. Pokud e-mail nebude rozpoznán, obraťte se na pracovníky ICT oddělení nebo administrátory systému JIP/KAAS ve vaší organizaci.
+
 .. grid:: 1
 
    .. grid-item-card:: :ref:`Jsem z obce I. typu a chci provést rychlý onboarding <onboarding_male-obce>`

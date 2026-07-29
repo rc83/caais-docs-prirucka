@@ -14,7 +14,9 @@ Nejste si jistí, zda máte v CAAIS účet? Zkuste využít možnost **ZAPOMENUT
 
    **Tento postup platí pouze pro běžného uživatele. Pokud máte být lokálním administrátorem a účet v CAAIS dosud nemáte, obraťte se na svého statutárního zástupce, který je povinen vám účet lokálního administrátora zřídit.**
 
+Kdo je vaším lokálním administrátorem můžete snadno zjistit prostřednictvím `formuláře „Zjisti mého lokálního administrátora CAAIS“ <https://caais.gov.cz/la-contact>`_. Stačí zadat svůj pracovní e-mail a na něj vám budou zaslány kontaktní údaje a další instrukce. Pokud e-mail nebude rozpoznán, obraťte se na pracovníky ICT oddělení nebo administrátory systému JIP/KAAS ve vaší organizaci.
+
 .. admonition:: Poznámka
    :class: note
    
-   Jestliže se vám nepodařilo přihlásit a domníváte se, že účet v CAAIS nemáte, doporučujeme kontaktovat pracovníka, který vám nastavuje přístupy v JIP/KAAS, případně vydává komerční a kvalifikované certifikáty. Pokud se vám lokálního administrátora žádným uvedeným způsobem nepovede najít, kontaktujte technickou podporu: **portal.szrcr.cz**
+   Pokud se vám lokálního administrátora nepodaří dohledat, kontaktujte technickou podporu: `helpdesk.dia.gov.cz“ <https://helpdesk.dia.gov.cz/la-contact>`_
