@@ -25,6 +25,13 @@ Přehled celého procesu:
     :alt: Přehled procesu prvního přihlášení a založení uživatele v CAAIS
     :width: 1000px
 
+.. _la_kdo_LA:
+
+Kdo je lokální administrátor?
+-----------------------------
+
+Kdo je lokální administrátor můžete snadno zjistit prostřednictvím `formuláře „Zjisti mého lokálního administrátora CAAIS“ <https://caais.gov.cz/la-contact>`_. Stačí zadat svůj pracovní e-mail a na něj vám budou zaslány kontaktní údaje a další instrukce. Pokud e-mail nebude rozpoznán, obraťte se na pracovníky ICT oddělení nebo administrátory systému JIP/KAAS ve vaší organizaci.
+
 .. _la_prirucka_prihlaseni:
 
 Přihlášení do CAAIS jako lokální administrátor

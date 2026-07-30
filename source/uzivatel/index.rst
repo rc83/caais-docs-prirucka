@@ -6,7 +6,7 @@ Příručka běžného uživatele
 
 **Centrální autentizační a autorizační informační systém (CAAIS)** je centrální přihlašovací systém veřejné správy, který běžnému uživateli umožňuje jednotné a bezpečné přihlášení do agendových informačních systémů (AIS). Slouží především jako vstupní bod, díky kterému se uživatel po jednom přihlášení může dostat k systémům, ke kterým má přidělená oprávnění.
 
-Vzhledem k tomu, že CAAIS postupně nahrazuje původní systém JIP/KAAS, je potřeba, aby se uživatel řídil pokyny :ref:`lokálního administrátora <bu_prirucka_LA>` a provedl nezbytné kroky k aktivaci svého účtu. Pro usnadnění práce se systémem je k dispozici uživatelská nápověda, včetně přehledných instruktážních materiálů.
+Vzhledem k tomu, že CAAIS postupně nahrazuje původní systém JIP/KAAS, je potřeba, aby se uživatel řídil pokyny :ref:`lokálního administrátora <la_kdo_LA>` a provedl nezbytné kroky k aktivaci svého účtu. Pro usnadnění práce se systémem je k dispozici uživatelská nápověda, včetně přehledných instruktážních materiálů.
 
 .. _bu_prirucka_zalozeni_uctu:
 
@@ -16,7 +16,7 @@ Založení účtu a první přihlášení
 .. dropdown:: Chci účet v CAAIS
    :open:
 
-   O zřízení účtu v CAAIS požádejte vašeho :ref:`lokálního administrátora <bu_prirucka_LA>`. Ten vám založí účet a přidělí potřebné role pro přístup k agendovým informačním systémům. Po založení účtu vám bude zaslán :ref:`e-mail s pokyny pro aktivaci <bu_prirucka_LA_zalozeni>` vašeho profilu v CAAIS.
+   O zřízení účtu v CAAIS požádejte vašeho :ref:`lokálního administrátora <la_kdo_LA>`. Ten vám založí účet a přidělí potřebné role pro přístup k agendovým informačním systémům. Po založení účtu vám bude zaslán :ref:`e-mail s pokyny pro aktivaci <bu_prirucka_LA_zalozeni>` vašeho profilu v CAAIS.
 
    .. admonition:: Upozornění
       :class: warning
@@ -44,7 +44,7 @@ Založení účtu a první přihlášení
 Založení profilu v CAAIS a aktivace účtu
 ----------------------------------------
 
-Jakmile vám :ref:`lokální administrátor <bu_prirucka_LA>` založí účet, budete o tom informováni prostřednictvím e-mailové zprávy s předmnětem **„Byl vám založen profil v CAAIS“** (a je potřeba se doztotožnit), případně s předmětem **„Byl vám založen nový účet v CAAIS IdP“** (pro již ztotožněné uživatele). Tento email obsahuje postup, podle kterého je potřeba provést první přihlášení a aktivaci vašeho uživatelského účtu.
+Jakmile vám :ref:`lokální administrátor <la_kdo_LA>` založí účet, budete o tom informováni prostřednictvím e-mailové zprávy s předmnětem **„Byl vám založen profil v CAAIS“** (a je potřeba se doztotožnit), případně s předmětem **„Byl vám založen nový účet v CAAIS IdP“** (pro již ztotožněné uživatele). Tento email obsahuje postup, podle kterého je potřeba provést první přihlášení a aktivaci vašeho uživatelského účtu.
 
 .. admonition:: Upozornění
    :class: warning
@@ -53,7 +53,7 @@ Jakmile vám :ref:`lokální administrátor <bu_prirucka_LA>` založí účet, b
 
    **POZOR na phishing!** Legitimní email z CAAIS bude vždy odeslán z adresy **gov.cz**.
 
-   Platnost odkazů v emailech je omezena (platnost je 30 dní). Pokud vám email s pokyny pro aktivaci účtu nepřišel, nebo odkazy v něm obsažené již nejsou platné, kontaktujte svého :ref:`lokálního administrátora <bu_prirucka_LA>`.
+   Platnost odkazů v emailech je omezena (platnost je 30 dní). Pokud vám email s pokyny pro aktivaci účtu nepřišel, nebo odkazy v něm obsažené již nejsou platné, kontaktujte svého :ref:`lokálního administrátora <la_kdo_LA>`.
 
 .. grid:: 1
 

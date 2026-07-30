@@ -18,7 +18,7 @@ Pokud jste zapomněli své uživatelské jméno:
 
 3. Na obrazovce se zobrazí hláška „Vaše uživatelské jméno jsme vám odeslali na zadaný e-mail“.
 
-Jestliže jste ve schránce zprávu s uživatelským jménem nenalezli, je možné, že jste zadali chybnou adresu. Se zjištěním té správné vám pomůže :ref:`lokální administrátor <bu_prirucka_LA>`.
+Jestliže jste ve schránce zprávu s uživatelským jménem nenalezli, je možné, že jste zadali chybnou adresu. Se zjištěním té správné vám pomůže :ref:`lokální administrátor <la_kdo_LA>`.
 
 Zapomenuté heslo
 ----------------
@@ -35,4 +35,4 @@ Při zapomenutí hesla postupujte následovně:
 
 O změně hesla informuje zelený proužek „Nastavili jsme vám nové heslo. Teď se můžete přihlásit.“
 
-Pokud vaše uživatelské jméno nebylo nalezeno, to znamená, že jste neobdrželi e-mail, zkontrolujte, zda jste jej zadali správně, případně se obraťte na :ref:`lokálního administrátora <bu_prirucka_LA>`.
+Pokud vaše uživatelské jméno nebylo nalezeno, to znamená, že jste neobdrželi e-mail, zkontrolujte, zda jste jej zadali správně, případně se obraťte na :ref:`lokálního administrátora <la_kdo_LA>`.

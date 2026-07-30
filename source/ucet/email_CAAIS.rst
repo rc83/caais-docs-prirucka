@@ -33,6 +33,6 @@ Aktivace účtu s nutností ověření totožnosti uživatelem
    .. admonition:: Upozornění
       :class: warning
       
-      **Jestliže se vám nedaří ověřit svou totožnost ani například prostřednictvím jiného dokladu, kontaktujte svého** :ref:`lokálního administrátora <bu_prirucka_LA>`.
+      **Jestliže se vám nedaří ověřit svou totožnost ani například prostřednictvím jiného dokladu, kontaktujte svého** :ref:`lokálního administrátora <la_kdo_LA>`.
 
 Po ztotožnění profilu se budete moci v CAAIS :ref:`autentizovat prostřednictvím Identity občana (NIA) <prihlaseni_NIA>` nebo si budete moci :ref:`(1) nastavit heslo <email_CAAIS_IdP_aktivace>` a následně :ref:`(2) registrovat autentizační certifikát <email_CAAIS_IdP_certifikat>`.

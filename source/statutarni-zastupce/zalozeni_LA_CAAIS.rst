@@ -86,7 +86,7 @@ Do systému CAAIS mohou vstupovat pouze uživatelé, kteří byli řádně ztoto
 - :ref:`samoztotožněním uživatele <sz_prirucka_zalozeni_la_CAAIS_ztotozneni_samoztotozneni>` nebo
 - tzv. :ref:`výjimkou <sz_prirucka_zalozeni_la_CAAIS_ztotozneni_vyjimka>`.
 
-Na stránce naleznete defaultně vybranou volbu **„Poskytnout přihlašování pomocí údajů v CAAIS“**. Znamená to, že systém zajistí odeslání notifikace uživateli s výzvou k :ref:`aktivaci účtu <XXX>`, případně k tzv. :ref:`doztotožnění <XXX>`. Pokud tuto možnost nezvolíte, uživatel se nebude moci přihlašovat pomocí přihlašovacích údajů vydaných v CAAIS IdP, nicméně účet mu vznikne a bude se moci přihlašovat pomocí jiných prostředků, jmenovitě pomocí NIA.
+Na stránce naleznete defaultně vybranou volbu **„Poskytnout přihlašování pomocí údajů v CAAIS“**. Znamená to, že systém zajistí odeslání notifikace uživateli s výzvou k :ref:`aktivaci účtu <email_CAAIS>`, případně k tzv. :ref:`doztotožnění <email_CAAIS_IdP>`. Pokud tuto možnost nezvolíte, uživatel se nebude moci přihlašovat pomocí přihlašovacích údajů vydaných v CAAIS IdP, nicméně účet mu vznikne a bude se moci přihlašovat pomocí jiných prostředků, jmenovitě pomocí NIA.
 
 .. figure:: ../images/SZ_zalozeni_LA_CAAIS-4.png
     :alt: Založení lokálního administrátora po přihlášení do CAAIS 4
@@ -120,7 +120,7 @@ Postupujte jako v případě běžného zakládání uživatelského účtu, ov�
 .. admonition:: Poznámka
    :class: note
    
-   Objeví se zelený proužek informující o úspěšném založení profilu a uživateli je zároveň poslán :ref:`e-mail s odkazem na stránku, na níž ztotožnění dokončí <XXX>`. Pozor, odkaz má omezenou platnost.
+   Objeví se zelený proužek informující o úspěšném založení profilu a uživateli je zároveň poslán :ref:`e-mail s odkazem na stránku, na níž ztotožnění dokončí <email_CAAIS>`. Pozor, odkaz má omezenou platnost.
 
 Dokud uživatel proces ztotožnění nedokončí, bude se u jeho jména zobrazovat atribut **„Před ztotožněním“**. I uživateli s tímto atributem lze přidělit roli lokálního administrátora.
 
