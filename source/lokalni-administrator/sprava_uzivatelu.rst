@@ -10,11 +10,16 @@ Správa uživatelů subjektu
 Smazání dosud neaktivovaného profilu
 ------------------------------------
 
-U profilů ve stavu *před ztotožněním*, *ke schválení* či *zamítnuto* je možné smazat profil přímo v detailu tohoto profilu. U profilů ve stavu ke schválení a zamítnuto se spolu s profilem maže i patřičná žádost. Smazání profilu je možné po kliknutí na ikonu popelnice v detailu profilu.
+U profilů ve stavu *před ztotožněním*, *ke schválení* či *zamítnuto* je možné smazat profil přímo v detailu tohoto profilu. U profilů ve stavu ke schválení a zamítnuto se spolu s profilem maže i patřičná žádost o výjimku ze ztotožnění. Smazání profilu je možné po kliknutí na ikonu popelnice v detailu profilu.
 
 .. figure:: ../images/PLA_SUS_1.png
     :alt: Smazání dosud neaktivovaného profilu
     :width: 1000px
+
+.. admonition:: Poznámka
+   :class: note
+   
+   Tato funkcionalita se zpravidla využívá v případě, že byl při přenosu uživatelských účtů z JIP/KAAS do CAAIS vytvořen duplicitní profil uživatele, který již účet v CAAIS měl. V takovém případě je vhodné duplicitní profil odstranit.
 
 .. _kopirovani_roli:
 
@@ -42,3 +47,8 @@ Následně je možné zkontrolovat námi provedené přidělení rolí v jednotl
 Přidělení nových rolí je možno potvrdit pomocí tlačítka **Uložit**.
 
 Vždy se jedná pouze o plné překopírování všech rolí z jednoho uživatele na druhého. Výjimku tvoří pouze přístupové role v systému CAAIS. Zde proběhne překopírování jenom těch rolí, které má aktuálně přihlášený uživatel podle své přístupové role právo přidělovat.
+
+.. admonition:: Poznámka
+   :class: note
+   
+   Tato funkcionalita se zpravidla využívá v případě, kdy je potřeba přiřadit stejnou sadu rolí více uživatelům, například při přenosu uživatelských účtů z JIP/KAAS do CAAIS.

@@ -110,6 +110,11 @@ Dokončení přesunu z JIP/KAAS
 
 Opravdu dokončená migrace jako taková, tedy ukončení celého procesu přenosu všech uživatelů z JIP/KAAS do CAAIS, je provedená, až když jsou všechny uživatelské účty přeneseny s výsledkem „Založeno“ nebo „Přeskočeno“. Poté je zaznamenán datum a čas poslední migrace a atribut „Migrace provedena“ se změní na „Ano". Po dokončení se vám již nabídka Přenosu uživatelů nebude zobrazovat. Pokud byste potřebovali v budoucnu akci opakovat, požádejte nás o odblokování cestou Service Desk.
 
+.. admonition:: Poznámka
+   :class: note
+   
+   Při přenosu uživatelských účtů z JIP/KAAS do CAAIS může nastat situace při které budou přeneseny i profily uživatelů, kteří již účty v CAAIS mají. V takovém případě je vhodné převést role k již existujícímu profilu, viz :ref:`Kopírování rolí z jednoho uživatelského profilu k jinému <mazani_neaktivniho_profilu>` a duplicitní profily odstranit, viz :ref:`Smazání dosud neaktivovaného profilu <mazani_neaktivniho_profilu>`.
+
 .. _prenos_organizace:
 
 Přenos dat zřizovaných organizací
