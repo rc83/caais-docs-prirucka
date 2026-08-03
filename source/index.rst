@@ -3,7 +3,7 @@ Uživatelská příručka CAAIS
 ==========================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Obsah
    :hidden:
 
@@ -14,7 +14,6 @@ Uživatelská příručka CAAIS
    uzivatel/index
    ucet/sprava_uctu
    certifikaty/index
-   prenos-dat/index
    CAAIS/index
    faq
 
