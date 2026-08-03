@@ -12,7 +12,7 @@ Smazání dosud neaktivovaného profilu
 
 U profilů ve stavu *před ztotožněním*, *ke schválení* či *zamítnuto* je možné smazat profil přímo v detailu tohoto profilu. U profilů ve stavu ke schválení a zamítnuto se spolu s profilem maže i patřičná žádost o výjimku ze ztotožnění. Smazání profilu je možné po kliknutí na ikonu popelnice v detailu profilu.
 
-.. figure:: ../images/PLA_SUS_1.png
+.. figure:: ../images/PLA_SUS_1.webp
     :alt: Smazání dosud neaktivovaného profilu
     :width: 1000px
 
@@ -30,7 +30,7 @@ Přiřazení rolí uživateli je též možno provést dávkově na základě na
 
 V rozbalovací nabídce pro výběr uživatelů je možné vyhledávat a zobrazí se zde pouze uživatelé ze stejného subjektu, jako právě vybraný cílový uživatel.
 
-.. figure:: ../images/PLA_SUS_2.png
+.. figure:: ../images/PLA_SUS_2.webp
     :alt: Kopírování rolí z jednoho uživatelského profilu k jinému – krok 1
     :width: 1000px
 
@@ -38,7 +38,7 @@ Po výběru uživatele, který bude použit jako zdroj šablony rolí, se zobraz
 
 Operaci je možné poté provést pomocí tlačítka **Zkopírovat role**.
 
-.. figure:: ../images/PLA_SUS_3.png
+.. figure:: ../images/PLA_SUS_3.webp
     :alt: Kopírování rolí z jednoho uživatelského profilu k jinému – krok 2
     :width: 1000px
 
