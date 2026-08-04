@@ -113,7 +113,7 @@ Opravdu dokončená migrace jako taková, tedy ukončení celého procesu přeno
 .. admonition:: Poznámka
    :class: note
    
-   Při přenosu uživatelských účtů z JIP/KAAS do CAAIS může nastat situace při které budou přeneseny i profily uživatelů, kteří již účty v CAAIS mají. V takovém případě je vhodné převést role k již existujícímu profilu, viz :ref:`Kopírování rolí z jednoho uživatelského profilu k jinému <mazani_neaktivniho_profilu>` a duplicitní profily odstranit, viz :ref:`Smazání dosud neaktivovaného profilu <mazani_neaktivniho_profilu>`.
+   Při přenosu uživatelských účtů z JIP/KAAS do CAAIS může nastat situace, kdy jsou přeneseny i profily uživatelů, kteří již účty v CAAIS mají. V takovém případě je vhodné :ref:`převést role z přenesených profilů k existujícím aktivním uživatelským účtům <kopirovani_roli>` a :ref:`přenesené neaktivní profily odstranit <mazani_neaktivniho_profilu>`.
 
 .. _prenos_organizace:
 
