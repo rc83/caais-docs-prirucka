@@ -10,7 +10,8 @@ Lokální administrátor může pro svůj subjekt ve vertikální záložce **De
 **Pokyny k založení uživatelského účtu** jsou definovány jako textová šablona podporující formátování pomocí HTML. Lokální administrátor může vytvořit vlastní šablonu, která nahradí výchozí šablonu spravovanou národním administrátorem, nebo ponechat výchozí nastavení. Šablona podporuje použití zástupného symbolu `[[seznam_la]]`, který bude při odeslání e-mailu automaticky nahrazen seznamem lokálních administrátorů daného subjektu.
 
 .. dropdown:: Při konfiguraci Povolených e-mailových domén je potřeba dodržet následující pravidla:
-
+   :open:
+   
    1. **Zadejte alespoň jednu e-mailovou doménu** –
       Přidejte e-mailovou doménu, ze které budou uživatelé oprávněni požádat o zaslání pokynů. Další domény lze přidat pomocí tlačítka **+**, odebrání domény je možné pomocí ikony koše.
 
