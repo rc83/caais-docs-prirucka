@@ -51,4 +51,4 @@ Vždy se jedná pouze o plné překopírování všech rolí z jednoho uživat
 .. admonition:: Poznámka
    :class: note
    
-   Tato funkcionalita se zpravidla využívá v případě, kdy je potřeba přiřadit stejnou sadu rolí více uživatelům, například při přenosu uživatelských účtů z JIP/KAAS do CAAIS.
+   Kromě klonování oprávnění uživatele, například při nástupu nového zaměstnance místo odcházejícího, lze funkcionalitu využít i při konsolidaci násobných účtů zůstavších po migraci z JIP/KAAS, kdy role z násobných neaktivních účtů uživatele tímto způsobem překopírujete na jeho aktivní účet – a neaktivní účty následně :ref:`smažete <mazani_neaktivniho_profilu>`.
