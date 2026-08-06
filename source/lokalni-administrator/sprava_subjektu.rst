@@ -7,7 +7,15 @@ Správa subjektu
 
 Lokální administrátor může pro svůj subjekt ve vertikální záložce **Detail subjektu** a následně v horizontální záložce **Ostatní údaje** nastavit vlastní šablonu pokynů, která bude uživateli zobrazena a zaslána při využití `funkce „Zjisti mého lokálního administrátora CAAIS“ <https://caais.gov.cz/la-contact>`_. Současně zde může definovat také povolené e-mailové domény, které určují, z jakých e-mailových domén lze o zaslání těchto pokynů požádat.
 
+.. figure:: ../images/PLA_SS_1.png
+    :alt: Správa subjektu – Ostatní údaje 1
+    :width: 1000px
+
 **Pokyny k založení uživatelského účtu** jsou definovány jako textová šablona podporující formátování pomocí HTML. Lokální administrátor může vytvořit vlastní šablonu, která nahradí výchozí šablonu spravovanou národním administrátorem, nebo ponechat výchozí nastavení. Šablona podporuje použití zástupného symbolu `[[seznam_la]]`, který bude při odeslání e-mailu automaticky nahrazen seznamem lokálních administrátorů daného subjektu.
+
+.. figure:: ../images/PLA_SS_2.png
+    :alt: Správa subjektu – Ostatní údaje 2
+    :width: 1000px
 
 .. dropdown:: Při konfiguraci Povolených e-mailových domén je potřeba dodržet následující pravidla:
    :open:
