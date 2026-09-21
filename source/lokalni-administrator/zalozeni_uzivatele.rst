@@ -31,7 +31,7 @@ Důležité je správně zadat e-mailovou adresu, kam zakládanému uživateli p
 3. Dalším krokem je kontrola ztotožnění uživatele.
 
 Ztotožnění uživatele
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 .. dropdown:: Ztotožnění je možné provést několika způsoby:
    :open:
@@ -113,7 +113,7 @@ Ztotožnění uživatele
 Přiřazení rolí
 ==============
 
-Úkolem lokálního administrátora je také přiřazení rolí uživatelům, aby se mohli přihlásit do konkrétních informačních systémů. Pro tento úkol existují dva základní způsoby:
+Úkolem lokálního administrátora je také přiřazovat uživatelům přístupové role, které jim umožní přihlášení do konkrétních informačních systémů.
 
 .. dropdown:: Přiřazení role v detailu uživatele
    
@@ -123,54 +123,7 @@ Přiřazení rolí
       :alt: Přiřazení role v detailu uživatele
       :width: 1000px
 
-   Jestliže se chystáte stejnou roli přidělovat několika uživatelům, je efektivnější přejít do volby **Správa rolí** nacházejícím se v levém menu viz :ref:`Přiřazení role uživatelům k agendovému informačnímu systému <la_prirucka_prirazeni_role_ais>`.
-
-.. _la_prirucka_prirazeni_role_ais:
-
-.. dropdown:: Přiřazení role uživatelům k agendovému informačnímu systému
-
-   Do komplexního prostředí pro správu rolí, které byly vašemu subjektu uděleny garanty jednotlivých AIS, nebo které vašemu subjektu náleží na základě RPP, se dostanete přes levé menu volbou **Správa rolí**.
-
-   .. admonition:: Poznámka
-      :class: note
-
-      Přidělování rolí doporučujeme provádět právě zde, kde můžete nad seznamem uživatelů filtrovat a snáze přidat jednu roli více uživatelům najednou.
-   
-   **Přístupové role**
-
-   Po rozkliknutí řádku **Přístupové role** uvidíte v úvodní záložce seznam veškerých přístupových rolí, které byly vašemu subjektu uděleny garanty jednotlivých Agendových informačních systémů.
-
-   Kliknutím na řádek konkrétní role se dostanete na její detail se základními údaji.
-
-   .. figure:: ../images/LA_CAAIS_role-2.png
-      :alt: Přiřazení role přes správu rolí – krok 1
-      :width: 1000px
-
-   V detailu AIS na záložce **Uživatelé** se nachází seznam uživatelů vašeho subjektu, kteří mají danou roli přidělenou. Na tomto místě můžete příslušnou roli uživatelům odebírat nebo přidávat kliknutím na tlačítko **EDITOVAT**.
-
-   .. figure:: ../images/LA_CAAIS_role-3.png
-      :alt: Přiřazení role přes správu rolí – krok 2
-      :width: 1000px
-
-   **Agendy a činnostní role**
-
-   Položky v záložce **Agendy a činnostní role** jsou synchronizovány s oprávněními vašeho subjektu dle RPP.
-
-   .. figure:: ../images/LA_CAAIS_role-4.png
-      :alt: Přiřazení agendy a činnostní role – krok 1
-      :width: 1000px
-
-   Rozkliknutím řádku se dostanete na **základní údaje** dané činnostní role.
-
-   .. figure:: ../images/LA_CAAIS_role-5.png
-      :alt: Přiřazení agendy a činnostní role – krok 2
-      :width: 1000px
-
-   Po rozkliknutí záložky **Uživatelé** se zobrazí seznam uživatelů vedených pod vaším subjektem, kteří mají příslušnou roli přidělenou. Zde můžete roli uživatelům odebírat nebo přidávat kliknutím na tlačítko **EDITOVAT**.
-
-   .. figure:: ../images/LA_CAAIS_role-6.png
-      :alt: Přiřazení agendy a činnostní role – krok 3
-      :width: 1000px
+Jestliže se chystáte stejnou roli přidělovat několika uživatelům, je efektivnější přejít do volby **Správa rolí** nacházejícím se v levém menu viz :ref:`Správa rolí subjektu <sprava_roli_subjektu>`.
 
 Organizační role
 ----------------

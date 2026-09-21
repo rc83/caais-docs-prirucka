@@ -11,6 +11,7 @@ Příručka lokálního administátora
    Založení nového uživatele a přiřazení rolí <zalozeni_uzivatele>
    Přenos dat z JIP/KAAS do CAAIS <prenos_dat>
    Správa uživatelů subjektu <sprava_uzivatelu>
+   Správa rolí subjektu <sprava_roli>
    Správa subjektu <sprava_subjektu>
 
 **Centrální autentizační a autorizační informační systém (CAAIS)** je moderní řešení pro single sign-on do informačních systémů veřejné správy, které postupně nahrazuje JIP/KAAS. Pro lokálního administrátora představuje CAAIS centrální nástroj pro správu přístupů uživatelů, který umožňuje jednotné a bezpečné přihlašování do agendových informačních systémů (AIS).
