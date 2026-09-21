@@ -133,8 +133,6 @@ Na přihlašovací stránce Agendového informačního systému (AIS) vyberte mo
 
 .. grid:: 2
 
-.. grid:: 2
-
    .. grid-item-card:: :ref:`Přihlášení přes CAAIS IdP <prihlaseni_AIS_CAAIS_IdP>`
       :text-align: center
 
